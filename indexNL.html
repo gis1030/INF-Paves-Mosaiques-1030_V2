@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <title>INF Paves Mosaiques</title>
+    <link rel="shortcut icon" href="css/images/logo1030GeoData.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
+    <link rel="stylesheet" href="css/style01.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/leaflet.photon.css">
+    <style>
+        html,
+        body,
+        #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .leaflet-control-attribution {
+            font-size: 13px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Region00">
+        <div id="Region04">
+            <div id="map"></div>
+        </div>
+    </div>
+
+    <div id="Region01">
+        <div class="container">
+            <div class="sidebar">
+                <h1>
+                    <div class="logo"></div>
+                    <span>Op ontdekking van de mozaïeken van Schaarbeek : een unieke cartografie</span>
+                </h1>
+                <div class="data-infos">
+                    <p>
+                        De oorsprong van deze mozaïekkeien gaat terug op een persoonlijk initiatief van kunstenares
+                        Ingrid Schreyers, die ervoor koos een eerste mozaïek te plaatsen op haar eigen stoep. Dit
+                        artistieke elan wekte al snel de interesse van de Schaarbekenaren en werd een terugkerende
+                        vraag van buurtbewoners die de openbare ruimte wilden opfraaien en hun straten een eigen
+                        karakter wilden geven.
+                    </p>
+                    <p>
+                        In die geest zag de eerste cartografie van de mozaïekkeien van Schaarbeek het licht, dankzij
+                        een voorbeeldige synergie tussen burgerschap en openbare dienst. Patrick Bastin documenteerde
+                        deze werken tijdens zijn wandelingen en, na een samenwerking met Richard Robinson van de
+                        Technische Dienst Wegen, werd het idee om ze officieel op het grondgebied van de gemeente te
+                        inventariseren werkelijkheid.
+                    </p>
+                    <p>
+                        Door de fotografische archieven van de heer Bastin te combineren met de gegevens van de
+                        projecten uitgevoerd door de Technische Dienst Wegen, konden we een nauwkeurige inventaris
+                        opstellen. Tot op heden zijn 243 keien geregistreerd.
+                    </p>
+                    <br>
+                    <h1>
+                        <div class="logo"></div>
+                        <span>Onze ambities voor de toekomst</span>
+                    </h1>
+
+                    <ul class="objectives-list"
+                        style="list-style: none; padding-left: 0; text-align: left; font-size: 0.95em; color: #555; line-height: 1.8;">
+                        <li>🔄 De <strong>voortdurende bijwerking</strong> van de databank van alle mozaïekkeien van
+                            Schaarbeek.</li>
+                        <li>🌐 De <strong>verificatie en aanpassing</strong> van de geolocalisatie van elk werk voor
+                            een optimale nauwkeurigheid.</li>
+                        <li>📍 Gedetailleerde <strong>foto's</strong> van elk werk (we willen de fiches aanvullen die
+                            momenteel geen afbeeldingen hebben).</li>
+                        <li>📝 <strong>Documentatie</strong> over elke creatie.</li>
+                        <li>🎨 <strong>Biografieën</strong> van de kunstenaars die ons landschap hebben gevormd.</li>
+                    </ul>
+
+                    <div
+                        style="margin-top: 1.5rem; padding: 1.2rem; background-color: #f0f8ff; border-radius: 8px; border-left: 4px solid #00537e;">
+                        <p style="font-size: 0.95em; margin: 0; color: #333; line-height: 1.5;">
+                            <strong>Wilt u ons helpen?</strong><br>
+                            Heeft u een foto van een ontbrekende kei of informatie over een werk, aarzel dan niet om
+                            ons dit per e-mail te bezorgen op :
+                            <a href="mailto:stv@1030.be"
+                                style="color: #00537e; font-weight: bold; text-decoration: underline;">stv@1030.be</a>.
+                            Uw bijdrage is van onschatbare waarde voor het behoud van dit gemeenschappelijk erfgoed.
+                        </p>
+                    </div>
+
+                    <br>
+                    <p>
+                    <div class="logo3"></div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/js_expressions.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/L.Control.Layers.Tree.min.js"></script>
+    <script src="js/leaflet.rotatedMarker.js"></script>
+    <script src="js/leaflet.pattern.js"></script>
+    <script src="js/leaflet-hash.js"></script>
+    <script src="js/Autolinker.min.js"></script>
+    <script src="js/rbush.min.js"></script>
+    <script src="js/labelgun.min.js"></script>
+    <script src="js/labels.js"></script>
+    <script src="js/leaflet.photon.js"></script>
+    <script src="js/easy-button.js"></script>
+    <script src="data/QuartiersdeSchaerbeek_1.js"></script>
+    <script src="data/PrimtredeSchaerbeek_2.js"></script>
+    <script src="data/CimentaireSchaerbeek_3.js"></script>
+    <script src="data/TerdeltFleur_4.js"></script>
+    <script src="data/Reyers_5.js"></script>
+    <script src="data/Plasky_6.js"></script>
+    <script src="data/ParcJosaphat_7.js"></script>
+    <script src="data/PalaisReine_8.js"></script>
+    <script src="data/Nord_9.js"></script>
+    <script src="data/Linthout_10.js"></script>
+    <script src="data/Jardin_11.js"></script>
+    <script src="data/HelmetHamoir_12.js"></script>
+    <script src="data/CoteauxJosaphat_13.js"></script>
+    <script src="data/Cerisiers_14.js"></script>
+    <script src="data/Colignon_15.js"></script>
+    <script src="data/Bienfaiteurs_16.js"></script>
+
+    <script src="js/mapNL.js"></script>
+</body>
+
+</html>

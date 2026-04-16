@@ -1,0 +1,423 @@
+html {
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: "Calibri", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#map {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+/* ── Layout: mapa + sidebar ── */
+div#Region00 {
+    position: absolute;
+    top: 0%;
+    width: 99%;
+    height: 100%;
+    background-color: transparent;
+    opacity: 1;
+    border: 1% solid transparent;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    align-content: right;
+}
+
+div#Region04 {
+    position: relative;
+    width: 76.75%;
+    height: 99%;
+    border: 1% solid transparent;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    top: 0.1%;
+    bottom: 0.5%;
+    left: 0.3%;
+    right: 0.5%;
+    align-content: right;
+    align-items: center;
+    float: right;
+}
+
+div#Region01 {
+    position: fixed;
+    width: 25%;
+    height: 99%;
+    margin: 0 0 0 75.5%;
+    top: 0.5%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+/* ── Sidebar interior ── */
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.sidebar {
+    position: absolute;
+    right: 1%;
+    left: 5%;
+    top: 2%;
+    width: 92%;
+    background-color: white;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    outline: 1px solid #00537e;
+}
+
+.sidebar h1 {
+    align-items: center;
+    padding: 0;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    text-transform: initial;
+    font-weight: bold;
+    color: #00537e;
+    line-height: 0.9;
+    border-bottom: 1px solid #00537e;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.sidebar h1 .logo {
+    /*background: url(images/schaerbeek1030_logo.png) no-repeat center;*/
+    background: url(images/1030_Icon.png) no-repeat center;
+    background-size: contain;
+    background-position: left;
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+
+.data-infos {
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.data-infos p {
+    margin: 0 0 0.5rem 0;
+}
+
+.logo3 {
+    background: url(images/schaerbeek1030_logo.png) no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 30px;
+    margin-top: 0.5rem;
+}
+
+.col9 {
+    height: 100% !important;
+}
+
+.col3 {
+    height: 100%;
+    overflow: auto;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8 !important;
+    color: #444444 !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.info h2 {
+    margin: 0 0 5px;
+}
+
+.leaflet-container {
+    background: #fff;
+    padding-right: 10px;
+}
+
+.leaflet-popup-scrolled {
+    border-bottom: unset !important;
+    border-top: unset !important;
+}
+
+.leaflet-popup-content {
+    max-height: 70vh;
+    max-width: 70vw;
+    min-width: 340px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.leaflet-popup-content.media {
+    width: auto !important;
+    height: auto !important;
+}
+
+.leaflet-popup-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaflet-popup-content th {
+    text-align: left;
+    vertical-align: top;
+    min-width: 90px;
+    max-width: 130px;
+    padding: 4px 8px 4px 4px;
+    color: #555;
+    font-weight: bold;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.leaflet-popup-content td {
+    min-width: 75px;
+    padding: 4px 4px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+
+.leaflet-popup-content tr:last-child th,
+.leaflet-popup-content tr:last-child td {
+    border-bottom: none;
+}
+
+.leaflet-popup-content td img {
+    max-height: 100px;
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.leaflet-tooltip {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+    border: 0px;
+}
+
+.fa,
+.leaflet-container,
+a {
+    color: #444444 !important;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-locate a,
+.leaflet-touch .leaflet-control-geocoder-icon,
+.leaflet-control-search .search-button,
+.leaflet-control-measure {
+    background-color: #f8f8f8 !important;
+    border-radius: 0px !important;
+    color: #444444 !important;
+}
+
+.abstract {
+    font: bold 18px 'Lucida Console', Monaco, monospace;
+    text-indent: 1px;
+    background-color: #f8f8f8 !important;
+    width: 30px !important;
+    color: #444444 !important;
+    height: 30px !important;
+    text-align: center !important;
+    line-height: 30px !important;
+}
+
+.abstractUncollapsed {
+    padding: 6px 8px;
+    font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8 !important;
+    color: #444444 !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 40%;
+}
+
+.leaflet-control {
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4) !important;
+    border-radius: 4px;
+}
+
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar,
+.leaflet-control-search,
+.leaflet-control-measure {
+    border: 3px solid rgba(255, 255, 255, .4) !important;
+}
+
+.leaflet-control-attribution a {
+    color: #0078A8 !important;
+}
+
+.leaflet-control-scale-line {
+    border: 2px solid #f8f8f8 !important;
+    border-top: none !important;
+    color: black !important;
+}
+
+.leaflet-control-search .search-button {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 13px !important;
+    text-align: center !important;
+    cursor: pointer;
+}
+
+.search-button.fa.fa-binoculars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaflet-control-measure .leaflet-control {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.leaflet-container .leaflet-control-search {
+    background: none !important;
+}
+
+.leaflet-control-search .search-input {
+    margin: 0px 0px 0px 0px !important;
+    height: 30px !important;
+}
+
+.leaflet-control-measure {
+    background: none !important;
+    border-radius: 4px !important;
+}
+
+.leaflet-control-measure .leaflet-control-measure-interaction {
+    background-color: #f8f8f8 !important;
+}
+
+.leaflet-touch .leaflet-control-measure .leaflet-control-measure-toggle,
+.leaflet-touch .leaflet-control-measure .leaflet-control-measure-toggle:hover {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 0px !important;
+    background-color: #f8f8f8 !important;
+    color: #444444 !important;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    text-indent: 0%;
+}
+
+.leaflet-control-layers {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #f8f8f8 !important;
+    color: #444444 !important;
+
+}
+
+.leaflet-control-layers-expanded {
+    padding-left: 6px;
+}
+
+.leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+    display: block;
+    background-image: none;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+
+.leaflet-control-layers-expanded .leaflet-control-layers-toggle::after {
+    content: '»';
+    font-size: x-large;
+    color: #444444 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.leaflet-overlay-pane {
+    z-index: 550;
+}
+
+.leaflet-popup-pane {
+    z-index: 700;
+}
+
+#gcd-button-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ── Responsive layout ── */
+
+/* Tablette (600px – 959px) : sidebar réduite */
+@media screen and (max-width: 959px) and (min-width: 600px) {
+    div#Region04 {
+        width: 62%;
+    }
+
+    div#Region01 {
+        width: 36%;
+        margin-left: 62.5%;
+    }
+
+    .sidebar h1 {
+        font-size: 1.6rem;
+    }
+
+    .data-infos {
+        font-size: 1.1rem;
+    }
+}
+
+/* Mobile (< 600px) : sidebar cachée, carte pleine largeur */
+@media screen and (max-width: 599px) {
+    div#Region04 {
+        width: 100%;
+        left: 0;
+    }
+
+    div#Region01 {
+        display: none;
+    }
+
+    div#Region00 {
+        width: 100%;
+    }
+}
