@@ -295,39 +295,39 @@ function pop_CimentaireSchaerbeek_3(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -390,43 +390,43 @@ function pop_TerdeltFleur_4(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Datum van plaatsing</th>\
-                <td class="visible-with-data" id="Date de Placement">' + (feature.properties['Date de Placement'] !== null ? autolinker.link(String(feature.properties['Date de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="PlacementDate">' + (feature.properties['PlacementDate'] !== null ? autolinker.link(String(feature.properties['PlacementDate']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -445,6 +445,7 @@ function style_TerdeltFleur_4_0() {
 map.createPane('pane_TerdeltFleur_4');
 map.getPane('pane_TerdeltFleur_4').style.zIndex = 404;
 map.getPane('pane_TerdeltFleur_4').style['mix-blend-mode'] = 'normal';
+var json_TerdeltFleur_4 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Terdelt-Fleur"; }) };
 var layer_TerdeltFleur_4 = new L.geoJson(json_TerdeltFleur_4, {
     attribution: '',
     interactive: true,
@@ -489,43 +490,43 @@ function pop_Reyers_5(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Datum van plaatsing</th>\
-                <td class="visible-with-data" id="Date de Placement">' + (feature.properties['Date de Placement'] !== null ? autolinker.link(String(feature.properties['Date de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="PlacementDate">' + (feature.properties['PlacementDate'] !== null ? autolinker.link(String(feature.properties['PlacementDate']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -544,6 +545,7 @@ function style_Reyers_5_0() {
 map.createPane('pane_Reyers_5');
 map.getPane('pane_Reyers_5').style.zIndex = 405;
 map.getPane('pane_Reyers_5').style['mix-blend-mode'] = 'normal';
+var json_Reyers_5 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Reyers"; }) };
 var layer_Reyers_5 = new L.geoJson(json_Reyers_5, {
     attribution: '',
     interactive: true,
@@ -588,39 +590,39 @@ function pop_Plasky_6(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -639,6 +641,7 @@ function style_Plasky_6_0() {
 map.createPane('pane_Plasky_6');
 map.getPane('pane_Plasky_6').style.zIndex = 406;
 map.getPane('pane_Plasky_6').style['mix-blend-mode'] = 'normal';
+var json_Plasky_6 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Plasky"; }) };
 var layer_Plasky_6 = new L.geoJson(json_Plasky_6, {
     attribution: '',
     interactive: true,
@@ -683,43 +686,43 @@ function pop_ParcJosaphat_7(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Datum van plaatsing</th>\
-                <td class="visible-with-data" id="Date de Placement">' + (feature.properties['Date de Placement'] !== null ? autolinker.link(String(feature.properties['Date de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="PlacementDate">' + (feature.properties['PlacementDate'] !== null ? autolinker.link(String(feature.properties['PlacementDate']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -738,6 +741,7 @@ function style_ParcJosaphat_7_0() {
 map.createPane('pane_ParcJosaphat_7');
 map.getPane('pane_ParcJosaphat_7').style.zIndex = 407;
 map.getPane('pane_ParcJosaphat_7').style['mix-blend-mode'] = 'normal';
+var json_ParcJosaphat_7 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Parc Josaphat"; }) };
 var layer_ParcJosaphat_7 = new L.geoJson(json_ParcJosaphat_7, {
     attribution: '',
     interactive: true,
@@ -782,39 +786,39 @@ function pop_PalaisReine_8(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -833,6 +837,7 @@ function style_PalaisReine_8_0() {
 map.createPane('pane_PalaisReine_8');
 map.getPane('pane_PalaisReine_8').style.zIndex = 408;
 map.getPane('pane_PalaisReine_8').style['mix-blend-mode'] = 'normal';
+var json_PalaisReine_8 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Palais-Reine"; }) };
 var layer_PalaisReine_8 = new L.geoJson(json_PalaisReine_8, {
     attribution: '',
     interactive: true,
@@ -873,27 +878,27 @@ function pop_Nord_9(feature, layer) {
     var popupContent = '<table>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Datum van plaatsing</th>\
-                <td class="visible-with-data" id="Date de Placement">' + (feature.properties['Date de Placement'] !== null ? autolinker.link(String(feature.properties['Date de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="PlacementDate">' + (feature.properties['PlacementDate'] !== null ? autolinker.link(String(feature.properties['PlacementDate']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Status van de kei</th>\
-                <td class="visible-with-data" id="Statut du Pavé">' + (feature.properties['Statut du Pavé'] !== null ? autolinker.link(String(feature.properties['Statut du Pavé']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Status">' + (feature.properties['Status'] !== null ? autolinker.link(String(feature.properties['Status']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Opmerkingen</th>\
@@ -901,35 +906,35 @@ function pop_Nord_9(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Aantal keien</th>\
-                <td class="visible-with-data" id="Nombre de Pavés">' + (feature.properties['Nombre de Pavés'] !== null ? autolinker.link(String(feature.properties['Nombre de Pavés']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="TilesNumber">' + (feature.properties['TilesNumber'] !== null ? autolinker.link(String(feature.properties['TilesNumber']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Afbeelding kei</th>\
-                <td class="visible-with-data" id="Image du Pavé">' + (feature.properties['Image du Pavé'] !== null ? autolinker.link(String(feature.properties['Image du Pavé']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Picture">' + (feature.properties['Picture'] !== null ? autolinker.link(String(feature.properties['Picture']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Aantal afbeeldingen</th>\
-                <td class="visible-with-data" id="Nombre images">' + (feature.properties['Nombre images'] !== null ? autolinker.link(String(feature.properties['Nombre images']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="PicturesNumber">' + (feature.properties['PicturesNumber'] !== null ? autolinker.link(String(feature.properties['PicturesNumber']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -948,6 +953,7 @@ function style_Nord_9_0() {
 map.createPane('pane_Nord_9');
 map.getPane('pane_Nord_9').style.zIndex = 409;
 map.getPane('pane_Nord_9').style['mix-blend-mode'] = 'normal';
+var json_Nord_9 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Nord"; }) };
 var layer_Nord_9 = new L.geoJson(json_Nord_9, {
     attribution: '',
     interactive: true,
@@ -992,39 +998,39 @@ function pop_Linthout_10(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -1043,6 +1049,7 @@ function style_Linthout_10_0() {
 map.createPane('pane_Linthout_10');
 map.getPane('pane_Linthout_10').style.zIndex = 410;
 map.getPane('pane_Linthout_10').style['mix-blend-mode'] = 'normal';
+var json_Linthout_10 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Linthout"; }) };
 var layer_Linthout_10 = new L.geoJson(json_Linthout_10, {
     attribution: '',
     interactive: true,
@@ -1087,39 +1094,39 @@ function pop_Jardin_11(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -1138,6 +1145,7 @@ function style_Jardin_11_0() {
 map.createPane('pane_Jardin_11');
 map.getPane('pane_Jardin_11').style.zIndex = 411;
 map.getPane('pane_Jardin_11').style['mix-blend-mode'] = 'normal';
+var json_Jardin_11 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Jardin"; }) };
 var layer_Jardin_11 = new L.geoJson(json_Jardin_11, {
     attribution: '',
     interactive: true,
@@ -1182,39 +1190,39 @@ function pop_HelmetHamoir_12(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -1233,6 +1241,7 @@ function style_HelmetHamoir_12_0() {
 map.createPane('pane_HelmetHamoir_12');
 map.getPane('pane_HelmetHamoir_12').style.zIndex = 412;
 map.getPane('pane_HelmetHamoir_12').style['mix-blend-mode'] = 'normal';
+var json_HelmetHamoir_12 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Helmet-Hamoir"; }) };
 var layer_HelmetHamoir_12 = new L.geoJson(json_HelmetHamoir_12, {
     attribution: '',
     interactive: true,
@@ -1277,23 +1286,23 @@ function pop_CoteauxJosaphat_13(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Datum van plaatsing</th>\
-                <td class="visible-with-data" id="Date de Placement">' + (feature.properties['Date de Placement'] !== null ? autolinker.link(String(feature.properties['Date de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="PlacementDate">' + (feature.properties['PlacementDate'] !== null ? autolinker.link(String(feature.properties['PlacementDate']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Opmerkingen</th>\
@@ -1301,23 +1310,23 @@ function pop_CoteauxJosaphat_13(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -1336,6 +1345,7 @@ function style_CoteauxJosaphat_13_0() {
 map.createPane('pane_CoteauxJosaphat_13');
 map.getPane('pane_CoteauxJosaphat_13').style.zIndex = 413;
 map.getPane('pane_CoteauxJosaphat_13').style['mix-blend-mode'] = 'normal';
+var json_CoteauxJosaphat_13 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Coteaux-Josaphat"; }) };
 var layer_CoteauxJosaphat_13 = new L.geoJson(json_CoteauxJosaphat_13, {
     attribution: '',
     interactive: true,
@@ -1376,39 +1386,39 @@ function pop_Cerisiers_14(feature, layer) {
     var popupContent = '<table>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -1427,6 +1437,7 @@ function style_Cerisiers_14_0() {
 map.createPane('pane_Cerisiers_14');
 map.getPane('pane_Cerisiers_14').style.zIndex = 414;
 map.getPane('pane_Cerisiers_14').style['mix-blend-mode'] = 'normal';
+var json_Cerisiers_14 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Cerisiers"; }) };
 var layer_Cerisiers_14 = new L.geoJson(json_Cerisiers_14, {
     attribution: '',
     interactive: true,
@@ -1471,41 +1482,41 @@ function pop_Colignon_15(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
-                <td class="visible-with-data" id="Année de Placement" colspan="2"><strong>Jaar van plaatsing</strong><br />' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year" colspan="2"><strong>Jaar van plaatsing</strong><br />' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
-                <td class="visible-with-data" id="Statut du Pavé" colspan="2"><strong>Status van de kei</strong><br />' + (feature.properties['Statut du Pavé'] !== null ? autolinker.link(String(feature.properties['Statut du Pavé']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Status" colspan="2"><strong>Status van de kei</strong><br />' + (feature.properties['Status'] !== null ? autolinker.link(String(feature.properties['Status']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -1524,6 +1535,7 @@ function style_Colignon_15_0() {
 map.createPane('pane_Colignon_15');
 map.getPane('pane_Colignon_15').style.zIndex = 415;
 map.getPane('pane_Colignon_15').style['mix-blend-mode'] = 'normal';
+var json_Colignon_15 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Colignon"; }) };
 var layer_Colignon_15 = new L.geoJson(json_Colignon_15, {
     attribution: '',
     interactive: true,
@@ -1568,39 +1580,39 @@ function pop_Bienfaiteurs_16(feature, layer) {
             </tr>\
             <tr>\
                 <th scope="row">Volledig adres</th>\
-                <td class="visible-with-data" id="Adresses Complete">' + (feature.properties['Adresses Complete'] !== null ? autolinker.link(String(feature.properties['Adresses Complete']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="FullAddress">' + (feature.properties['FullAddress'] !== null ? autolinker.link(String(feature.properties['FullAddress']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Wijk</th>\
-                <td class="visible-with-data" id="Quartier">' + (feature.properties['Quartier'] !== null ? autolinker.link(String(feature.properties['Quartier']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Sector">' + (feature.properties['Sector'] !== null ? autolinker.link(String(feature.properties['Sector']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Kunstenaar</th>\
-                <td class="visible-with-data" id="Artiste">' + (feature.properties['Artiste'] !== null ? autolinker.link(String(feature.properties['Artiste']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Artist">' + (feature.properties['Artist'] !== null ? autolinker.link(String(feature.properties['Artist']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Jaar van plaatsing</th>\
-                <td class="visible-with-data" id="Année de Placement">' + (feature.properties['Année de Placement'] !== null ? autolinker.link(String(feature.properties['Année de Placement']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                <td class="visible-with-data" id="Year">' + (feature.properties['Year'] !== null ? autolinker.link(String(feature.properties['Year']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 01</th>\
-                <td class="visible-with-data" id="Image 01">' + (feature.properties['Image 01'] !== null ? '<img src="images/' + String(feature.properties['Image 01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture01">' + (feature.properties['LinkPicture01'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture01']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 02</th>\
-                <td class="visible-with-data" id="Image 02">' + (feature.properties['Image 02'] !== null ? '<img src="images/' + String(feature.properties['Image 02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture02">' + (feature.properties['LinkPicture02'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture02']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 03</th>\
-                <td class="visible-with-data" id="Image 03">' + (feature.properties['Image 03'] !== null ? '<img src="images/' + String(feature.properties['Image 03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture03">' + (feature.properties['LinkPicture03'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture03']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 04</th>\
-                <td class="visible-with-data" id="Image 04">' + (feature.properties['Image 04'] !== null ? '<img src="images/' + String(feature.properties['Image 04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture04">' + (feature.properties['LinkPicture04'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture04']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
             <tr>\
                 <th scope="row">Image 05</th>\
-                <td class="visible-with-data" id="Image 05">' + (feature.properties['Image 05'] !== null ? '<img src="images/' + String(feature.properties['Image 05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                <td class="visible-with-data" id="LinkPicture05">' + (feature.properties['LinkPicture05'] !== null ? '<img src="images/' + String(feature.properties['LinkPicture05']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
             </tr>\
         </table>';
     var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -1619,6 +1631,7 @@ function style_Bienfaiteurs_16_0() {
 map.createPane('pane_Bienfaiteurs_16');
 map.getPane('pane_Bienfaiteurs_16').style.zIndex = 416;
 map.getPane('pane_Bienfaiteurs_16').style['mix-blend-mode'] = 'normal';
+var json_Bienfaiteurs_16 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Bienfaiteurs"; }) };
 var layer_Bienfaiteurs_16 = new L.geoJson(json_Bienfaiteurs_16, {
     attribution: '',
     interactive: true,
@@ -1695,8 +1708,7 @@ button.addEventListener("click", function (e) {
 });
 var overlaysTree = [
     {
-        //label: '<b>Paves Mosaiques par Quartiers</b>', selectAllCheckbox: true, children: [
-        label: '<b>Keien per wijk</b>', children: [
+        label: '<b>Keien per wijk</b>', selectAllCheckbox: true, children: [
             { label: '<img src="legend/Bienfaiteurs_16.png" /> Bienfaiteurs', layer: layer_Bienfaiteurs_16 },
             { label: '<img src="legend/Colignon_15.png" /> Colignon', layer: layer_Colignon_15 },
             { label: '<img src="legend/Cerisiers_14.png" /> Cerisiers', layer: layer_Cerisiers_14 },
@@ -1828,6 +1840,229 @@ let MyControlClass = L.Control.extend({
 });
 let myControl = new MyControlClass().addTo(map);
 
+// ── Couches Mozaïekkeien (filters kunstenaar + straat + afbeelding) ──
+var paveLayersList = [
+    layer_TerdeltFleur_4, layer_Reyers_5, layer_Plasky_6,
+    layer_ParcJosaphat_7, layer_PalaisReine_8, layer_Nord_9,
+    layer_Linthout_10, layer_Jardin_11, layer_HelmetHamoir_12,
+    layer_CoteauxJosaphat_13, layer_Cerisiers_14, layer_Colignon_15,
+    layer_Bienfaiteurs_16
+];
+
+var artistSelect  = null;
+var streetSelect  = null;
+var pictureSelect = null;
+
+// Retourne les valeurs uniques triées d'une propriété, en appliquant les autres filtres actifs
+function getFilteredValues(property) {
+    var values = new Set();
+    var artistVal  = artistSelect  ? artistSelect.value  : '';
+    var streetVal  = streetSelect  ? streetSelect.value  : '';
+    var pictureVal = pictureSelect ? pictureSelect.value : '';
+    paveLayersList.forEach(function (layer) {
+        if (map.hasLayer(layer)) {
+            layer.eachLayer(function (featureLayer) {
+                var props = featureLayer.feature && featureLayer.feature.properties;
+                if (!props) { return; }
+                var artistMatch  = (property === 'Artist')   || !artistVal  || props.Artist   === artistVal;
+                var streetMatch  = (property === 'StreetNL') || !streetVal  || props.StreetNL === streetVal;
+                var pictureMatch = (property === 'Picture')  || !pictureVal || props.Picture  === pictureVal;
+                if (artistMatch && streetMatch && pictureMatch) {
+                    var val = props[property];
+                    if (val) { values.add(val); }
+                }
+            });
+        }
+    });
+    return Array.from(values).sort();
+}
+
+// Applique le filtre combiné kunstenaar + straat + afbeelding sur les marqueurs
+function filterMarkers() {
+    var artistVal  = artistSelect  ? artistSelect.value  : '';
+    var streetVal  = streetSelect  ? streetSelect.value  : '';
+    var pictureVal = pictureSelect ? pictureSelect.value : '';
+    paveLayersList.forEach(function (layer) {
+        if (map.hasLayer(layer)) {
+            layer.eachLayer(function (featureLayer) {
+                var props = featureLayer.feature && featureLayer.feature.properties;
+                var artistMatch  = !artistVal  || (props && props.Artist   === artistVal);
+                var streetMatch  = !streetVal  || (props && props.StreetNL === streetVal);
+                var pictureMatch = !pictureVal || (props && props.Picture  === pictureVal);
+                var show = artistMatch && streetMatch && pictureMatch;
+                if (featureLayer.setOpacity) { featureLayer.setOpacity(show ? 1 : 0); }
+                if (featureLayer._icon) { featureLayer._icon.style.pointerEvents = show ? '' : 'none'; }
+            });
+        }
+    });
+}
+
+function updateArtistDropdown() {
+    if (!artistSelect) { return; }
+    var currentValue = artistSelect.value;
+    while (artistSelect.options.length > 1) { artistSelect.remove(1); }
+    getFilteredValues('Artist').forEach(function (artist) {
+        var opt = document.createElement('option');
+        opt.value = artist;
+        opt.text = artist;
+        artistSelect.appendChild(opt);
+    });
+    var stillAvailable = Array.from(artistSelect.options).some(function (o) { return o.value === currentValue; });
+    artistSelect.value = stillAvailable ? currentValue : '';
+}
+
+function updateStreetDropdown() {
+    if (!streetSelect) { return; }
+    var currentValue = streetSelect.value;
+    while (streetSelect.options.length > 1) { streetSelect.remove(1); }
+    getFilteredValues('StreetNL').forEach(function (street) {
+        var opt = document.createElement('option');
+        opt.value = street;
+        opt.text = street;
+        streetSelect.appendChild(opt);
+    });
+    var stillAvailable = Array.from(streetSelect.options).some(function (o) { return o.value === currentValue; });
+    streetSelect.value = stillAvailable ? currentValue : '';
+}
+
+function updatePictureDropdown() {
+    if (!pictureSelect) { return; }
+    var currentValue = pictureSelect.value;
+    while (pictureSelect.options.length > 1) { pictureSelect.remove(1); }
+    getFilteredValues('Picture').forEach(function (val) {
+        var opt = document.createElement('option');
+        opt.value = val;
+        opt.text = val === 'OUI' ? 'beschikbaar' : 'niet beschikbaar';
+        pictureSelect.appendChild(opt);
+    });
+    var stillAvailable = Array.from(pictureSelect.options).some(function (o) { return o.value === currentValue; });
+    pictureSelect.value = stillAvailable ? currentValue : '';
+}
+
+let MyControlClass_Artist = L.Control.extend({
+    options: { position: 'topright' },
+    onAdd: function (map) {
+        var div = L.DomUtil.create('div', 'leaflet-bar my-control');
+        artistSelect = L.DomUtil.create('select', 'artist-filter-select', div);
+        artistSelect.style.width = '200px';
+        artistSelect.style.height = '25px';
+        var defaultOpt = document.createElement('option');
+        defaultOpt.value = '';
+        defaultOpt.text = '— alle kunstenaars —';
+        artistSelect.appendChild(defaultOpt);
+        getFilteredValues('Artist').forEach(function (artist) {
+            var opt = document.createElement('option');
+            opt.value = artist;
+            opt.text = artist;
+            artistSelect.appendChild(opt);
+        });
+        L.DomEvent.disableClickPropagation(artistSelect);
+        L.DomEvent.disableScrollPropagation(artistSelect);
+        L.DomEvent.on(artistSelect, 'change', function () {
+            updateStreetDropdown();
+            updatePictureDropdown();
+            filterMarkers();
+        });
+        return div;
+    },
+    onRemove: function (map) { artistSelect = null; }
+});
+let myControl_artist = new MyControlClass_Artist().addTo(map);
+
+let MyControlClass_Street = L.Control.extend({
+    options: { position: 'topright' },
+    onAdd: function (map) {
+        var div = L.DomUtil.create('div', 'leaflet-bar my-control');
+        streetSelect = L.DomUtil.create('select', 'street-filter-select', div);
+        streetSelect.style.width = '200px';
+        streetSelect.style.height = '25px';
+        var defaultOpt = document.createElement('option');
+        defaultOpt.value = '';
+        defaultOpt.text = '— alle straten —';
+        streetSelect.appendChild(defaultOpt);
+        getFilteredValues('StreetNL').forEach(function (street) {
+            var opt = document.createElement('option');
+            opt.value = street;
+            opt.text = street;
+            streetSelect.appendChild(opt);
+        });
+        L.DomEvent.disableClickPropagation(streetSelect);
+        L.DomEvent.disableScrollPropagation(streetSelect);
+        L.DomEvent.on(streetSelect, 'change', function () {
+            updateArtistDropdown();
+            updatePictureDropdown();
+            filterMarkers();
+        });
+        return div;
+    },
+    onRemove: function (map) { streetSelect = null; }
+});
+let myControl_street = new MyControlClass_Street().addTo(map);
+
+let MyControlClass_Picture = L.Control.extend({
+    options: { position: 'topright' },
+    onAdd: function (map) {
+        var div = L.DomUtil.create('div', 'leaflet-bar my-control');
+        pictureSelect = L.DomUtil.create('select', 'picture-filter-select', div);
+        pictureSelect.style.width = '200px';
+        pictureSelect.style.height = '25px';
+        var defaultOpt = document.createElement('option');
+        defaultOpt.value = '';
+        defaultOpt.text = '— afbeelding aanwezig —';
+        pictureSelect.appendChild(defaultOpt);
+        getFilteredValues('Picture').forEach(function (val) {
+            var opt = document.createElement('option');
+            opt.value = val;
+            opt.text = val === 'OUI' ? 'beschikbaar' : 'niet beschikbaar';
+            pictureSelect.appendChild(opt);
+        });
+        L.DomEvent.disableClickPropagation(pictureSelect);
+        L.DomEvent.disableScrollPropagation(pictureSelect);
+        L.DomEvent.on(pictureSelect, 'change', function () {
+            updateArtistDropdown();
+            updateStreetDropdown();
+            filterMarkers();
+        });
+        return div;
+    },
+    onRemove: function (map) { pictureSelect = null; }
+});
+let myControl_picture = new MyControlClass_Picture().addTo(map);
+
+let MyControlClass_Reset = L.Control.extend({
+    options: { position: 'topright' },
+    onAdd: function (map) {
+        var div = L.DomUtil.create('div', 'leaflet-bar my-control');
+        var btn = L.DomUtil.create('button', 'my-button-class', div);
+        btn.innerHTML = '↺ Opnieuw instellen';
+        btn.style.width = '150px';
+        btn.style.height = '25px';
+        btn.style.cursor = 'pointer';
+        L.DomEvent.disableClickPropagation(btn);
+        L.DomEvent.on(btn, 'click', function () {
+            if (artistSelect)  { artistSelect.value  = ''; }
+            if (streetSelect)  { streetSelect.value  = ''; }
+            if (pictureSelect) { pictureSelect.value = ''; }
+            updateArtistDropdown();
+            updateStreetDropdown();
+            updatePictureDropdown();
+            filterMarkers();
+        });
+        return div;
+    },
+    onRemove: function (map) {}
+});
+new MyControlClass_Reset().addTo(map);
+
+// Filterdropdowns bijwerken wanneer een sector wordt in-/uitgeschakeld
+map.on('layeradd layerremove', function (e) {
+    if (paveLayersList.indexOf(e.layer) !== -1) {
+        updateArtistDropdown();
+        updateStreetDropdown();
+        updatePictureDropdown();
+        filterMarkers();
+    }
+});
 
 L.easyButton('fa-envelope', function (btn, map) {
     var url = "mailto:ihilal@1030.be?subject=Feedback: Mozaïekkeien van Schaarbeek";

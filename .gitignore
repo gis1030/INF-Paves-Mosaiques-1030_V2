@@ -1,0 +1,15 @@
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+*.suo
+*.user
