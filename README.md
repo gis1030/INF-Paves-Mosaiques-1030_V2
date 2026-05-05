@@ -11,7 +11,7 @@ It was in this spirit that the first map of Schaerbeek's mosaic paving stones wa
 By cross-referencing Mr. Bastin's photographic archives with data from projects carried out by the Roads Technical Department, we were able to compile a precise inventory. Today, 243 countries are registered.
 
 Last Update
-Avril 2026
+05/052026
 
 Publication Date
 Avril 2026
