@@ -1,15 +1,14 @@
 var ListePavesMosaiques1030 = {
 	"type" : "FeatureCollection",
-	"name" : "PaveMosaiques1030",
+	"name" : "PaveMosaiques103000",
 	"features" : [
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387744832, 50.86671833, 4.387744832 ]
+				"coordinates" : [ 4.3877448323, 50.8667183443 ]
 			},
 			"properties" : {
-				"Index" : 1,
 				"CodeID" : "PM-0001",
 				"StreetFR" : "avenue gustave latinis",
 				"StreetNL" : "gustave latinislaan",
@@ -23,28 +22,1988 @@ var ListePavesMosaiques1030 = {
 				"PlacementDate" : null,
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"Commentaires" : "X",
+				"TilesNumber" : "3",
+				"Picture" : "OUI",
+				"PicturesNumber" : 3,
+				"LinkPicture01" : "DCIM//PM-0001-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0001-02.jpg",
+				"LinkPicture03" : "DCIM//PM-0001-03.jpg",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.387744832,
-				"Latitude" : 50.86671833
+				"Longitude" : 4.38774483225063,
+				"Latitude" : 50.8667183442527,
+				"index" : 1,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.384350486, 50.87128388, 4.384350486 ]
+				"coordinates" : [ 4.3879254701, 50.8510781306 ]
 			},
 			"properties" : {
-				"Index" : 2,
+				"CodeID" : "PM-0005",
+				"StreetFR" : "avenue charbo",
+				"StreetNL" : "charbolaan",
+				"SaphirCode" : "0038",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "13",
+				"FullAddress" : "Avenue Charbo, 13, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0005-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38792547014691,
+				"Latitude" : 50.8510781305978,
+				"index" : 5,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3879858072, 50.8510409128 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0006",
+				"StreetFR" : "avenue charbo",
+				"StreetNL" : "charbolaan",
+				"SaphirCode" : "0038",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "15",
+				"FullAddress" : "Avenue Charbo, 15, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0006-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38798580720442,
+				"Latitude" : 50.8510409128206,
+				"index" : 6,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3968590879, 50.8654770766 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0007",
+				"StreetFR" : "avenue charles gilisquet",
+				"StreetNL" : "charles gilisquetlaan",
+				"SaphirCode" : "6040",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "113",
+				"FullAddress" : "Avenue Charles Gilisquet, 113, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0007-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39685908787757,
+				"Latitude" : 50.8654770765784,
+				"index" : 7,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3870072159, 50.850980036 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0011",
+				"StreetFR" : "avenue de la brabançonne",
+				"StreetNL" : "brabançonnelaan",
+				"SaphirCode" : "0026",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "121",
+				"FullAddress" : "Avenue de la Brabançonne, 121, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "2",
+				"Picture" : "OUI",
+				"PicturesNumber" : 2,
+				"LinkPicture01" : "DCIM//PM-0011-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0011-02.jpg",
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38700721586017,
+				"Latitude" : 50.8509800360211,
+				"index" : 11,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3822112196, 50.8623133927 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0017",
+				"StreetFR" : "avenue des azalées",
+				"StreetNL" : "azalealaan",
+				"SaphirCode" : "7020",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "10",
+				"FullAddress" : "Avenue des Azalées, 10, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0017-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38221121955896,
+				"Latitude" : 50.8623133927117,
+				"index" : 17,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3877417405, 50.8647266295 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0019",
+				"StreetFR" : "rue des mimosas",
+				"StreetNL" : "mimosasstraat",
+				"SaphirCode" : "6195",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "28",
+				"FullAddress" : "Rue des Mimosas, 28, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Rita Dooms",
+				"PlacementDate" : null,
+				"Year" : "2021",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0019-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38774174047017,
+				"Latitude" : 50.8647266294972,
+				"index" : 19,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3829383929, 50.872864603 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0020",
+				"StreetFR" : "rue du dahlia",
+				"StreetNL" : "dahliastraat",
+				"SaphirCode" : "4060",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "9",
+				"FullAddress" : "Rue du Dahlia, 9, 1030 Schaerbeek",
+				"Sector" : "Helmet-Hamoir",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2022",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0020-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.3829383929095,
+				"Latitude" : 50.8728646030195,
+				"index" : 20,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.4009942679, 50.8491702438 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0021",
+				"StreetFR" : "avenue du diamant",
+				"StreetNL" : "diamantlaan",
+				"SaphirCode" : "0070",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "191",
+				"FullAddress" : "Avenue du Diamant, 191, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0021-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.40099426787751,
+				"Latitude" : 50.849170243772,
+				"index" : 21,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3920335747, 50.8524898843 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0023",
+				"StreetFR" : "avenue du diamant",
+				"StreetNL" : "diamantlaan",
+				"SaphirCode" : "0070",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "33",
+				"FullAddress" : "Avenue du Diamant, 33, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2021",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0023-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39203357467558,
+				"Latitude" : 50.8524898843344,
+				"index" : 23,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3915577957, 50.8498452685 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0025",
+				"StreetFR" : "avenue emile max",
+				"StreetNL" : "emile maxlaan",
+				"SaphirCode" : "0076",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "24",
+				"FullAddress" : "Avenue Emile Max, 24, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0025-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39155779570981,
+				"Latitude" : 50.8498452684842,
+				"index" : 25,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3862136319, 50.8582081648 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0038",
+				"StreetFR" : "avenue jan stobbaerts",
+				"StreetNL" : "jan stobbaertslaan",
+				"SaphirCode" : "7149",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "29",
+				"FullAddress" : "Avenue Jan Stobbaerts, 29, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2020",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "3",
+				"Picture" : "OUI",
+				"PicturesNumber" : 3,
+				"LinkPicture01" : "DCIM//PM-0038-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0038-02.jpg",
+				"LinkPicture03" : "DCIM//PM-0038-03.jpg",
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38621363185823,
+				"Latitude" : 50.8582081648043,
+				"index" : 38,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3886244843, 50.8586851991 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0039",
+				"StreetFR" : "avenue jan stobbaerts",
+				"StreetNL" : "jan stobbaertslaan",
+				"SaphirCode" : "7149",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "89",
+				"FullAddress" : "Avenue Jan Stobbaerts, 89, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "3",
+				"Picture" : "OUI",
+				"PicturesNumber" : 3,
+				"LinkPicture01" : "DCIM//PM-0039-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0039-02.jpg",
+				"LinkPicture03" : "DCIM//PM-0039-03.jpg",
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38862448434666,
+				"Latitude" : 50.858685199087,
+				"index" : 39,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3930670107, 50.8517311437 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0040",
+				"StreetFR" : "avenue léon mahillon",
+				"StreetNL" : "léon mahillonlaan",
+				"SaphirCode" : "0168",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "52",
+				"FullAddress" : "Avenue Léon Mahillon, 52, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0040-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39306701069585,
+				"Latitude" : 50.8517311436598,
+				"index" : 40,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3947113658, 50.8507947049 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0042",
+				"StreetFR" : "avenue milcamps",
+				"StreetNL" : "milcampslaan",
+				"SaphirCode" : "0194",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "121",
+				"FullAddress" : "Avenue Milcamps, 121, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0042-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39471136583069,
+				"Latitude" : 50.8507947049272,
+				"index" : 42,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3937245549, 50.8497296683 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0043",
+				"StreetFR" : "avenue milcamps",
+				"StreetNL" : "milcampslaan",
+				"SaphirCode" : "0194",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "82",
+				"FullAddress" : "Avenue Milcamps, 82, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0043-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39372455487553,
+				"Latitude" : 50.8497296682914,
+				"index" : 43,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3774562711, 50.8551973525 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0045",
+				"StreetFR" : "avenue paul deschanel",
+				"StreetNL" : "paul deschanellaan",
+				"SaphirCode" : "3208",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "243",
+				"FullAddress" : "Avenue Paul Deschanel, 243, 1030 Schaerbeek",
+				"Sector" : "Coteaux-Josaphat",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0045-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.37745627111705,
+				"Latitude" : 50.8551973525158,
+				"index" : 45,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3869521464, 50.8571026021 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0051",
+				"StreetFR" : "avenue rogier",
+				"StreetNL" : "rogierlaan",
+				"SaphirCode" : "3233",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "275",
+				"FullAddress" : "Avenue Rogier, 275, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "3",
+				"Picture" : "OUI",
+				"PicturesNumber" : 3,
+				"LinkPicture01" : "DCIM//PM-0051-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0051-02.jpg",
+				"LinkPicture03" : "DCIM//PM-0051-03.jpg",
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38695214640064,
+				"Latitude" : 50.857102602123,
+				"index" : 51,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3866133523, 50.8677465544 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0058",
+				"StreetFR" : "boulevard lambermont",
+				"StreetNL" : "lambermontlaan",
+				"SaphirCode" : "1164",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "270",
+				"FullAddress" : "Boulevard Lambermont, 270, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2022",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0058-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.3866133522823,
+				"Latitude" : 50.8677465543625,
+				"index" : 58,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3700577533, 50.8577531614 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0065",
+				"StreetFR" : "chaussée de haecht",
+				"StreetNL" : "haachtsesteenweg",
+				"SaphirCode" : "1129",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "96",
+				"FullAddress" : "Chaussée de Haecht, 96, 1030 Schaerbeek",
+				"Sector" : "Coteaux-Josaphat",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0065-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.37005775326411,
+				"Latitude" : 50.8577531614402,
+				"index" : 65,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3871825994, 50.8545594466 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0067",
+				"StreetFR" : "grande rue au bois",
+				"StreetNL" : "grote bosstraat",
+				"SaphirCode" : "8025",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "113",
+				"FullAddress" : "Grande Rue au bois, 113, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2018",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0067-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38718259935435,
+				"Latitude" : 50.8545594465603,
+				"index" : 67,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3891904703, 50.8533037193 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0068",
+				"StreetFR" : "grande rue au bois",
+				"StreetNL" : "grote bosstraat",
+				"SaphirCode" : "8025",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "163",
+				"FullAddress" : "Grande Rue au bois, 163, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0068-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38919047029841,
+				"Latitude" : 50.8533037192962,
+				"index" : 68,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.374771941, 50.8592681462 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0069",
+				"StreetFR" : "parc rasquinet",
+				"StreetNL" : "rasquinetpark",
+				"SaphirCode" : null,
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : null,
+				"FullAddress" : "Parc Rasquinet, 1030 Schaerbeek",
+				"Sector" : "Coteaux-Josaphat",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2023",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "50",
+				"Picture" : "OUI",
+				"PicturesNumber" : 0,
+				"LinkPicture01" : null,
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.37477194099059,
+				"Latitude" : 50.859268146207,
+				"index" : 69,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3825781526, 50.856416445 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0075",
+				"StreetFR" : "rue albert de latour",
+				"StreetNL" : "albert de latourstraat",
+				"SaphirCode" : "8008",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "88",
+				"FullAddress" : "Rue Albert de Latour, 88, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2023",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0075-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38257815262935,
+				"Latitude" : 50.8564164449628,
+				"index" : 75,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3862513496, 50.856982712 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0077",
+				"StreetFR" : "rue alexandre markelbach",
+				"StreetNL" : "alexandre markelbachstraat",
+				"SaphirCode" : "8183",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "144",
+				"FullAddress" : "Rue Alexandre Markelbach, 144, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0077-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38625134959015,
+				"Latitude" : 50.8569827120412,
+				"index" : 77,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3874999593, 50.8671299317 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0082",
+				"StreetFR" : "rue armand de roo",
+				"StreetNL" : "armand de roostraat",
+				"SaphirCode" : "6015",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "2",
+				"FullAddress" : "Rue Armand de Roo, 2, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2018",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0082-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38749995934228,
+				"Latitude" : 50.8671299316657,
+				"index" : 82,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3837885949, 50.8568312351 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0083",
+				"StreetFR" : "rue artan",
+				"StreetNL" : "artanstraat",
+				"SaphirCode" : "8016",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "31",
+				"FullAddress" : "Rue Artan, 31, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "2",
+				"Picture" : "OUI",
+				"PicturesNumber" : 2,
+				"LinkPicture01" : "DCIM//PM-0083-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0083-02.jpg",
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38378859485694,
+				"Latitude" : 50.8568312350532,
+				"index" : 83,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3834191168, 50.8548207032 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0084",
+				"StreetFR" : "rue artan",
+				"StreetNL" : "artanstraat",
+				"SaphirCode" : "8016",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "79",
+				"FullAddress" : "Rue Artan, 79, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2023",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0084-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38341911683661,
+				"Latitude" : 50.8548207031703,
+				"index" : 84,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3854298989, 50.878932763 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0089",
+				"StreetFR" : "rue auguste snieders",
+				"StreetNL" : "auguste sniedersstraat",
+				"SaphirCode" : "5019",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "46",
+				"FullAddress" : "Rue Auguste Snieders, 46, 1030 Schaerbeek",
+				"Sector" : "Helmet-Hamoir",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0089-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38542989889219,
+				"Latitude" : 50.8789327630268,
+				"index" : 89,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3838527506, 50.8774175466 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0092",
+				"StreetFR" : "avenue colonel picquart",
+				"StreetNL" : "kolonel picquartlaan",
+				"SaphirCode" : "5051",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "73",
+				"FullAddress" : "Avenue Colonel Picquart, 73, 1030 Schaerbeek",
+				"Sector" : "Helmet-Hamoir",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0092-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38385275059086,
+				"Latitude" : 50.8774175465577,
+				"index" : 92,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3769716036, 50.8561040614 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0094",
+				"StreetFR" : "rue de la consolation",
+				"StreetNL" : "trooststraat",
+				"SaphirCode" : "3054",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "37",
+				"FullAddress" : "Rue de La Consolation, 37, 1030 Schaerbeek",
+				"Sector" : "Coteaux-Josaphat",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2018",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "2",
+				"Picture" : "OUI",
+				"PicturesNumber" : 2,
+				"LinkPicture01" : "DCIM//PM-0094-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0094-02.jpg",
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.3769716036408,
+				"Latitude" : 50.8561040614145,
+				"index" : 94,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3646035862, 50.8600211641 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0095",
+				"StreetFR" : "rue de la fraternité",
+				"StreetNL" : "broederschapstraat",
+				"SaphirCode" : "2104",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "17",
+				"FullAddress" : "Rue de la Fraternité, 17, 1030 Schaerbeek",
+				"Sector" : "Palais-Reine",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0095-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.36460358620835,
+				"Latitude" : 50.8600211640835,
+				"index" : 95,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3741362954, 50.8620685664 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0101",
+				"StreetFR" : "rue de l'est",
+				"StreetNL" : "ooststraat",
+				"SaphirCode" : "3086",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "26",
+				"FullAddress" : "Rue de l'Est, 26, 1030 Schaerbeek",
+				"Sector" : "Coteaux-Josaphat",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "2",
+				"Picture" : "OUI",
+				"PicturesNumber" : 2,
+				"LinkPicture01" : "DCIM//PM-0101-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0101-02.jpg",
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.37413629538215,
+				"Latitude" : 50.8620685663893,
+				"index" : 101,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3874125875, 50.8653837424 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0121",
+				"StreetFR" : "rue des mimosas",
+				"StreetNL" : "mimosasstraat",
+				"SaphirCode" : "6195",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "18",
+				"FullAddress" : "Rue des Mimosas, 18, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0121-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38741258751595,
+				"Latitude" : 50.865383742412,
+				"index" : 121,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3900823086, 50.8630332359 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0122",
+				"StreetFR" : "rue des mimosas",
+				"StreetNL" : "mimosasstraat",
+				"SaphirCode" : "6195",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "70",
+				"FullAddress" : "Rue des mimosas, 70, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "3",
+				"Picture" : "OUI",
+				"PicturesNumber" : 3,
+				"LinkPicture01" : "DCIM//PM-0122-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0122-02.jpg",
+				"LinkPicture03" : "DCIM//PM-0122-03.jpg",
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39008230859945,
+				"Latitude" : 50.8630332358566,
+				"index" : 122,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3944551886, 50.8657319625 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0134",
+				"StreetFR" : "rue désiré desmet",
+				"StreetNL" : "désiré desmetstraat",
+				"SaphirCode" : "6293",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "13",
+				"FullAddress" : "Rue Désiré Desmet, 13, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0134-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.3944551885525,
+				"Latitude" : 50.8657319624643,
+				"index" : 134,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.39602205, 50.8440792337 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0138",
+				"StreetFR" : "rue du noyer",
+				"StreetNL" : "notelaarstraat",
+				"SaphirCode" : "0201",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "336",
+				"FullAddress" : "Rue du noyer, 336, 1030 Schaerbeek",
+				"Sector" : "Linthout",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2023",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "2",
+				"Picture" : "OUI",
+				"PicturesNumber" : 2,
+				"LinkPicture01" : "DCIM//PM-0138-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0138-02.jpg",
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39602204997288,
+				"Latitude" : 50.8440792336582,
+				"index" : 138,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3666843115, 50.8589528973 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0142",
+				"StreetFR" : "rue dupont",
+				"StreetNL" : "dupontstraat",
+				"SaphirCode" : "2071",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "82",
+				"FullAddress" : "Rue Dupont, 82, 1030 Schaerbeek",
+				"Sector" : "Palais-Reine",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "2",
+				"Picture" : "OUI",
+				"PicturesNumber" : 2,
+				"LinkPicture01" : "DCIM//PM-0142-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0142-02.jpg",
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.36668431147802,
+				"Latitude" : 50.858952897323,
+				"index" : 142,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3804645864, 50.8571254903 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0145",
+				"StreetFR" : "rue eugène smits",
+				"StreetNL" : "eugène smitsstraat",
+				"SaphirCode" : "8089",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "74",
+				"FullAddress" : "Rue Eugène Smits, 74, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0145-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38046458641778,
+				"Latitude" : 50.8571254902709,
+				"index" : 145,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3829965244, 50.8604044788 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0148",
+				"StreetFR" : "rue fontaine d'amour",
+				"StreetNL" : "minnebronstraat",
+				"SaphirCode" : "7095",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "21",
+				"FullAddress" : "Rue Fontaine d'Amour, 21, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0148-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38299652437769,
+				"Latitude" : 50.8604044788065,
+				"index" : 148,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.384665647, 50.8545280964 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0154",
+				"StreetFR" : "rue françois bossaerts",
+				"StreetNL" : "françois bossaertsstraat",
+				"SaphirCode" : "8105",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "38",
+				"FullAddress" : "Rue François Bossaerts, 38, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0154-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38466564697676,
+				"Latitude" : 50.8545280963675,
+				"index" : 154,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.4022595875, 50.8592584164 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0155",
+				"StreetFR" : "avenue frans courtens",
+				"StreetNL" : "frans courtenslaan",
+				"SaphirCode" : "9107",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "96",
+				"FullAddress" : "Avenue Frans Courtens, 96, 1030 Schaerbeek",
+				"Sector" : "Jardin",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2018",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0155-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.40225958751947,
+				"Latitude" : 50.8592584164492,
+				"index" : 155,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3874819885, 50.8679882395 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0173",
+				"StreetFR" : "rue guillaume kennis",
+				"StreetNL" : "guillaume kennisstraat",
+				"SaphirCode" : "6125",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "19",
+				"FullAddress" : "Rue Guillaume Kennis, 19, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0173-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38748198851483,
+				"Latitude" : 50.867988239499,
+				"index" : 173,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3891317993, 50.868516086 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0174",
+				"StreetFR" : "rue guillaume kennis",
+				"StreetNL" : "guillaume kennisstraat",
+				"SaphirCode" : "6125",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "65",
+				"FullAddress" : "Rue Guillaume Kennis, 65, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0174-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38913179925661,
+				"Latitude" : 50.8685160860017,
+				"index" : 174,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.38940122, 50.8586631262 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0179",
+				"StreetFR" : "rue henri stacquet",
+				"StreetNL" : "henri stacquetstraat",
+				"SaphirCode" : "7136",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "55",
+				"FullAddress" : "Rue Henri Stacquet, 55, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0179-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38940122004976,
+				"Latitude" : 50.8586631261942,
+				"index" : 179,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3921297092, 50.8688563813 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0184",
+				"StreetFR" : "rue joseph wauters",
+				"StreetNL" : "joseph wautersstraat",
+				"SaphirCode" : "6097",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "37",
+				"FullAddress" : "Rue Joseph wauters, 37, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0184-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39212970924056,
+				"Latitude" : 50.8688563813392,
+				"index" : 184,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3909101243, 50.8694478795 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0188",
+				"StreetFR" : "rue adolphe marbotin",
+				"StreetNL" : "adolphe marbotinstraat",
+				"SaphirCode" : "6004",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "35",
+				"FullAddress" : "Rue Adolphe Marbotin, 35, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2022",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0188-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39091012430534,
+				"Latitude" : 50.869447879541,
+				"index" : 188,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.389575046, 50.8509443746 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0190",
+				"StreetFR" : "rue marcel mariën",
+				"StreetNL" : "marcel mariënstraat",
+				"SaphirCode" : "0346",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "17",
+				"FullAddress" : "Rue Marcel Mariën, 17, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "4",
+				"Picture" : "OUI",
+				"PicturesNumber" : 4,
+				"LinkPicture01" : "DCIM//PM-0190-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0190-02.jpg",
+				"LinkPicture03" : "DCIM//PM-0190-03.jpg",
+				"LinkPicture04" : "DCIM//PM-0190-04.jpg",
+				"LinkPicture05" : null,
+				"Longitude" : 4.38957504601417,
+				"Latitude" : 50.8509443746319,
+				"index" : 190,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3802530087, 50.8577165892 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0199",
+				"StreetFR" : "rue monrose",
+				"StreetNL" : "monrosestraat",
+				"SaphirCode" : "8197",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "25",
+				"FullAddress" : "Rue monrose, 25, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2023",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0199-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38025300872676,
+				"Latitude" : 50.8577165892022,
+				"index" : 199,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3795169827, 50.8569524579 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0200",
+				"StreetFR" : "rue monrose",
+				"StreetNL" : "monrosestraat",
+				"SaphirCode" : "8197",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "59",
+				"FullAddress" : "Rue Monrose, 59, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0200-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.37951698268098,
+				"Latitude" : 50.8569524578636,
+				"index" : 200,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.389456665, 50.8581559203 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0202",
+				"StreetFR" : "rue paul devigne",
+				"StreetNL" : "paul devignestraat",
+				"SaphirCode" : "7207",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "46",
+				"FullAddress" : "Rue paul devigne, 46, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2023",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0202-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38945666499728,
+				"Latitude" : 50.8581559203465,
+				"index" : 202,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.368361528, 50.8578545701 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0208",
+				"StreetFR" : "rue royale",
+				"StreetNL" : "koningsstraat",
+				"SaphirCode" : "2236",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "263",
+				"FullAddress" : "Rue Royale, 263, 1030 Schaerbeek",
+				"Sector" : "Palais-Reine",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "2018",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0208-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.36836152797201,
+				"Latitude" : 50.8578545700918,
+				"index" : 208,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3820212598, 50.8530381615 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0211",
+				"StreetFR" : "rue thomas vinçotte",
+				"StreetNL" : "thomas vinçottestraat",
+				"SaphirCode" : "8255",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "32",
+				"FullAddress" : "Rue Thomas Vinçotte, 32, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2019",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "2",
+				"Picture" : "OUI",
+				"PicturesNumber" : 2,
+				"LinkPicture01" : "DCIM//PM-0211-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0211-02.jpg",
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38202125979414,
+				"Latitude" : 50.8530381614902,
+				"index" : 211,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3826103067, 50.8525101277 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0212",
+				"StreetFR" : "rue thomas vinçotte",
+				"StreetNL" : "thomas vinçottestraat",
+				"SaphirCode" : "8255",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "45",
+				"FullAddress" : "Rue Thomas Vinçotte, 45, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "2",
+				"Picture" : "OUI",
+				"PicturesNumber" : 2,
+				"LinkPicture01" : "DCIM//PM-0212-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0212-02.jpg",
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.3826103066606,
+				"Latitude" : 50.8525101277429,
+				"index" : 212,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3798431635, 50.8534062503 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0213",
+				"StreetFR" : "rue andré van hasselt",
+				"StreetNL" : "andré van hasseltstraat",
+				"SaphirCode" : "8014",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "32",
+				"FullAddress" : "Rue André Van Hasselt, 32, 1030 Schaerbeek",
+				"Sector" : "Bienfaiteurs",
+				"Artist" : "pour déterminer",
+				"PlacementDate" : null,
+				"Year" : "2021",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0213-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.37984316354175,
+				"Latitude" : 50.8534062502772,
+				"index" : 213,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3965433179, 50.8490464359 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0223",
+				"StreetFR" : "rue victor hugo",
+				"StreetNL" : "victor hugostraat",
+				"SaphirCode" : "0278",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "195",
+				"FullAddress" : "Rue Victor Hugo, 195, 1030 Schaerbeek",
+				"Sector" : "Plasky",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "1",
+				"Picture" : "OUI",
+				"PicturesNumber" : 1,
+				"LinkPicture01" : "DCIM//PM-0223-01.jpg",
+				"LinkPicture02" : null,
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.39654331788451,
+				"Latitude" : 50.8490464359319,
+				"index" : 223,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.388780645, 50.8688759066 ]
+			},
+			"properties" : {
+				"CodeID" : "PM-0230",
+				"StreetFR" : "rue willem kuhnen",
+				"StreetNL" : "willem kuhnenstraat",
+				"SaphirCode" : "6288",
+				"Locality" : "Schaerbeek",
+				"PostalCode" : 1030,
+				"HouseNumber" : "71",
+				"FullAddress" : "Rue Willem Kuhnen, 71, 1030 Schaerbeek",
+				"Sector" : "Terdelt-Fleur",
+				"Artist" : "Whitney Orville",
+				"PlacementDate" : null,
+				"Year" : "pour déterminer",
+				"Status" : "bon état",
+				"Commentaires" : "X",
+				"TilesNumber" : "2",
+				"Picture" : "OUI",
+				"PicturesNumber" : 2,
+				"LinkPicture01" : "DCIM//PM-0230-01.jpg",
+				"LinkPicture02" : "DCIM//PM-0230-02.jpg",
+				"LinkPicture03" : null,
+				"LinkPicture04" : null,
+				"LinkPicture05" : null,
+				"Longitude" : 4.38878064502386,
+				"Latitude" : 50.868875906619,
+				"index" : 230,
+				"Photos" : null
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 4.3843504581, 50.8712838906 ]
+			},
+			"properties" : {
 				"CodeID" : "PM-0002",
 				"StreetFR" : "avenue albert desenfans",
 				"StreetNL" : "albert desenfanslaan",
@@ -59,27 +2018,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0002-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.384350486,
-				"Latitude" : 50.87128388
+				"Longitude" : 4.38435045807171,
+				"Latitude" : 50.871283890618,
+				"index" : 2,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.377845851, 50.87370223, 4.377845851 ]
+				"coordinates" : [ 4.3778458372, 50.8737022254 ]
 			},
 			"properties" : {
-				"Index" : 3,
 				"CodeID" : "PM-0003",
 				"StreetFR" : "avenue albert giraud",
 				"StreetNL" : "albert giraudlaan",
@@ -94,27 +2053,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2022",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0003-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.377845851,
-				"Latitude" : 50.87370223
+				"Longitude" : 4.37784583720285,
+				"Latitude" : 50.8737022253684,
+				"index" : 3,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.378190008, 50.87380698, 4.378190008 ]
+				"coordinates" : [ 4.378190008, 50.8738069952 ]
 			},
 			"properties" : {
-				"Index" : 4,
 				"CodeID" : "PM-0004",
 				"StreetFR" : "avenue albert giraud",
 				"StreetNL" : "albert giraudlaan",
@@ -129,132 +2088,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0004-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.378190008,
-				"Latitude" : 50.87380698
+				"Longitude" : 4.37819000800737,
+				"Latitude" : 50.8738069952054,
+				"index" : 4,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38792547, 50.85107812, 4.38792547 ]
+				"coordinates" : [ 4.3909240676, 50.85896939 ]
 			},
 			"properties" : {
-				"Index" : 5,
-				"CodeID" : "PM-0005",
-				"StreetFR" : "avenue charbo",
-				"StreetNL" : "charbolaan",
-				"SaphirCode" : "0038",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "13",
-				"FullAddress" : "Avenue Charbo, 13, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.38792547,
-				"Latitude" : 50.85107812
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.387985807, 50.85104091, 4.387985807 ]
-			},
-			"properties" : {
-				"Index" : 6,
-				"CodeID" : "PM-0006",
-				"StreetFR" : "avenue charbo",
-				"StreetNL" : "charbolaan",
-				"SaphirCode" : "0038",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "15",
-				"FullAddress" : "Avenue Charbo, 15, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.387985807,
-				"Latitude" : 50.85104091
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.396859088, 50.86547706, 4.396859088 ]
-			},
-			"properties" : {
-				"Index" : 7,
-				"CodeID" : "PM-0007",
-				"StreetFR" : "avenue charles gilisquet",
-				"StreetNL" : "charles gilisquetlaan",
-				"SaphirCode" : "6040",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "113",
-				"FullAddress" : "Avenue Charles Gilisquet, 113, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.396859088,
-				"Latitude" : 50.86547706
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.390924082, 50.85896937, 4.390924082 ]
-			},
-			"properties" : {
-				"Index" : 8,
 				"CodeID" : "PM-0008",
 				"StreetFR" : "avenue chazal",
 				"StreetNL" : "chazallaan",
@@ -269,27 +2123,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0008-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.390924082,
-				"Latitude" : 50.85896937
+				"Longitude" : 4.39092406757467,
+				"Latitude" : 50.858969390043,
+				"index" : 8,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.383772334, 50.87742915, 4.383772334 ]
+				"coordinates" : [ 4.3837723337, 50.8774291537 ]
 			},
 			"properties" : {
-				"Index" : 9,
 				"CodeID" : "PM-0009",
 				"StreetFR" : "avenue colonel picquart",
 				"StreetNL" : "kolonel picquartlaan",
@@ -304,27 +2158,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0009-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.383772334,
-				"Latitude" : 50.87742915
+				"Longitude" : 4.38377233365528,
+				"Latitude" : 50.8774291537066,
+				"index" : 9,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.383852751, 50.87741753, 4.383852751 ]
+				"coordinates" : [ 4.3838527506, 50.8774175466 ]
 			},
 			"properties" : {
-				"Index" : 10,
 				"CodeID" : "PM-0010",
 				"StreetFR" : "avenue colonel picquart",
 				"StreetNL" : "kolonel picquartlaan",
@@ -339,62 +2193,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0010-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.383852751,
-				"Latitude" : 50.87741753
+				"Longitude" : 4.38385275059086,
+				"Latitude" : 50.8774175465577,
+				"index" : 10,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387007216, 50.85098003, 4.387007216 ]
+				"coordinates" : [ 4.3978862834, 50.8525566929 ]
 			},
 			"properties" : {
-				"Index" : 11,
-				"CodeID" : "PM-0011",
-				"StreetFR" : "avenue de la brabançonne",
-				"StreetNL" : "brabançonnelaan",
-				"SaphirCode" : "0026",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "121",
-				"FullAddress" : "Avenue de la Brabançonne, 121, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.387007216,
-				"Latitude" : 50.85098003
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.397886326, 50.85255669, 4.397886326 ]
-			},
-			"properties" : {
-				"Index" : 12,
 				"CodeID" : "PM-0012",
 				"StreetFR" : "avenue de l'emeraude",
 				"StreetNL" : "smaragdlaan",
@@ -409,27 +2228,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.397886326,
-				"Latitude" : 50.85255669
+				"Longitude" : 4.39788628340354,
+				"Latitude" : 50.8525566928938,
+				"index" : 12,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.383810122, 50.86127894, 4.383810122 ]
+				"coordinates" : [ 4.3838101224, 50.861278959 ]
 			},
 			"properties" : {
-				"Index" : 13,
 				"CodeID" : "PM-0013",
 				"StreetFR" : "avenue des azalées",
 				"StreetNL" : "azalealaan",
@@ -444,7 +2263,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "4",
 				"Picture" : "OUI",
 				"PicturesNumber" : 4,
@@ -453,18 +2271,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0013-03.png",
 				"LinkPicture04" : "DCIM//PM-0013-04.png",
 				"LinkPicture05" : null,
-				"Longitude" : 4.383810122,
-				"Latitude" : 50.86127894
+				"Longitude" : 4.38381012242452,
+				"Latitude" : 50.8612789590175,
+				"index" : 13,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.383925858, 50.86120494, 4.383925858 ]
+				"coordinates" : [ 4.383925858, 50.86120496 ]
 			},
 			"properties" : {
-				"Index" : 14,
 				"CodeID" : "PM-0014",
 				"StreetFR" : "avenue des azalées",
 				"StreetNL" : "azalealaan",
@@ -479,7 +2298,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -488,18 +2306,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0014-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.383925858,
-				"Latitude" : 50.86120494
+				"Longitude" : 4.38392585799975,
+				"Latitude" : 50.8612049600444,
+				"index" : 14,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.385630351, 50.86022448, 4.385630351 ]
+				"coordinates" : [ 4.3856303505, 50.8602244957 ]
 			},
 			"properties" : {
-				"Index" : 15,
 				"CodeID" : "PM-0015",
 				"StreetFR" : "avenue des azalées",
 				"StreetNL" : "azalealaan",
@@ -514,27 +2333,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0015-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.385630351,
-				"Latitude" : 50.86022448
+				"Longitude" : 4.38563035052453,
+				"Latitude" : 50.8602244957081,
+				"index" : 15,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38221122, 50.86231338, 4.38221122 ]
+				"coordinates" : [ 4.3822112196, 50.8623133927 ]
 			},
 			"properties" : {
-				"Index" : 16,
 				"CodeID" : "PM-0016",
 				"StreetFR" : "avenue des azalées",
 				"StreetNL" : "azalealaan",
@@ -549,62 +2368,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0016-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.38221122,
-				"Latitude" : 50.86231338
+				"Longitude" : 4.38221121955896,
+				"Latitude" : 50.8623133927117,
+				"index" : 16,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38221122, 50.86231338, 4.38221122 ]
+				"coordinates" : [ 4.4007566056, 50.8609044232 ]
 			},
 			"properties" : {
-				"Index" : 17,
-				"CodeID" : "PM-0017",
-				"StreetFR" : "avenue des azalées",
-				"StreetNL" : "azalealaan",
-				"SaphirCode" : "7020",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "10",
-				"FullAddress" : "Avenue des Azalées, 10, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.38221122,
-				"Latitude" : 50.86231338
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.400756606, 50.86090441, 4.400756606 ]
-			},
-			"properties" : {
-				"Index" : 18,
 				"CodeID" : "PM-0018",
 				"StreetFR" : "avenue des clos",
 				"StreetNL" : "gaardenlaan",
@@ -619,132 +2403,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0018-01.png",
 				"LinkPicture02" : "DCIM//PM-0018-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.400756606,
-				"Latitude" : 50.86090441
+				"Longitude" : 4.40075660559566,
+				"Latitude" : 50.8609044231939,
+				"index" : 18,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38774174, 50.86472661, 4.38774174 ]
+				"coordinates" : [ 4.4009942679, 50.8491702438 ]
 			},
 			"properties" : {
-				"Index" : 19,
-				"CodeID" : "PM-0019",
-				"StreetFR" : "rue des mimosas",
-				"StreetNL" : "mimosasstraat",
-				"SaphirCode" : "6195",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "28",
-				"FullAddress" : "Rue des Mimosas, 28, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Rita Dooms",
-				"PlacementDate" : null,
-				"Year" : "2021",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.38774174,
-				"Latitude" : 50.86472661
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.382938393, 50.87286459, 4.382938393 ]
-			},
-			"properties" : {
-				"Index" : 20,
-				"CodeID" : "PM-0020",
-				"StreetFR" : "rue du dahlia",
-				"StreetNL" : "dahliastraat",
-				"SaphirCode" : "4060",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "9",
-				"FullAddress" : "Rue du Dahlia, 9, 1030 Schaerbeek",
-				"Sector" : "Helmet-Hamoir",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2022",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.382938393,
-				"Latitude" : 50.87286459
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.400994268, 50.84917023, 4.400994268 ]
-			},
-			"properties" : {
-				"Index" : 21,
-				"CodeID" : "PM-0021",
-				"StreetFR" : "avenue du diamant",
-				"StreetNL" : "diamantlaan",
-				"SaphirCode" : "0070",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "191",
-				"FullAddress" : "Avenue du Diamant, 191, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.400994268,
-				"Latitude" : 50.84917023
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.400994268, 50.84917023, 4.400994268 ]
-			},
-			"properties" : {
-				"Index" : 22,
 				"CodeID" : "PM-0022",
 				"StreetFR" : "avenue du diamant",
 				"StreetNL" : "diamantlaan",
@@ -759,62 +2438,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.400994268,
-				"Latitude" : 50.84917023
+				"Longitude" : 4.40099426787751,
+				"Latitude" : 50.849170243772,
+				"index" : 22,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.392033575, 50.85248987, 4.392033575 ]
+				"coordinates" : [ 4.3820009425, 50.8675897415 ]
 			},
 			"properties" : {
-				"Index" : 23,
-				"CodeID" : "PM-0023",
-				"StreetFR" : "avenue du diamant",
-				"StreetNL" : "diamantlaan",
-				"SaphirCode" : "0070",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "33",
-				"FullAddress" : "Avenue du Diamant, 33, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2021",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.392033575,
-				"Latitude" : 50.85248987
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.382000943, 50.86758973, 4.382000943 ]
-			},
-			"properties" : {
-				"Index" : 24,
 				"CodeID" : "PM-0024",
 				"StreetFR" : "avenue du suffrage universel",
 				"StreetNL" : "algemeen stemrechtlaan",
@@ -829,62 +2473,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0024-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.382000943,
-				"Latitude" : 50.86758973
+				"Longitude" : 4.38200094253099,
+				"Latitude" : 50.8675897415422,
+				"index" : 24,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.39155781, 50.84984527, 4.39155781 ]
+				"coordinates" : [ 4.3810106747, 50.8745919735 ]
 			},
 			"properties" : {
-				"Index" : 25,
-				"CodeID" : "PM-0025",
-				"StreetFR" : "avenue emile max",
-				"StreetNL" : "emile maxlaan",
-				"SaphirCode" : "0076",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "24",
-				"FullAddress" : "Avenue Emile Max, 24, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.39155781,
-				"Latitude" : 50.84984527
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.381010675, 50.87459197, 4.381010675 ]
-			},
-			"properties" : {
-				"Index" : 26,
 				"CodeID" : "PM-0026",
 				"StreetFR" : "avenue emile verhaeren",
 				"StreetNL" : "emile verhaerenlaan",
@@ -899,27 +2508,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0026-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.381010675,
-				"Latitude" : 50.87459197
+				"Longitude" : 4.3810106747402,
+				"Latitude" : 50.8745919734602,
+				"index" : 26,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.379912574, 50.87528516, 4.379912574 ]
+				"coordinates" : [ 4.3799125745, 50.8752851753 ]
 			},
 			"properties" : {
-				"Index" : 27,
 				"CodeID" : "PM-0027",
 				"StreetFR" : "avenue emile zola",
 				"StreetNL" : "emile zolalaan",
@@ -934,27 +2543,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0027-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.379912574,
-				"Latitude" : 50.87528516
+				"Longitude" : 4.37991257446537,
+				"Latitude" : 50.8752851753167,
+				"index" : 27,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38037011, 50.87543433, 4.38037011 ]
+				"coordinates" : [ 4.3803701104, 50.8754343441 ]
 			},
 			"properties" : {
-				"Index" : 28,
 				"CodeID" : "PM-0028",
 				"StreetFR" : "avenue emile zola",
 				"StreetNL" : "emile zolalaan",
@@ -969,27 +2578,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0028-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.38037011,
-				"Latitude" : 50.87543433
+				"Longitude" : 4.38037011038574,
+				"Latitude" : 50.8754343440682,
+				"index" : 28,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.397236348, 50.85554522, 4.397236348 ]
+				"coordinates" : [ 4.3972363485, 50.8555452346 ]
 			},
 			"properties" : {
-				"Index" : 29,
 				"CodeID" : "PM-0029",
 				"StreetFR" : "avenue ernest cambier",
 				"StreetNL" : "ernest cambierlaan",
@@ -1004,27 +2613,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0029-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.397236348,
-				"Latitude" : 50.85554522
+				"Longitude" : 4.39723634848785,
+				"Latitude" : 50.8555452346247,
+				"index" : 29,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.381468915, 50.87313577, 4.381468915 ]
+				"coordinates" : [ 4.3814689152, 50.8731357847 ]
 			},
 			"properties" : {
-				"Index" : 30,
 				"CodeID" : "PM-0030",
 				"StreetFR" : "avenue eugène demolder",
 				"StreetNL" : "eugène demolderlaan",
@@ -1039,27 +2648,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0030-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.381468915,
-				"Latitude" : 50.87313577
+				"Longitude" : 4.38146891515612,
+				"Latitude" : 50.8731357846853,
+				"index" : 30,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.380765886, 50.87252685, 4.380765886 ]
+				"coordinates" : [ 4.3807658716, 50.8725268546 ]
 			},
 			"properties" : {
-				"Index" : 31,
 				"CodeID" : "PM-0031",
 				"StreetFR" : "avenue eugène demolder",
 				"StreetNL" : "eugène demolderlaan",
@@ -1074,27 +2683,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2022",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0031-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.380765886,
-				"Latitude" : 50.87252685
+				"Longitude" : 4.38076587164217,
+				"Latitude" : 50.8725268545805,
+				"index" : 31,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.402885686, 50.85950193, 4.402885686 ]
+				"coordinates" : [ 4.4028856858, 50.8595019463 ]
 			},
 			"properties" : {
-				"Index" : 32,
 				"CodeID" : "PM-0032",
 				"StreetFR" : "avenue frans courtens",
 				"StreetNL" : "frans courtenslaan",
@@ -1109,27 +2718,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"Picture" : "oui",
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.402885686,
-				"Latitude" : 50.85950193
+				"Longitude" : 4.40288568579386,
+				"Latitude" : 50.8595019462946,
+				"index" : 32,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.381472691, 50.87861045, 4.381472691 ]
+				"coordinates" : [ 4.3814726913, 50.8786104705 ]
 			},
 			"properties" : {
-				"Index" : 33,
 				"CodeID" : "PM-0033",
 				"StreetFR" : "avenue georges rodenbach",
 				"StreetNL" : "georges rodenbachlaan",
@@ -1144,27 +2753,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0033-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.381472691,
-				"Latitude" : 50.87861045
+				"Longitude" : 4.38147269133963,
+				"Latitude" : 50.8786104705242,
+				"index" : 33,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.385552951, 50.87534454, 4.385552951 ]
+				"coordinates" : [ 4.3855529511, 50.8753445568 ]
 			},
 			"properties" : {
-				"Index" : 34,
 				"CodeID" : "PM-0034",
 				"StreetFR" : "avenue huart hamoir",
 				"StreetNL" : "huart hamoirlaan",
@@ -1179,27 +2788,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0034-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.385552951,
-				"Latitude" : 50.87534454
+				"Longitude" : 4.38555295105462,
+				"Latitude" : 50.8753445568344,
+				"index" : 34,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.386851767, 50.87422265, 4.386851767 ]
+				"coordinates" : [ 4.3868517674, 50.8742226626 ]
 			},
 			"properties" : {
-				"Index" : 35,
 				"CodeID" : "PM-0035",
 				"StreetFR" : "avenue huart hamoir",
 				"StreetNL" : "huart hamoirlaan",
@@ -1214,27 +2823,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2018",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0035-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.386851767,
-				"Latitude" : 50.87422265
+				"Longitude" : 4.38685176743068,
+				"Latitude" : 50.8742226625517,
+				"index" : 35,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38452481, 50.87576914, 4.38452481 ]
+				"coordinates" : [ 4.3845247958, 50.8757691508 ]
 			},
 			"properties" : {
-				"Index" : 36,
 				"CodeID" : "PM-0036",
 				"StreetFR" : "avenue huart hamoir",
 				"StreetNL" : "huart hamoirlaan",
@@ -1249,27 +2858,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0036-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.38452481,
-				"Latitude" : 50.87576914
+				"Longitude" : 4.38452479583919,
+				"Latitude" : 50.8757691508266,
+				"index" : 36,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.389996668, 50.85925457, 4.389996668 ]
+				"coordinates" : [ 4.389996668, 50.8592545739 ]
 			},
 			"properties" : {
-				"Index" : 37,
 				"CodeID" : "PM-0037",
 				"StreetFR" : "avenue jan stobbaerts",
 				"StreetNL" : "jan stobbaertslaan",
@@ -1284,132 +2893,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.389996668,
-				"Latitude" : 50.85925457
+				"Longitude" : 4.38999666797944,
+				"Latitude" : 50.8592545738897,
+				"index" : 37,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.386213632, 50.85820815, 4.386213632 ]
+				"coordinates" : [ 4.3851981767, 50.8763180487 ]
 			},
 			"properties" : {
-				"Index" : 38,
-				"CodeID" : "PM-0038",
-				"StreetFR" : "avenue jan stobbaerts",
-				"StreetNL" : "jan stobbaertslaan",
-				"SaphirCode" : "7149",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "29",
-				"FullAddress" : "Avenue Jan Stobbaerts, 29, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2020",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.386213632,
-				"Latitude" : 50.85820815
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.388624484, 50.85868518, 4.388624484 ]
-			},
-			"properties" : {
-				"Index" : 39,
-				"CodeID" : "PM-0039",
-				"StreetFR" : "avenue jan stobbaerts",
-				"StreetNL" : "jan stobbaertslaan",
-				"SaphirCode" : "7149",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "89",
-				"FullAddress" : "Avenue Jan Stobbaerts, 89, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.388624484,
-				"Latitude" : 50.85868518
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.393067011, 50.85173113, 4.393067011 ]
-			},
-			"properties" : {
-				"Index" : 40,
-				"CodeID" : "PM-0040",
-				"StreetFR" : "avenue léon mahillon",
-				"StreetNL" : "léon mahillonlaan",
-				"SaphirCode" : "0168",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "52",
-				"FullAddress" : "Avenue Léon Mahillon, 52, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.393067011,
-				"Latitude" : 50.85173113
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.385198177, 50.87631803, 4.385198177 ]
-			},
-			"properties" : {
-				"Index" : 41,
 				"CodeID" : "PM-0041",
 				"StreetFR" : "avenue maurice maeterlinck",
 				"StreetNL" : "maurice maeterlincklaan",
@@ -1424,97 +2928,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0041-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.385198177,
-				"Latitude" : 50.87631803
+				"Longitude" : 4.38519817674784,
+				"Latitude" : 50.8763180486896,
+				"index" : 41,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.39471138, 50.8507947, 4.39471138 ]
+				"coordinates" : [ 4.3793208569, 50.8594892108 ]
 			},
 			"properties" : {
-				"Index" : 42,
-				"CodeID" : "PM-0042",
-				"StreetFR" : "avenue milcamps",
-				"StreetNL" : "milcampslaan",
-				"SaphirCode" : "0194",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "121",
-				"FullAddress" : "Avenue Milcamps, 121, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.39471138,
-				"Latitude" : 50.8507947
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.393724555, 50.84972965, 4.393724555 ]
-			},
-			"properties" : {
-				"Index" : 43,
-				"CodeID" : "PM-0043",
-				"StreetFR" : "avenue milcamps",
-				"StreetNL" : "milcampslaan",
-				"SaphirCode" : "0194",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "82",
-				"FullAddress" : "Avenue Milcamps, 82, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.393724555,
-				"Latitude" : 50.84972965
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.379320857, 50.8594892, 4.379320857 ]
-			},
-			"properties" : {
-				"Index" : 44,
 				"CodeID" : "PM-0044",
 				"StreetFR" : "avenue paul deschanel",
 				"StreetNL" : "paul deschanellaan",
@@ -1529,62 +2963,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0044-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.379320857,
-				"Latitude" : 50.8594892
+				"Longitude" : 4.37932085688561,
+				"Latitude" : 50.859489210792,
+				"index" : 44,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.377456285, 50.85519735, 4.377456285 ]
+				"coordinates" : [ 4.3796714353, 50.8600642593 ]
 			},
 			"properties" : {
-				"Index" : 45,
-				"CodeID" : "PM-0045",
-				"StreetFR" : "avenue paul deschanel",
-				"StreetNL" : "paul deschanellaan",
-				"SaphirCode" : "3208",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "243",
-				"FullAddress" : "Avenue Paul Deschanel, 243, 1030 Schaerbeek",
-				"Sector" : "Coteaux-Josaphat",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.377456285,
-				"Latitude" : 50.85519735
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.379671435, 50.86006426, 4.379671435 ]
-			},
-			"properties" : {
-				"Index" : 46,
 				"CodeID" : "PM-0046",
 				"StreetFR" : "avenue paul deschanel",
 				"StreetNL" : "paul deschanellaan",
@@ -1599,27 +2998,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.379671435,
-				"Latitude" : 50.86006426
+				"Longitude" : 4.3796714353442,
+				"Latitude" : 50.8600642593365,
+				"index" : 46,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.379679482, 50.86006087, 4.379679482 ]
+				"coordinates" : [ 4.379679482, 50.8600608732 ]
 			},
 			"properties" : {
-				"Index" : 47,
 				"CodeID" : "PM-0047",
 				"StreetFR" : "avenue paul deschanel",
 				"StreetNL" : "paul deschanellaan",
@@ -1627,34 +3026,34 @@ var ListePavesMosaiques1030 = {
 				"Locality" : "Schaerbeek",
 				"PostalCode" : 1030,
 				"HouseNumber" : " 90/9",
-				"FullAddress" : "avenue Paul Deschanel,  90/9, 1030 Schaerbeek",
+				"FullAddress" : "Avenue Paul Deschanel,  90/9, 1030 Schaerbeek",
 				"Sector" : "Coteaux-Josaphat",
 				"Artist" : "Whitney Orville",
 				"PlacementDate" : null,
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.379679482,
-				"Latitude" : 50.86006087
+				"Longitude" : 4.3796794819706,
+				"Latitude" : 50.8600608732269,
+				"index" : 47,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.395658354, 50.85101172, 4.395658354 ]
+				"coordinates" : [ 4.3956583545, 50.8510117161 ]
 			},
 			"properties" : {
-				"Index" : 48,
 				"CodeID" : "PM-0048",
 				"StreetFR" : "avenue eugène plasky",
 				"StreetNL" : "eugène plaskylaan",
@@ -1669,27 +3068,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2022",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0048-01.png",
 				"LinkPicture02" : "DCIM//PM-0048-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.395658354,
-				"Latitude" : 50.85101172
+				"Longitude" : 4.39565835448448,
+				"Latitude" : 50.8510117160936,
+				"index" : 48,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.377767234, 50.87421966, 4.377767234 ]
+				"coordinates" : [ 4.3777672343, 50.8742196734 ]
 			},
 			"properties" : {
-				"Index" : 49,
 				"CodeID" : "PM-0049",
 				"StreetFR" : "avenue princesse elisabeth",
 				"StreetNL" : "prinses elisabethlaan",
@@ -1704,7 +3103,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -1713,18 +3111,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0049-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.377767234,
-				"Latitude" : 50.87421966
+				"Longitude" : 4.37776723427256,
+				"Latitude" : 50.8742196733562,
+				"index" : 49,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.377444231, 50.87454628, 4.377444231 ]
+				"coordinates" : [ 4.3774442314, 50.8745462951 ]
 			},
 			"properties" : {
-				"Index" : 50,
 				"CodeID" : "PM-0050",
 				"StreetFR" : "avenue princesse elisabeth",
 				"StreetNL" : "prinses elisabethlaan",
@@ -1739,62 +3138,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2022",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0050-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.377444231,
-				"Latitude" : 50.87454628
+				"Longitude" : 4.37744423142614,
+				"Latitude" : 50.874546295064,
+				"index" : 50,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.386952146, 50.85710259, 4.386952146 ]
+				"coordinates" : [ 4.3961766428, 50.8556263087 ]
 			},
 			"properties" : {
-				"Index" : 51,
-				"CodeID" : "PM-0051",
-				"StreetFR" : "avenue rogier",
-				"StreetNL" : "rogierlaan",
-				"SaphirCode" : "3233",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "275",
-				"FullAddress" : "Avenue Rogier, 275, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.386952146,
-				"Latitude" : 50.85710259
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.396176643, 50.8556263, 4.396176643 ]
-			},
-			"properties" : {
-				"Index" : 52,
 				"CodeID" : "PM-0052",
 				"StreetFR" : "avenue rogier",
 				"StreetNL" : "rogierlaan",
@@ -1809,27 +3173,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0052-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.396176643,
-				"Latitude" : 50.8556263
+				"Longitude" : 4.39617664279045,
+				"Latitude" : 50.8556263087047,
+				"index" : 52,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.396789114, 50.85508228, 4.396789114 ]
+				"coordinates" : [ 4.3967891142, 50.8550822961 ]
 			},
 			"properties" : {
-				"Index" : 53,
 				"CodeID" : "PM-0053",
 				"StreetFR" : "avenue rogier",
 				"StreetNL" : "rogierlaan",
@@ -1844,27 +3208,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0053-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.396789114,
-				"Latitude" : 50.85508228
+				"Longitude" : 4.39678911424765,
+				"Latitude" : 50.8550822960901,
+				"index" : 53,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.380303047, 50.87318726, 4.380303047 ]
+				"coordinates" : [ 4.3803030467, 50.8731873135 ]
 			},
 			"properties" : {
-				"Index" : 54,
 				"CodeID" : "PM-0054",
 				"StreetFR" : "avenue sleeckx",
 				"StreetNL" : "sleeckxlaan",
@@ -1879,27 +3243,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0054-01.png",
 				"LinkPicture02" : "DCIM//PM-0054-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.380303047,
-				"Latitude" : 50.87318726
+				"Longitude" : 4.38030304673525,
+				"Latitude" : 50.8731873135054,
+				"index" : 54,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.381267222, 50.87397508, 4.381267222 ]
+				"coordinates" : [ 4.3812672219, 50.8739750982 ]
 			},
 			"properties" : {
-				"Index" : 55,
 				"CodeID" : "PM-0055",
 				"StreetFR" : "avenue sleeckx",
 				"StreetNL" : "sleeckxlaan",
@@ -1914,27 +3278,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0055-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.381267222,
-				"Latitude" : 50.87397508
+				"Longitude" : 4.38126722185581,
+				"Latitude" : 50.8739750982129,
+				"index" : 55,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.380681985, 50.86645645, 4.380681985 ]
+				"coordinates" : [ 4.3806819849, 50.866456463 ]
 			},
 			"properties" : {
-				"Index" : 56,
 				"CodeID" : "PM-0056",
 				"StreetFR" : "avenue voltaire",
 				"StreetNL" : "voltairelaan",
@@ -1949,27 +3313,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0056-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.380681985,
-				"Latitude" : 50.86645645
+				"Longitude" : 4.38068198490682,
+				"Latitude" : 50.8664564630312,
+				"index" : 56,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.384210686, 50.8690308, 4.384210686 ]
+				"coordinates" : [ 4.3842106858, 50.8690308198 ]
 			},
 			"properties" : {
-				"Index" : 57,
 				"CodeID" : "PM-0057",
 				"StreetFR" : "boulevard lambermont",
 				"StreetNL" : "lambermontlaan",
@@ -1984,62 +3348,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0057-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.384210686,
-				"Latitude" : 50.8690308
+				"Longitude" : 4.38421068583207,
+				"Latitude" : 50.8690308197561,
+				"index" : 57,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.386613352, 50.86774654, 4.386613352 ]
+				"coordinates" : [ 4.3782614877, 50.8727648694 ]
 			},
 			"properties" : {
-				"Index" : 58,
-				"CodeID" : "PM-0058",
-				"StreetFR" : "boulevard lambermont",
-				"StreetNL" : "lambermontlaan",
-				"SaphirCode" : "1164",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "270",
-				"FullAddress" : "Boulevard Lambermont, 270, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2022",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.386613352,
-				"Latitude" : 50.86774654
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.378261488, 50.87276485, 4.378261488 ]
-			},
-			"properties" : {
-				"Index" : 59,
 				"CodeID" : "PM-0059",
 				"StreetFR" : "boulevard lambermont",
 				"StreetNL" : "lambermontlaan",
@@ -2054,27 +3383,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.378261488,
-				"Latitude" : 50.87276485
+				"Longitude" : 4.37826148772659,
+				"Latitude" : 50.8727648693692,
+				"index" : 59,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376693457, 50.87341642, 4.376693457 ]
+				"coordinates" : [ 4.3766934571, 50.8734164242 ]
 			},
 			"properties" : {
-				"Index" : 60,
 				"CodeID" : "PM-0060",
 				"StreetFR" : "boulevard lambermont",
 				"StreetNL" : "lambermontlaan",
@@ -2089,27 +3418,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0060-01.png",
 				"LinkPicture02" : "DCIM//PM-0060-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376693457,
-				"Latitude" : 50.87341642
+				"Longitude" : 4.37669345713996,
+				"Latitude" : 50.8734164241717,
+				"index" : 60,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.37560531, 50.86692653, 4.37560531 ]
+				"coordinates" : [ 4.3756053099, 50.8669265437 ]
 			},
 			"properties" : {
-				"Index" : 61,
 				"CodeID" : "PM-0061",
 				"StreetFR" : "chaussée de haecht",
 				"StreetNL" : "haachtsesteenweg",
@@ -2124,27 +3453,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0061-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37560531,
-				"Latitude" : 50.86692653
+				"Longitude" : 4.37560530989644,
+				"Latitude" : 50.8669265437203,
+				"index" : 61,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.377418842, 50.86760632, 4.377418842 ]
+				"coordinates" : [ 4.3774188418, 50.8676063405 ]
 			},
 			"properties" : {
-				"Index" : 62,
 				"CodeID" : "PM-0062",
 				"StreetFR" : "chaussée de haecht",
 				"StreetNL" : "haachtsesteenweg",
@@ -2159,27 +3488,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0062-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.377418842,
-				"Latitude" : 50.86760632
+				"Longitude" : 4.37741884178994,
+				"Latitude" : 50.8676063405034,
+				"index" : 62,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.386708221, 50.8522333, 4.386708221 ]
+				"coordinates" : [ 4.386708221, 50.8522333194 ]
 			},
 			"properties" : {
-				"Index" : 63,
 				"CodeID" : "PM-0063",
 				"StreetFR" : "chaussée de louvain",
 				"StreetNL" : "leuvensesteenweg",
@@ -2194,27 +3523,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.386708221,
-				"Latitude" : 50.8522333
+				"Longitude" : 4.38670822102765,
+				"Latitude" : 50.8522333194063,
+				"index" : 63,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.373283267, 50.86353589, 4.373283267 ]
+				"coordinates" : [ 4.373283267, 50.8635359052 ]
 			},
 			"properties" : {
-				"Index" : 64,
 				"CodeID" : "PM-0064",
 				"StreetFR" : "chaussée de haecht",
 				"StreetNL" : "haachtsesteenweg",
@@ -2229,62 +3558,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0064-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.373283267,
-				"Latitude" : 50.86353589
+				"Longitude" : 4.37328326700576,
+				"Latitude" : 50.8635359051811,
+				"index" : 64,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.370057753, 50.85775315, 4.370057753 ]
+				"coordinates" : [ 4.3842621004, 50.87172097 ]
 			},
 			"properties" : {
-				"Index" : 65,
-				"CodeID" : "PM-0065",
-				"StreetFR" : "chaussée de haecht",
-				"StreetNL" : "haachtsesteenweg",
-				"SaphirCode" : "1129",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "96",
-				"FullAddress" : "Chaussée de Haecht, 96, 1030 Schaerbeek",
-				"Sector" : "Coteaux-Josaphat",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.370057753,
-				"Latitude" : 50.85775315
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.384262129, 50.87172096, 4.384262129 ]
-			},
-			"properties" : {
-				"Index" : 66,
 				"CodeID" : "PM-0066",
 				"StreetFR" : "chaussée de helmet",
 				"StreetNL" : "helmetsesteenweg",
@@ -2299,132 +3593,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0066-01.png",
 				"LinkPicture02" : "DCIM//PM-0066-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.384262129,
-				"Latitude" : 50.87172096
+				"Longitude" : 4.38426210037707,
+				"Latitude" : 50.8717209699882,
+				"index" : 66,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387182599, 50.85455943, 4.387182599 ]
+				"coordinates" : [ 4.3739210095, 50.8667910515 ]
 			},
 			"properties" : {
-				"Index" : 67,
-				"CodeID" : "PM-0067",
-				"StreetFR" : "grande rue au bois",
-				"StreetNL" : "grote bosstraat",
-				"SaphirCode" : "8025",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "113",
-				"FullAddress" : "Grande Rue au bois, 113, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2018",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.387182599,
-				"Latitude" : 50.85455943
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.38919047, 50.85330371, 4.38919047 ]
-			},
-			"properties" : {
-				"Index" : 68,
-				"CodeID" : "PM-0068",
-				"StreetFR" : "grande rue au bois",
-				"StreetNL" : "grote bosstraat",
-				"SaphirCode" : "8025",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "163",
-				"FullAddress" : "Grande Rue au bois, 163, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.38919047,
-				"Latitude" : 50.85330371
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.374771941, 50.85926815, 4.374771941 ]
-			},
-			"properties" : {
-				"Index" : 69,
-				"CodeID" : "PM-0069",
-				"StreetFR" : "parc rasquinet",
-				"StreetNL" : "rasquinetpark",
-				"SaphirCode" : null,
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : null,
-				"FullAddress" : "Parc Rasquinet, 1030 Schaerbeek",
-				"Sector" : "Coteaux-Josaphat",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2023",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "50",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.374771941,
-				"Latitude" : 50.85926815
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.37392101, 50.86679104, 4.37392101 ]
-			},
-			"properties" : {
-				"Index" : 70,
 				"CodeID" : "PM-0070",
 				"StreetFR" : "place colignon",
 				"StreetNL" : "colignonplein",
@@ -2439,27 +3628,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0070-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37392101,
-				"Latitude" : 50.86679104
+				"Longitude" : 4.37392100954032,
+				"Latitude" : 50.8667910514737,
+				"index" : 70,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.374212286, 50.86718287, 4.374212286 ]
+				"coordinates" : [ 4.3742122715, 50.8671828873 ]
 			},
 			"properties" : {
-				"Index" : 71,
 				"CodeID" : "PM-0071",
 				"StreetFR" : "place colignon",
 				"StreetNL" : "colignonplein",
@@ -2474,27 +3663,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0071-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.374212286,
-				"Latitude" : 50.86718287
+				"Longitude" : 4.37421227153078,
+				"Latitude" : 50.8671828873396,
+				"index" : 71,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.374393292, 50.86749246, 4.374393292 ]
+				"coordinates" : [ 4.3743932915, 50.8674924748 ]
 			},
 			"properties" : {
-				"Index" : 72,
 				"CodeID" : "PM-0072",
 				"StreetFR" : "place colignon",
 				"StreetNL" : "colignonplein",
@@ -2509,27 +3698,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0072-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.374393292,
-				"Latitude" : 50.86749246
+				"Longitude" : 4.37439329151786,
+				"Latitude" : 50.8674924748387,
+				"index" : 72,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.389739269, 50.87309992, 4.389739269 ]
+				"coordinates" : [ 4.389739269, 50.8730999318 ]
 			},
 			"properties" : {
-				"Index" : 73,
 				"CodeID" : "PM-0073",
 				"StreetFR" : "place de helmet",
 				"StreetNL" : "helmetseplein",
@@ -2544,27 +3733,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0073-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.389739269,
-				"Latitude" : 50.87309992
+				"Longitude" : 4.38973926900575,
+				"Latitude" : 50.8730999317822,
+				"index" : 73,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375320014, 50.86663575, 4.375320014 ]
+				"coordinates" : [ 4.375320014, 50.8666357536 ]
 			},
 			"properties" : {
-				"Index" : 74,
 				"CodeID" : "PM-0074",
 				"StreetFR" : "place pogge",
 				"StreetNL" : "poggeplein",
@@ -2579,62 +3768,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0074-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375320014,
-				"Latitude" : 50.86663575
+				"Longitude" : 4.3753200140022,
+				"Latitude" : 50.8666357535936,
+				"index" : 74,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.382578153, 50.85641643, 4.382578153 ]
+				"coordinates" : [ 4.3803951187, 50.854835164 ]
 			},
 			"properties" : {
-				"Index" : 75,
-				"CodeID" : "PM-0075",
-				"StreetFR" : "rue albert de latour",
-				"StreetNL" : "albert de latourstraat",
-				"SaphirCode" : "8008",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "88",
-				"FullAddress" : "Rue Albert de Latour, 88, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2023",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.382578153,
-				"Latitude" : 50.85641643
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.380395119, 50.85483515, 4.380395119 ]
-			},
-			"properties" : {
-				"Index" : 76,
 				"CodeID" : "PM-0076",
 				"StreetFR" : "rue albert de latour",
 				"StreetNL" : "albert de latourstraat",
@@ -2649,62 +3803,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.380395119,
-				"Latitude" : 50.85483515
+				"Longitude" : 4.38039511874343,
+				"Latitude" : 50.8548351639551,
+				"index" : 76,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38625135, 50.8569827, 4.38625135 ]
+				"coordinates" : [ 4.3829386165, 50.8555047845 ]
 			},
 			"properties" : {
-				"Index" : 77,
-				"CodeID" : "PM-0077",
-				"StreetFR" : "rue alexandre markelbach",
-				"StreetNL" : "alexandre markelbachstraat",
-				"SaphirCode" : "8183",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "144",
-				"FullAddress" : "Rue Alexandre Markelbach, 144, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.38625135,
-				"Latitude" : 50.8569827
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.382938602, 50.85550476, 4.382938602 ]
-			},
-			"properties" : {
-				"Index" : 78,
 				"CodeID" : "PM-0078",
 				"StreetFR" : "rue alexandre markelbach",
 				"StreetNL" : "alexandre markelbachstraat",
@@ -2719,27 +3838,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2020",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.382938602,
-				"Latitude" : 50.85550476
+				"Longitude" : 4.38293861652376,
+				"Latitude" : 50.8555047845388,
+				"index" : 78,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.379843164, 50.85340623, 4.379843164 ]
+				"coordinates" : [ 4.3798431635, 50.8534062503 ]
 			},
 			"properties" : {
-				"Index" : 79,
 				"CodeID" : "PM-0079",
 				"StreetFR" : "rue andré van hasselt",
 				"StreetNL" : "andré van hasseltstraat",
@@ -2754,27 +3873,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0079-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.379843164,
-				"Latitude" : 50.85340623
+				"Longitude" : 4.37984316354175,
+				"Latitude" : 50.8534062502772,
+				"index" : 79,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.379934919, 50.85340614, 4.379934919 ]
+				"coordinates" : [ 4.3799349043, 50.8534061512 ]
 			},
 			"properties" : {
-				"Index" : 80,
 				"CodeID" : "PM-0080",
 				"StreetFR" : "rue andré van hasselt",
 				"StreetNL" : "andré van hasseltstraat",
@@ -2789,27 +3908,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0080-01.png",
 				"LinkPicture02" : "DCIM//PM-0080-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.379934919,
-				"Latitude" : 50.85340614
+				"Longitude" : 4.37993490433501,
+				"Latitude" : 50.8534061511519,
+				"index" : 80,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.380347981, 50.85345446, 4.380347981 ]
+				"coordinates" : [ 4.3803479815, 50.8534544622 ]
 			},
 			"properties" : {
-				"Index" : 81,
 				"CodeID" : "PM-0081",
 				"StreetFR" : "rue andré van hasselt",
 				"StreetNL" : "andré van hasseltstraat",
@@ -2824,132 +3943,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.380347981,
-				"Latitude" : 50.85345446
+				"Longitude" : 4.38034798147349,
+				"Latitude" : 50.8534544622476,
+				"index" : 81,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387499959, 50.86712992, 4.387499959 ]
+				"coordinates" : [ 4.3850093705, 50.878706021 ]
 			},
 			"properties" : {
-				"Index" : 82,
-				"CodeID" : "PM-0082",
-				"StreetFR" : "rue armand de roo",
-				"StreetNL" : "armand de roostraat",
-				"SaphirCode" : "6015",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "2",
-				"FullAddress" : "Rue Armand de Roo, 2, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2018",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.387499959,
-				"Latitude" : 50.86712992
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.383788595, 50.85683122, 4.383788595 ]
-			},
-			"properties" : {
-				"Index" : 83,
-				"CodeID" : "PM-0083",
-				"StreetFR" : "rue artan",
-				"StreetNL" : "artanstraat",
-				"SaphirCode" : "8016",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "31",
-				"FullAddress" : "Rue Artan, 31, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.383788595,
-				"Latitude" : 50.85683122
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.383419117, 50.85482069, 4.383419117 ]
-			},
-			"properties" : {
-				"Index" : 84,
-				"CodeID" : "PM-0084",
-				"StreetFR" : "rue artan",
-				"StreetNL" : "artanstraat",
-				"SaphirCode" : "8016",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "79",
-				"FullAddress" : "Rue Artan, 79, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2023",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.383419117,
-				"Latitude" : 50.85482069
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.38500937, 50.87870601, 4.38500937 ]
-			},
-			"properties" : {
-				"Index" : 85,
 				"CodeID" : "PM-0085",
 				"StreetFR" : "rue auguste snieders",
 				"StreetNL" : "auguste sniedersstraat",
@@ -2964,27 +3978,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0085-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.38500937,
-				"Latitude" : 50.87870601
+				"Longitude" : 4.38500937046637,
+				"Latitude" : 50.8787060210149,
+				"index" : 85,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38518517, 50.87880082, 4.38518517 ]
+				"coordinates" : [ 4.3851851705, 50.8788008341 ]
 			},
 			"properties" : {
-				"Index" : 86,
 				"CodeID" : "PM-0086",
 				"StreetFR" : "rue auguste snieders",
 				"StreetNL" : "auguste sniedersstraat",
@@ -2999,27 +4013,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0086-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.38518517,
-				"Latitude" : 50.87880082
+				"Longitude" : 4.38518517047567,
+				"Latitude" : 50.8788008340573,
+				"index" : 86,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.385429899, 50.87893275, 4.385429899 ]
+				"coordinates" : [ 4.3854298989, 50.878932763 ]
 			},
 			"properties" : {
-				"Index" : 87,
 				"CodeID" : "PM-0087",
 				"StreetFR" : "rue auguste snieders",
 				"StreetNL" : "auguste sniedersstraat",
@@ -3034,27 +4048,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0087-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.385429899,
-				"Latitude" : 50.87893275
+				"Longitude" : 4.38542989889219,
+				"Latitude" : 50.8789327630268,
+				"index" : 87,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387833071, 50.85663212, 4.387833071 ]
+				"coordinates" : [ 4.3878330707, 50.8566321361 ]
 			},
 			"properties" : {
-				"Index" : 88,
 				"CodeID" : "PM-0088",
 				"StreetFR" : "rue auguste lambiotte",
 				"StreetNL" : "auguste lambiottestraat",
@@ -3069,62 +4083,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.387833071,
-				"Latitude" : 50.85663212
+				"Longitude" : 4.38783307073528,
+				"Latitude" : 50.8566321360579,
+				"index" : 88,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.385429899, 50.87893275, 4.385429899 ]
+				"coordinates" : [ 4.3897941219, 50.8781394026 ]
 			},
 			"properties" : {
-				"Index" : 89,
-				"CodeID" : "PM-0089",
-				"StreetFR" : "rue auguste snieders",
-				"StreetNL" : "auguste sniedersstraat",
-				"SaphirCode" : "5019",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "46",
-				"FullAddress" : "Rue Auguste Snieders, 46, 1030 Schaerbeek",
-				"Sector" : "Helmet-Hamoir",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.385429899,
-				"Latitude" : 50.87893275
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.389794122, 50.87813939, 4.389794122 ]
-			},
-			"properties" : {
-				"Index" : 90,
 				"CodeID" : "PM-0090",
 				"StreetFR" : "rue chaumontel",
 				"StreetNL" : "chaumontelstraat",
@@ -3139,27 +4118,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0090-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.389794122,
-				"Latitude" : 50.87813939
+				"Longitude" : 4.38979412190032,
+				"Latitude" : 50.8781394026189,
+				"index" : 90,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.389794122, 50.87813939, 4.389794122 ]
+				"coordinates" : [ 4.3897941219, 50.8781394026 ]
 			},
 			"properties" : {
-				"Index" : 91,
 				"CodeID" : "PM-0091",
 				"StreetFR" : "rue chaumontel",
 				"StreetNL" : "chaumontelstraat",
@@ -3174,62 +4153,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2018",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0091-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.389794122,
-				"Latitude" : 50.87813939
+				"Longitude" : 4.38979412190032,
+				"Latitude" : 50.8781394026189,
+				"index" : 91,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.383852751, 50.87741753, 4.383852751 ]
+				"coordinates" : [ 4.3741362954, 50.8620685664 ]
 			},
 			"properties" : {
-				"Index" : 92,
-				"CodeID" : "PM-0092",
-				"StreetFR" : "avenue colonel picquart",
-				"StreetNL" : "kolonel picquartlaan",
-				"SaphirCode" : "5051",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "73",
-				"FullAddress" : "Avenue Colonel Picquart, 73, 1030 Schaerbeek",
-				"Sector" : "Helmet-Hamoir",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.383852751,
-				"Latitude" : 50.87741753
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.374136295, 50.86206855, 4.374136295 ]
-			},
-			"properties" : {
-				"Index" : 93,
 				"CodeID" : "PM-0093",
 				"StreetFR" : "rue de l'est",
 				"StreetNL" : "ooststraat",
@@ -3244,97 +4188,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0093-01.png",
 				"LinkPicture02" : "DCIM//PM-0093-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.374136295,
-				"Latitude" : 50.86206855
+				"Longitude" : 4.37413629538215,
+				"Latitude" : 50.8620685663893,
+				"index" : 93,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376971604, 50.85610405, 4.376971604 ]
+				"coordinates" : [ 4.3638088378, 50.8601681967 ]
 			},
 			"properties" : {
-				"Index" : 94,
-				"CodeID" : "PM-0094",
-				"StreetFR" : "rue de la consolation",
-				"StreetNL" : "trooststraat",
-				"SaphirCode" : "3054",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "37",
-				"FullAddress" : "Rue de La Consolation, 37, 1030 Schaerbeek",
-				"Sector" : "Coteaux-Josaphat",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2018",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.376971604,
-				"Latitude" : 50.85610405
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.364603586, 50.86002115, 4.364603586 ]
-			},
-			"properties" : {
-				"Index" : 95,
-				"CodeID" : "PM-0095",
-				"StreetFR" : "rue de la fraternité",
-				"StreetNL" : "broederschapstraat",
-				"SaphirCode" : "2104",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "17",
-				"FullAddress" : "Rue de la Fraternité, 17, 1030 Schaerbeek",
-				"Sector" : "Palais-Reine",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.364603586,
-				"Latitude" : 50.86002115
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.363808838, 50.86016818, 4.363808838 ]
-			},
-			"properties" : {
-				"Index" : 96,
 				"CodeID" : "PM-0096",
 				"StreetFR" : "rue de la fraternité",
 				"StreetNL" : "broederschapstraat",
@@ -3349,7 +4223,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2022",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -3358,18 +4231,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0096-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.363808838,
-				"Latitude" : 50.86016818
+				"Longitude" : 4.3638088378004,
+				"Latitude" : 50.8601681967114,
+				"index" : 96,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.364229726, 50.8603961, 4.364229726 ]
+				"coordinates" : [ 4.3642297256, 50.8603961041 ]
 			},
 			"properties" : {
-				"Index" : 97,
 				"CodeID" : "PM-0097",
 				"StreetFR" : "rue de la fraternité",
 				"StreetNL" : "broederschapstraat",
@@ -3384,27 +4258,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.364229726,
-				"Latitude" : 50.8603961
+				"Longitude" : 4.3642297256499,
+				"Latitude" : 50.8603961040541,
+				"index" : 97,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.374061244, 50.86242628, 4.374061244 ]
+				"coordinates" : [ 4.3740612302, 50.8624262974 ]
 			},
 			"properties" : {
-				"Index" : 98,
 				"CodeID" : "PM-0098",
 				"StreetFR" : "rue de la ruche",
 				"StreetNL" : "bijenkorfstraat",
@@ -3419,7 +4293,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -3428,18 +4301,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0098-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.374061244,
-				"Latitude" : 50.86242628
+				"Longitude" : 4.37406123020037,
+				"Latitude" : 50.8624262974217,
+				"index" : 98,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.374600793, 50.86308841, 4.374600793 ]
+				"coordinates" : [ 4.3746007934, 50.8630884244 ]
 			},
 			"properties" : {
-				"Index" : 99,
 				"CodeID" : "PM-0099",
 				"StreetFR" : "rue de la ruche",
 				"StreetNL" : "bijenkorfstraat",
@@ -3454,7 +4328,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -3463,18 +4336,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0099-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.374600793,
-				"Latitude" : 50.86308841
+				"Longitude" : 4.37460079335114,
+				"Latitude" : 50.863088424383,
+				"index" : 99,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.373601865, 50.86225971, 4.373601865 ]
+				"coordinates" : [ 4.3736018646, 50.862259727 ]
 			},
 			"properties" : {
-				"Index" : 100,
 				"CodeID" : "PM-0100",
 				"StreetFR" : "rue de la ruche",
 				"StreetNL" : "bijenkorfstraat",
@@ -3489,62 +4363,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0100-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.373601865,
-				"Latitude" : 50.86225971
+				"Longitude" : 4.37360186455843,
+				"Latitude" : 50.8622597269593,
+				"index" : 100,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.374136295, 50.86206855, 4.374136295 ]
+				"coordinates" : [ 4.3738766237, 50.8621135359 ]
 			},
 			"properties" : {
-				"Index" : 101,
-				"CodeID" : "PM-0101",
-				"StreetFR" : "rue de l'est",
-				"StreetNL" : "ooststraat",
-				"SaphirCode" : "3086",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "26",
-				"FullAddress" : "Rue de l'Est, 26, 1030 Schaerbeek",
-				"Sector" : "Coteaux-Josaphat",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.374136295,
-				"Latitude" : 50.86206855
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.373876695, 50.86211355, 4.373876695 ]
-			},
-			"properties" : {
-				"Index" : 102,
 				"CodeID" : "PM-0102",
 				"StreetFR" : "rue de l'est",
 				"StreetNL" : "ooststraat",
@@ -3559,7 +4398,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -3568,18 +4406,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0102-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.373876695,
-				"Latitude" : 50.86211355
+				"Longitude" : 4.37387662371052,
+				"Latitude" : 50.8621135358595,
+				"index" : 102,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.373503407, 50.86193639, 4.373503407 ]
+				"coordinates" : [ 4.3735034075, 50.8619364071 ]
 			},
 			"properties" : {
-				"Index" : 103,
 				"CodeID" : "PM-0103",
 				"StreetFR" : "rue de l'est",
 				"StreetNL" : "ooststraat",
@@ -3594,27 +4433,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0103-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.373503407,
-				"Latitude" : 50.86193639
+				"Longitude" : 4.37350340749561,
+				"Latitude" : 50.8619364070691,
+				"index" : 103,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.399403855, 50.84434074, 4.399403855 ]
+				"coordinates" : [ 4.3994038548, 50.8443407363 ]
 			},
 			"properties" : {
-				"Index" : 104,
 				"CodeID" : "PM-0104",
 				"StreetFR" : "rue de linthout",
 				"StreetNL" : "linthoutstraat",
@@ -3629,27 +4468,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0104-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.399403855,
-				"Latitude" : 50.84434074
+				"Longitude" : 4.3994038547502,
+				"Latitude" : 50.8443407363167,
+				"index" : 104,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.371964103, 50.86372183, 4.371964103 ]
+				"coordinates" : [ 4.3719641031, 50.8637218495 ]
 			},
 			"properties" : {
-				"Index" : 105,
 				"CodeID" : "PM-0105",
 				"StreetFR" : "rue de locht",
 				"StreetNL" : "de lochtstraat",
@@ -3664,27 +4503,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0105-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.371964103,
-				"Latitude" : 50.86372183
+				"Longitude" : 4.37196410307907,
+				"Latitude" : 50.8637218494797,
+				"index" : 105,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.372135307, 50.86368808, 4.372135307 ]
+				"coordinates" : [ 4.3721353068, 50.8636880972 ]
 			},
 			"properties" : {
-				"Index" : 106,
 				"CodeID" : "PM-0106",
 				"StreetFR" : "rue de locht",
 				"StreetNL" : "de lochtstraat",
@@ -3699,27 +4538,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2020",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0106-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.372135307,
-				"Latitude" : 50.86368808
+				"Longitude" : 4.37213530679803,
+				"Latitude" : 50.8636880972204,
+				"index" : 106,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376853614, 50.86776258, 4.376853614 ]
+				"coordinates" : [ 4.3768536137, 50.867762594 ]
 			},
 			"properties" : {
-				"Index" : 107,
 				"CodeID" : "PM-0107",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -3734,27 +4573,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0107-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376853614,
-				"Latitude" : 50.86776258
+				"Longitude" : 4.37685361365278,
+				"Latitude" : 50.8677625939703,
+				"index" : 107,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376440925, 50.86768695, 4.376440925 ]
+				"coordinates" : [ 4.3764409245, 50.8676869688 ]
 			},
 			"properties" : {
-				"Index" : 108,
 				"CodeID" : "PM-0108",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -3769,27 +4608,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0108-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376440925,
-				"Latitude" : 50.86768695
+				"Longitude" : 4.37644092450445,
+				"Latitude" : 50.8676869687698,
+				"index" : 108,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.37664923, 50.8678821, 4.37664923 ]
+				"coordinates" : [ 4.3766492153, 50.867882106 ]
 			},
 			"properties" : {
-				"Index" : 109,
 				"CodeID" : "PM-0109",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -3804,27 +4643,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0109-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37664923,
-				"Latitude" : 50.8678821
+				"Longitude" : 4.37664921534985,
+				"Latitude" : 50.8678821059725,
+				"index" : 109,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375971699, 50.86795341, 4.375971699 ]
+				"coordinates" : [ 4.3759716987, 50.8679534219 ]
 			},
 			"properties" : {
-				"Index" : 110,
 				"CodeID" : "PM-0110",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -3839,27 +4678,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0110-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375971699,
-				"Latitude" : 50.86795341
+				"Longitude" : 4.37597169874543,
+				"Latitude" : 50.8679534219031,
+				"index" : 110,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376774531, 50.86750414, 4.376774531 ]
+				"coordinates" : [ 4.3767745309, 50.8675041584 ]
 			},
 			"properties" : {
-				"Index" : 111,
 				"CodeID" : "PM-0111",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -3874,27 +4713,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0111-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376774531,
-				"Latitude" : 50.86750414
+				"Longitude" : 4.37677453087239,
+				"Latitude" : 50.8675041584356,
+				"index" : 111,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376345238, 50.86802854, 4.376345238 ]
+				"coordinates" : [ 4.3763452383, 50.8680285571 ]
 			},
 			"properties" : {
-				"Index" : 112,
 				"CodeID" : "PM-0112",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -3909,27 +4748,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0112-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376345238,
-				"Latitude" : 50.86802854
+				"Longitude" : 4.37634523825008,
+				"Latitude" : 50.8680285570898,
+				"index" : 112,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.37627565, 50.86805975, 4.37627565 ]
+				"coordinates" : [ 4.3762756496, 50.8680597644 ]
 			},
 			"properties" : {
-				"Index" : 113,
 				"CodeID" : "PM-0113",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -3944,27 +4783,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0113-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37627565,
-				"Latitude" : 50.86805975
+				"Longitude" : 4.3762756495508,
+				"Latitude" : 50.8680597643851,
+				"index" : 113,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.37603942, 50.86813245, 4.37603942 ]
+				"coordinates" : [ 4.3760394195, 50.8681324694 ]
 			},
 			"properties" : {
-				"Index" : 114,
 				"CodeID" : "PM-0114",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -3979,27 +4818,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0114-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37603942,
-				"Latitude" : 50.86813245
+				"Longitude" : 4.37603941950388,
+				"Latitude" : 50.8681324694115,
+				"index" : 114,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376434512, 50.86759229, 4.376434512 ]
+				"coordinates" : [ 4.3764345122, 50.8675922944 ]
 			},
 			"properties" : {
-				"Index" : 115,
 				"CodeID" : "PM-0115",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -4014,27 +4853,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0115-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376434512,
-				"Latitude" : 50.86759229
+				"Longitude" : 4.37643451215594,
+				"Latitude" : 50.8675922943823,
+				"index" : 115,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.37672724, 50.86753034, 4.37672724 ]
+				"coordinates" : [ 4.3767272396, 50.8675303426 ]
 			},
 			"properties" : {
-				"Index" : 116,
 				"CodeID" : "PM-0116",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -4049,27 +4888,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0116-01.png",
 				"LinkPicture02" : "DCIM//PM-0116-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37672724,
-				"Latitude" : 50.86753034
+				"Longitude" : 4.37672723961845,
+				"Latitude" : 50.8675303426211,
+				"index" : 116,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.37707818, 50.86762999, 4.37707818 ]
+				"coordinates" : [ 4.3770781805, 50.8676300094 ]
 			},
 			"properties" : {
-				"Index" : 117,
 				"CodeID" : "PM-0117",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -4084,27 +4923,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0117-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37707818,
-				"Latitude" : 50.86762999
+				"Longitude" : 4.37707818046292,
+				"Latitude" : 50.8676300093866,
+				"index" : 117,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376664285, 50.86755542, 4.376664285 ]
+				"coordinates" : [ 4.3766642848, 50.8675554368 ]
 			},
 			"properties" : {
-				"Index" : 118,
 				"CodeID" : "PM-0118",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -4119,27 +4958,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0118-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376664285,
-				"Latitude" : 50.86755542
+				"Longitude" : 4.37666428483018,
+				"Latitude" : 50.8675554368284,
+				"index" : 118,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.377003524, 50.86767455, 4.377003524 ]
+				"coordinates" : [ 4.3770035239, 50.8676745669 ]
 			},
 			"properties" : {
-				"Index" : 119,
 				"CodeID" : "PM-0119",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -4154,27 +4993,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0119-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.377003524,
-				"Latitude" : 50.86767455
+				"Longitude" : 4.37700352394864,
+				"Latitude" : 50.867674566856,
+				"index" : 119,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376568322, 50.86761195, 4.376568322 ]
+				"coordinates" : [ 4.3765683217, 50.8676119606 ]
 			},
 			"properties" : {
-				"Index" : 120,
 				"CodeID" : "PM-0120",
 				"StreetFR" : "rue des ailes",
 				"StreetNL" : "vleugelsstraat",
@@ -4189,97 +5028,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0120-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376568322,
-				"Latitude" : 50.86761195
+				"Longitude" : 4.37656832171958,
+				"Latitude" : 50.8676119605511,
+				"index" : 120,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387412588, 50.86538373, 4.387412588 ]
+				"coordinates" : [ 4.3821994256, 50.8610394529 ]
 			},
 			"properties" : {
-				"Index" : 121,
-				"CodeID" : "PM-0121",
-				"StreetFR" : "rue des mimosas",
-				"StreetNL" : "mimosasstraat",
-				"SaphirCode" : "6195",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "18",
-				"FullAddress" : "Rue des Mimosas, 18, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.387412588,
-				"Latitude" : 50.86538373
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.390082309, 50.86303322, 4.390082309 ]
-			},
-			"properties" : {
-				"Index" : 122,
-				"CodeID" : "PM-0122",
-				"StreetFR" : "rue des mimosas",
-				"StreetNL" : "mimosasstraat",
-				"SaphirCode" : "6195",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "70",
-				"FullAddress" : "Rue des mimosas, 70, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "3",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.390082309,
-				"Latitude" : 50.86303322
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.382176872, 50.86093298, 4.382176872 ]
-			},
-			"properties" : {
-				"Index" : 123,
 				"CodeID" : "PM-0123",
 				"StreetFR" : "rue des pâquerettes",
 				"StreetNL" : "madeliefjesstraat",
@@ -4294,27 +5063,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0123-01.png",
 				"LinkPicture02" : "DCIM//PM-0123-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.382176872,
-				"Latitude" : 50.86093298
+				"Longitude" : 4.38219942564992,
+				"Latitude" : 50.8610394529434,
+				"index" : 123,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.382157276, 50.86004903, 4.382157276 ]
+				"coordinates" : [ 4.3821572764, 50.8600490485 ]
 			},
 			"properties" : {
-				"Index" : 124,
 				"CodeID" : "PM-0124",
 				"StreetFR" : "rue des pâquerettes",
 				"StreetNL" : "madeliefjesstraat",
@@ -4329,27 +5098,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0124-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.382157276,
-				"Latitude" : 50.86004903
+				"Longitude" : 4.38215727636465,
+				"Latitude" : 50.8600490484998,
+				"index" : 124,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.381664501, 50.85984063, 4.381664501 ]
+				"coordinates" : [ 4.3816645012, 50.8598406495 ]
 			},
 			"properties" : {
-				"Index" : 125,
 				"CodeID" : "PM-0125",
 				"StreetFR" : "rue des pâquerettes",
 				"StreetNL" : "madeliefjesstraat",
@@ -4364,27 +5133,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0125-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.381664501,
-				"Latitude" : 50.85984063
+				"Longitude" : 4.38166450116255,
+				"Latitude" : 50.8598406494809,
+				"index" : 125,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38189739, 50.86031289, 4.38189739 ]
+				"coordinates" : [ 4.3818973896, 50.8603129027 ]
 			},
 			"properties" : {
-				"Index" : 126,
 				"CodeID" : "PM-0126",
 				"StreetFR" : "rue des pâquerettes",
 				"StreetNL" : "madeliefjesstraat",
@@ -4399,7 +5168,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -4408,18 +5176,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0126-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.38189739,
-				"Latitude" : 50.86031289
+				"Longitude" : 4.38189738957661,
+				"Latitude" : 50.8603129026637,
+				"index" : 126,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.382583259, 50.86104493, 4.382583259 ]
+				"coordinates" : [ 4.3825832586, 50.8610449501 ]
 			},
 			"properties" : {
-				"Index" : 127,
 				"CodeID" : "PM-0127",
 				"StreetFR" : "rue des pâquerettes",
 				"StreetNL" : "madeliefjesstraat",
@@ -4434,27 +5203,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0127-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.382583259,
-				"Latitude" : 50.86104493
+				"Longitude" : 4.38258325864092,
+				"Latitude" : 50.8610449501038,
+				"index" : 127,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.382668941, 50.86110955, 4.382668941 ]
+				"coordinates" : [ 4.382668941, 50.8611095648 ]
 			},
 			"properties" : {
-				"Index" : 128,
 				"CodeID" : "PM-0128",
 				"StreetFR" : "rue des pâquerettes",
 				"StreetNL" : "madeliefjesstraat",
@@ -4469,27 +5238,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0128-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.382668941,
-				"Latitude" : 50.86110955
+				"Longitude" : 4.38266894104571,
+				"Latitude" : 50.8611095648468,
+				"index" : 128,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.382156248, 50.86088461, 4.382156248 ]
+				"coordinates" : [ 4.3822331987, 50.8609930809 ]
 			},
 			"properties" : {
-				"Index" : 129,
 				"CodeID" : "PM-0129",
 				"StreetFR" : "rue des pâquerettes",
 				"StreetNL" : "madeliefjesstraat",
@@ -4504,27 +5273,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0129-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.382156248,
-				"Latitude" : 50.86088461
+				"Longitude" : 4.38223319866111,
+				"Latitude" : 50.8609930809464,
+				"index" : 129,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.396199856, 50.86620439, 4.396199856 ]
+				"coordinates" : [ 4.3961998564, 50.8662044034 ]
 			},
 			"properties" : {
-				"Index" : 130,
 				"CodeID" : "PM-0130",
 				"StreetFR" : "rue désiré desmet",
 				"StreetNL" : "désiré desmetstraat",
@@ -4539,27 +5308,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2018",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0130-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.396199856,
-				"Latitude" : 50.86620439
+				"Longitude" : 4.3961998563808,
+				"Latitude" : 50.8662044033521,
+				"index" : 130,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.396967863, 50.86678276, 4.396967863 ]
+				"coordinates" : [ 4.3969678627, 50.8667827788 ]
 			},
 			"properties" : {
-				"Index" : 131,
 				"CodeID" : "PM-0131",
 				"StreetFR" : "rue désiré desmet",
 				"StreetNL" : "désiré desmetstraat",
@@ -4574,27 +5343,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2018",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0131-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.396967863,
-				"Latitude" : 50.86678276
+				"Longitude" : 4.39696786271264,
+				"Latitude" : 50.8667827788101,
+				"index" : 131,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.396358853, 50.86676673, 4.396358853 ]
+				"coordinates" : [ 4.396358853, 50.8667667461 ]
 			},
 			"properties" : {
-				"Index" : 132,
 				"CodeID" : "PM-0132",
 				"StreetFR" : "rue désiré desmet",
 				"StreetNL" : "désiré desmetstraat",
@@ -4609,27 +5378,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2018",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0132-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.396358853,
-				"Latitude" : 50.86676673
+				"Longitude" : 4.39635885298744,
+				"Latitude" : 50.8667667460964,
+				"index" : 132,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.396573648, 50.86699285, 4.396573648 ]
+				"coordinates" : [ 4.3965736479, 50.8669928691 ]
 			},
 			"properties" : {
-				"Index" : 133,
 				"CodeID" : "PM-0133",
 				"StreetFR" : "rue désiré desmet",
 				"StreetNL" : "désiré desmetstraat",
@@ -4644,62 +5413,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2018",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0133-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.396573648,
-				"Latitude" : 50.86699285
+				"Longitude" : 4.39657364793428,
+				"Latitude" : 50.8669928690658,
+				"index" : 133,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.394455189, 50.86573195, 4.394455189 ]
+				"coordinates" : [ 4.3864620669, 50.8717559747 ]
 			},
 			"properties" : {
-				"Index" : 134,
-				"CodeID" : "PM-0134",
-				"StreetFR" : "rue désiré desmet",
-				"StreetNL" : "désiré desmetstraat",
-				"SaphirCode" : "6293",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "13",
-				"FullAddress" : "Rue Désiré Desmet, 13, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.394455189,
-				"Latitude" : 50.86573195
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.386462067, 50.87175596, 4.386462067 ]
-			},
-			"properties" : {
-				"Index" : 135,
 				"CodeID" : "PM-0135",
 				"StreetFR" : "rue docteur elie lambotte",
 				"StreetNL" : "dokter elie lambottestraat",
@@ -4714,27 +5448,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0135-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.386462067,
-				"Latitude" : 50.87175596
+				"Longitude" : 4.38646206692185,
+				"Latitude" : 50.8717559746648,
+				"index" : 135,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.393247985, 50.87321657, 4.393247985 ]
+				"coordinates" : [ 4.3932479851, 50.8732165892 ]
 			},
 			"properties" : {
-				"Index" : 136,
 				"CodeID" : "PM-0136",
 				"StreetFR" : "rue du corbeau",
 				"StreetNL" : "raafstraat",
@@ -4749,27 +5483,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0136-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.393247985,
-				"Latitude" : 50.87321657
+				"Longitude" : 4.3932479850615,
+				"Latitude" : 50.8732165891765,
+				"index" : 136,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.393308067, 50.87318761, 4.393308067 ]
+				"coordinates" : [ 4.3933080666, 50.8731876303 ]
 			},
 			"properties" : {
-				"Index" : 137,
 				"CodeID" : "PM-0137",
 				"StreetFR" : "rue du corbeau",
 				"StreetNL" : "raafstraat",
@@ -4784,62 +5518,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0137-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.393308067,
-				"Latitude" : 50.87318761
+				"Longitude" : 4.39330806662219,
+				"Latitude" : 50.8731876302566,
+				"index" : 137,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.39602205, 50.84407922, 4.39602205 ]
+				"coordinates" : [ 4.3939918833, 50.8737213361 ]
 			},
 			"properties" : {
-				"Index" : 138,
-				"CodeID" : "PM-0138",
-				"StreetFR" : "rue du noyer",
-				"StreetNL" : "notelaarstraat",
-				"SaphirCode" : "0201",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "336",
-				"FullAddress" : "Rue du noyer, 336, 1030 Schaerbeek",
-				"Sector" : "Linthout",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2023",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.39602205,
-				"Latitude" : 50.84407922
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.393991883, 50.87372134, 4.393991883 ]
-			},
-			"properties" : {
-				"Index" : 139,
 				"CodeID" : "PM-0139",
 				"StreetFR" : "rue du tilleul",
 				"StreetNL" : "lindestraat",
@@ -4854,27 +5553,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0139-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.393991883,
-				"Latitude" : 50.87372134
+				"Longitude" : 4.39399188332112,
+				"Latitude" : 50.8737213360699,
+				"index" : 139,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.393442888, 50.87378215, 4.393442888 ]
+				"coordinates" : [ 4.3934428742, 50.8737821543 ]
 			},
 			"properties" : {
-				"Index" : 140,
 				"CodeID" : "PM-0140",
 				"StreetFR" : "rue du tilleul",
 				"StreetNL" : "lindestraat",
@@ -4889,27 +5588,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0140-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.393442888,
-				"Latitude" : 50.87378215
+				"Longitude" : 4.39344287421815,
+				"Latitude" : 50.8737821542574,
+				"index" : 140,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.392897426, 50.87481829, 4.392897426 ]
+				"coordinates" : [ 4.3928974262, 50.8748183044 ]
 			},
 			"properties" : {
-				"Index" : 141,
 				"CodeID" : "PM-0141",
 				"StreetFR" : "rue du tilleul",
 				"StreetNL" : "lindestraat",
@@ -4924,62 +5623,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0141-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.392897426,
-				"Latitude" : 50.87481829
+				"Longitude" : 4.39289742622887,
+				"Latitude" : 50.8748183043945,
+				"index" : 141,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.366684311, 50.85895288, 4.366684311 ]
+				"coordinates" : [ 4.3972363485, 50.8555452346 ]
 			},
 			"properties" : {
-				"Index" : 142,
-				"CodeID" : "PM-0142",
-				"StreetFR" : "rue dupont",
-				"StreetNL" : "dupontstraat",
-				"SaphirCode" : "2071",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "82",
-				"FullAddress" : "Rue Dupont, 82, 1030 Schaerbeek",
-				"Sector" : "Palais-Reine",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "2",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.366684311,
-				"Latitude" : 50.85895288
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.397236348, 50.85554522, 4.397236348 ]
-			},
-			"properties" : {
-				"Index" : 143,
 				"CodeID" : "PM-0143",
 				"StreetFR" : "avenue ernest cambier",
 				"StreetNL" : "ernest cambierlaan",
@@ -4994,27 +5658,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2018",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.397236348,
-				"Latitude" : 50.85554522
+				"Longitude" : 4.39723634848785,
+				"Latitude" : 50.8555452346247,
+				"index" : 143,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.37653278, 50.86658842, 4.37653278 ]
+				"coordinates" : [ 4.3765327799, 50.8665884318 ]
 			},
 			"properties" : {
-				"Index" : 144,
 				"CodeID" : "PM-0144",
 				"StreetFR" : "rue ernest laude",
 				"StreetNL" : "ernest laudestraat",
@@ -5029,62 +5693,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0144-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37653278,
-				"Latitude" : 50.86658842
+				"Longitude" : 4.37653277985779,
+				"Latitude" : 50.866588431832,
+				"index" : 144,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.380464586, 50.85712547, 4.380464586 ]
+				"coordinates" : [ 4.3724764539, 50.8676235477 ]
 			},
 			"properties" : {
-				"Index" : 145,
-				"CodeID" : "PM-0145",
-				"StreetFR" : "rue eugène smits",
-				"StreetNL" : "eugène smitsstraat",
-				"SaphirCode" : "8089",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "74",
-				"FullAddress" : "Rue Eugène Smits, 74, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.380464586,
-				"Latitude" : 50.85712547
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.372476454, 50.86762353, 4.372476454 ]
-			},
-			"properties" : {
-				"Index" : 146,
 				"CodeID" : "PM-0146",
 				"StreetFR" : "rue floris",
 				"StreetNL" : "florisstraat",
@@ -5099,27 +5728,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0146-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.372476454,
-				"Latitude" : 50.86762353
+				"Longitude" : 4.37247645390794,
+				"Latitude" : 50.8676235476538,
+				"index" : 146,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.382996524, 50.86040446, 4.382996524 ]
+				"coordinates" : [ 4.3829965244, 50.8604044788 ]
 			},
 			"properties" : {
-				"Index" : 147,
 				"CodeID" : "PM-0147",
 				"StreetFR" : "rue fontaine d'amour",
 				"StreetNL" : "minnebronstraat",
@@ -5134,62 +5763,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0147-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.382996524,
-				"Latitude" : 50.86040446
+				"Longitude" : 4.38299652437769,
+				"Latitude" : 50.8604044788065,
+				"index" : 147,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.382996524, 50.86040446, 4.382996524 ]
+				"coordinates" : [ 4.3736491845, 50.8697532626 ]
 			},
 			"properties" : {
-				"Index" : 148,
-				"CodeID" : "PM-0148",
-				"StreetFR" : "rue fontaine d'amour",
-				"StreetNL" : "minnebronstraat",
-				"SaphirCode" : "7095",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "21",
-				"FullAddress" : "Rue Fontaine d'Amour, 21, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.382996524,
-				"Latitude" : 50.86040446
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.373649185, 50.86975325, 4.373649185 ]
-			},
-			"properties" : {
-				"Index" : 149,
 				"CodeID" : "PM-0149",
 				"StreetFR" : "rue fraikin",
 				"StreetNL" : "fraikinstraat",
@@ -5204,27 +5798,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0149-01.png",
 				"LinkPicture02" : "DCIM//PM-0149-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.373649185,
-				"Latitude" : 50.86975325
+				"Longitude" : 4.37364918453622,
+				"Latitude" : 50.8697532625806,
+				"index" : 149,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.373881727, 50.86974694, 4.373881727 ]
+				"coordinates" : [ 4.3738817268, 50.8697469587 ]
 			},
 			"properties" : {
-				"Index" : 150,
 				"CodeID" : "PM-0150",
 				"StreetFR" : "rue fraikin",
 				"StreetNL" : "fraikinstraat",
@@ -5239,27 +5833,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0150-01.png",
 				"LinkPicture02" : "DCIM//PM-0150-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.373881727,
-				"Latitude" : 50.86974694
+				"Longitude" : 4.37388172677954,
+				"Latitude" : 50.8697469587077,
+				"index" : 150,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.373963867, 50.86974479, 4.373963867 ]
+				"coordinates" : [ 4.3739638532, 50.8697447972 ]
 			},
 			"properties" : {
-				"Index" : 151,
 				"CodeID" : "PM-0151",
 				"StreetFR" : "rue fraikin",
 				"StreetNL" : "fraikinstraat",
@@ -5274,7 +5868,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2020",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -5283,18 +5876,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0151-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.373963867,
-				"Latitude" : 50.86974479
+				"Longitude" : 4.37396385315241,
+				"Latitude" : 50.8697447971537,
+				"index" : 151,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.37422782, 50.86974019, 4.37422782 ]
+				"coordinates" : [ 4.3742278057, 50.86974019 ]
 			},
 			"properties" : {
-				"Index" : 152,
 				"CodeID" : "PM-0152",
 				"StreetFR" : "rue fraikin",
 				"StreetNL" : "fraikinstraat",
@@ -5309,27 +5903,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0152-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37422782,
-				"Latitude" : 50.86974019
+				"Longitude" : 4.37422780566587,
+				"Latitude" : 50.8697401900249,
+				"index" : 152,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38754317, 50.85583598, 4.38754317 ]
+				"coordinates" : [ 4.3875431554, 50.8558359853 ]
 			},
 			"properties" : {
-				"Index" : 153,
 				"CodeID" : "PM-0153",
 				"StreetFR" : "rue françois bossaerts",
 				"StreetNL" : "françois bossaertsstraat",
@@ -5344,97 +5938,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.38754317,
-				"Latitude" : 50.85583598
+				"Longitude" : 4.38754315543301,
+				"Latitude" : 50.8558359852888,
+				"index" : 153,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.384665647, 50.85452808, 4.384665647 ]
+				"coordinates" : [ 4.3694488602, 50.8677017097 ]
 			},
 			"properties" : {
-				"Index" : 154,
-				"CodeID" : "PM-0154",
-				"StreetFR" : "rue françois bossaerts",
-				"StreetNL" : "françois bossaertsstraat",
-				"SaphirCode" : "8105",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "38",
-				"FullAddress" : "Rue François Bossaerts, 38, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.384665647,
-				"Latitude" : 50.85452808
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.402259588, 50.8592584, 4.402259588 ]
-			},
-			"properties" : {
-				"Index" : 155,
-				"CodeID" : "PM-0155",
-				"StreetFR" : "avenue frans courtens",
-				"StreetNL" : "frans courtenslaan",
-				"SaphirCode" : "9107",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "96",
-				"FullAddress" : "Avenue Frans Courtens, 96, 1030 Schaerbeek",
-				"Sector" : "Jardin",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2018",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.402259588,
-				"Latitude" : 50.8592584
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.369448903, 50.86770172, 4.369448903 ]
-			},
-			"properties" : {
-				"Index" : 156,
 				"CodeID" : "PM-0156",
 				"StreetFR" : "rue gallait",
 				"StreetNL" : "gallaitstraat",
@@ -5449,27 +5973,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2018",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0156-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.369448903,
-				"Latitude" : 50.86770172
+				"Longitude" : 4.36944886016234,
+				"Latitude" : 50.8677017096776,
+				"index" : 156,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.382992222, 50.85964716, 4.382992222 ]
+				"coordinates" : [ 4.382992222, 50.8596471785 ]
 			},
 			"properties" : {
-				"Index" : 157,
 				"CodeID" : "PM-0157",
 				"StreetFR" : "rue godefroid devreese",
 				"StreetNL" : "godefroid devreesestraat",
@@ -5484,7 +6008,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -5493,18 +6016,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0157-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.382992222,
-				"Latitude" : 50.85964716
+				"Longitude" : 4.38299222198917,
+				"Latitude" : 50.8596471784866,
+				"index" : 157,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376170034, 50.86742641, 4.376170034 ]
+				"coordinates" : [ 4.3761700342, 50.8674264282 ]
 			},
 			"properties" : {
-				"Index" : 158,
 				"CodeID" : "PM-0158",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5519,27 +6043,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0158-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376170034,
-				"Latitude" : 50.86742641
+				"Longitude" : 4.37617003416665,
+				"Latitude" : 50.8674264281886,
+				"index" : 158,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375609366, 50.86697226, 4.375609366 ]
+				"coordinates" : [ 4.3756093516, 50.8669722639 ]
 			},
 			"properties" : {
-				"Index" : 159,
 				"CodeID" : "PM-0159",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5554,27 +6078,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0159-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375609366,
-				"Latitude" : 50.86697226
+				"Longitude" : 4.37560935156409,
+				"Latitude" : 50.8669722638726,
+				"index" : 159,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376101053, 50.86735031, 4.376101053 ]
+				"coordinates" : [ 4.376101053, 50.8673503281 ]
 			},
 			"properties" : {
-				"Index" : 160,
 				"CodeID" : "PM-0160",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5589,27 +6113,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0160-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376101053,
-				"Latitude" : 50.86735031
+				"Longitude" : 4.37610105298737,
+				"Latitude" : 50.8673503281317,
+				"index" : 160,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375722218, 50.86734567, 4.375722218 ]
+				"coordinates" : [ 4.3757222036, 50.8673456789 ]
 			},
 			"properties" : {
-				"Index" : 161,
 				"CodeID" : "PM-0161",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5624,27 +6148,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0161-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375722218,
-				"Latitude" : 50.86734567
+				"Longitude" : 4.37572220363506,
+				"Latitude" : 50.8673456788752,
+				"index" : 161,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376104232, 50.86749721, 4.376104232 ]
+				"coordinates" : [ 4.3761041822, 50.8674971935 ]
 			},
 			"properties" : {
-				"Index" : 162,
 				"CodeID" : "PM-0162",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5659,27 +6183,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0162-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376104232,
-				"Latitude" : 50.86749721
+				"Longitude" : 4.37610418222124,
+				"Latitude" : 50.8674971935459,
+				"index" : 162,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375976903, 50.86713624, 4.375976903 ]
+				"coordinates" : [ 4.3759769029, 50.8671362525 ]
 			},
 			"properties" : {
-				"Index" : 163,
 				"CodeID" : "PM-0163",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5694,27 +6218,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0163-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375976903,
-				"Latitude" : 50.86713624
+				"Longitude" : 4.37597690289322,
+				"Latitude" : 50.8671362524899,
+				"index" : 163,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375762569, 50.8674787, 4.375762569 ]
+				"coordinates" : [ 4.3757625692, 50.8674787203 ]
 			},
 			"properties" : {
-				"Index" : 164,
 				"CodeID" : "PM-0164",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5729,27 +6253,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0164-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375762569,
-				"Latitude" : 50.8674787
+				"Longitude" : 4.3757625692096,
+				"Latitude" : 50.8674787202841,
+				"index" : 164,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376219324, 50.8677365, 4.376219324 ]
+				"coordinates" : [ 4.3762193245, 50.8677365163 ]
 			},
 			"properties" : {
-				"Index" : 165,
 				"CodeID" : "PM-0165",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5764,27 +6288,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0165-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376219324,
-				"Latitude" : 50.8677365
+				"Longitude" : 4.37621932445366,
+				"Latitude" : 50.8677365162709,
+				"index" : 165,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375801229, 50.86760249, 4.375801229 ]
+				"coordinates" : [ 4.3758012288, 50.8676025026 ]
 			},
 			"properties" : {
-				"Index" : 166,
 				"CodeID" : "PM-0166",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5799,27 +6323,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0166-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375801229,
-				"Latitude" : 50.86760249
+				"Longitude" : 4.37580122881359,
+				"Latitude" : 50.8676025026405,
+				"index" : 166,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376196312, 50.86782244, 4.376196312 ]
+				"coordinates" : [ 4.3761963119, 50.8678224571 ]
 			},
 			"properties" : {
-				"Index" : 167,
 				"CodeID" : "PM-0167",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5834,27 +6358,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0167-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376196312,
-				"Latitude" : 50.86782244
+				"Longitude" : 4.37619631185258,
+				"Latitude" : 50.8678224571146,
+				"index" : 167,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375841878, 50.86772978, 4.375841878 ]
+				"coordinates" : [ 4.375841878, 50.8677297907 ]
 			},
 			"properties" : {
-				"Index" : 168,
 				"CodeID" : "PM-0168",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5869,27 +6393,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0168-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375841878,
-				"Latitude" : 50.86772978
+				"Longitude" : 4.3758418779969,
+				"Latitude" : 50.8677297907384,
+				"index" : 168,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375886352, 50.8678744, 4.375886352 ]
+				"coordinates" : [ 4.3758863516, 50.8678744192 ]
 			},
 			"properties" : {
-				"Index" : 169,
 				"CodeID" : "PM-0169",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5904,27 +6428,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0169-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375886352,
-				"Latitude" : 50.8678744
+				"Longitude" : 4.37588635162089,
+				"Latitude" : 50.867874419234,
+				"index" : 169,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375900451, 50.86792026, 4.375900451 ]
+				"coordinates" : [ 4.3759004513, 50.8679202735 ]
 			},
 			"properties" : {
-				"Index" : 170,
 				"CodeID" : "PM-0170",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5939,27 +6463,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0170-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375900451,
-				"Latitude" : 50.86792026
+				"Longitude" : 4.37590045133804,
+				"Latitude" : 50.867920273537,
+				"index" : 170,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375665648, 50.86714791, 4.375665648 ]
+				"coordinates" : [ 4.3756656335, 50.8671479144 ]
 			},
 			"properties" : {
-				"Index" : 171,
 				"CodeID" : "PM-0171",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -5974,27 +6498,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0171-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375665648,
-				"Latitude" : 50.86714791
+				"Longitude" : 4.37566563353674,
+				"Latitude" : 50.8671479143623,
+				"index" : 171,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375679989, 50.86719536, 4.375679989 ]
+				"coordinates" : [ 4.3756799888, 50.8671953778 ]
 			},
 			"properties" : {
-				"Index" : 172,
 				"CodeID" : "PM-0172",
 				"StreetFR" : "rue goossens",
 				"StreetNL" : "goossensstraat",
@@ -6009,97 +6533,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0172-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375679989,
-				"Latitude" : 50.86719536
+				"Longitude" : 4.37567998878008,
+				"Latitude" : 50.8671953777985,
+				"index" : 172,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387481989, 50.86798822, 4.387481989 ]
+				"coordinates" : [ 4.3877428001, 50.8760688044 ]
 			},
 			"properties" : {
-				"Index" : 173,
-				"CodeID" : "PM-0173",
-				"StreetFR" : "rue guillaume kennis",
-				"StreetNL" : "guillaume kennisstraat",
-				"SaphirCode" : "6125",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "19",
-				"FullAddress" : "Rue Guillaume Kennis, 19, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "3",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.387481989,
-				"Latitude" : 50.86798822
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.389131813, 50.86851608, 4.389131813 ]
-			},
-			"properties" : {
-				"Index" : 174,
-				"CodeID" : "PM-0174",
-				"StreetFR" : "rue guillaume kennis",
-				"StreetNL" : "guillaume kennisstraat",
-				"SaphirCode" : "6125",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "65",
-				"FullAddress" : "Rue Guillaume Kennis, 65, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.389131813,
-				"Latitude" : 50.86851608
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.3877428, 50.87606879, 4.3877428 ]
-			},
-			"properties" : {
-				"Index" : 175,
 				"CodeID" : "PM-0175",
 				"StreetFR" : "rue gustave huberti",
 				"StreetNL" : "gustave hubertistraat",
@@ -6114,27 +6568,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0175-01.png",
 				"LinkPicture02" : "DCIM//PM-0175-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.3877428,
-				"Latitude" : 50.87606879
+				"Longitude" : 4.38774280008109,
+				"Latitude" : 50.8760688044151,
+				"index" : 175,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387922171, 50.87627247, 4.387922171 ]
+				"coordinates" : [ 4.3879221711, 50.8762724839 ]
 			},
 			"properties" : {
-				"Index" : 176,
 				"CodeID" : "PM-0176",
 				"StreetFR" : "rue gustave huberti",
 				"StreetNL" : "gustave hubertistraat",
@@ -6149,27 +6603,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0176-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.387922171,
-				"Latitude" : 50.87627247
+				"Longitude" : 4.38792217114733,
+				"Latitude" : 50.8762724839296,
+				"index" : 176,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387792047, 50.87598939, 4.387792047 ]
+				"coordinates" : [ 4.3877920467, 50.8759894104 ]
 			},
 			"properties" : {
-				"Index" : 177,
 				"CodeID" : "PM-0177",
 				"StreetFR" : "rue gustave huberti",
 				"StreetNL" : "gustave hubertistraat",
@@ -6184,27 +6638,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0177-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.387792047,
-				"Latitude" : 50.87598939
+				"Longitude" : 4.38779204666956,
+				"Latitude" : 50.8759894103985,
+				"index" : 177,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.403294217, 50.85497669, 4.403294217 ]
+				"coordinates" : [ 4.4032942029, 50.8549766954 ]
 			},
 			"properties" : {
-				"Index" : 178,
 				"CodeID" : "PM-0178",
 				"StreetFR" : "rue henri evenepoel",
 				"StreetNL" : "henri evenepoelstraat",
@@ -6219,62 +6673,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.403294217,
-				"Latitude" : 50.85497669
+				"Longitude" : 4.40329420288572,
+				"Latitude" : 50.8549766953988,
+				"index" : 178,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.389401234, 50.85866312, 4.389401234 ]
+				"coordinates" : [ 4.3793739251, 50.8755953551 ]
 			},
 			"properties" : {
-				"Index" : 179,
-				"CodeID" : "PM-0179",
-				"StreetFR" : "rue henri stacquet",
-				"StreetNL" : "henri stacquetstraat",
-				"SaphirCode" : "7136",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "55",
-				"FullAddress" : "Rue Henri Stacquet, 55, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.389401234,
-				"Latitude" : 50.85866312
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.379373925, 50.87559534, 4.379373925 ]
-			},
-			"properties" : {
-				"Index" : 180,
 				"CodeID" : "PM-0180",
 				"StreetFR" : "rue iwan gilkin",
 				"StreetNL" : "iwan gilkinstraat",
@@ -6289,7 +6708,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -6298,18 +6716,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0180-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.379373925,
-				"Latitude" : 50.87559534
+				"Longitude" : 4.37937392505543,
+				"Latitude" : 50.8755953551123,
+				"index" : 180,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375406477, 50.86428774, 4.375406477 ]
+				"coordinates" : [ 4.3754064771, 50.8642877522 ]
 			},
 			"properties" : {
-				"Index" : 181,
 				"CodeID" : "PM-0181",
 				"StreetFR" : "rue jenatzy",
 				"StreetNL" : "jenatzystraat",
@@ -6324,27 +6743,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0181-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375406477,
-				"Latitude" : 50.86428774
+				"Longitude" : 4.37540647709477,
+				"Latitude" : 50.8642877522139,
+				"index" : 181,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.372581571, 50.87113803, 4.372581571 ]
+				"coordinates" : [ 4.3725815711, 50.8711380439 ]
 			},
 			"properties" : {
-				"Index" : 182,
 				"CodeID" : "PM-0182",
 				"StreetFR" : "rue françois-joseph navez",
 				"StreetNL" : "françois-joseph navezstraat",
@@ -6359,27 +6778,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0182-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.372581571,
-				"Latitude" : 50.87113803
+				"Longitude" : 4.37258157105884,
+				"Latitude" : 50.8711380439096,
+				"index" : 182,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.377184174, 50.87499308, 4.377184174 ]
+				"coordinates" : [ 4.3771842166, 50.8749930459 ]
 			},
 			"properties" : {
-				"Index" : 183,
 				"CodeID" : "PM-0183",
 				"StreetFR" : "rue joseph van camp",
 				"StreetNL" : "joseph van campstraat",
@@ -6394,62 +6813,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0183-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.377184174,
-				"Latitude" : 50.87499308
+				"Longitude" : 4.37718421656032,
+				"Latitude" : 50.8749930459034,
+				"index" : 183,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.392129709, 50.86885637, 4.392129709 ]
+				"coordinates" : [ 4.3832033541, 50.8613274022 ]
 			},
 			"properties" : {
-				"Index" : 184,
-				"CodeID" : "PM-0184",
-				"StreetFR" : "rue joseph wauters",
-				"StreetNL" : "joseph wautersstraat",
-				"SaphirCode" : "6097",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "37",
-				"FullAddress" : "Rue Joseph wauters, 37, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.392129709,
-				"Latitude" : 50.86885637
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.383203354, 50.86132739, 4.383203354 ]
-			},
-			"properties" : {
-				"Index" : 185,
 				"CodeID" : "PM-0185",
 				"StreetFR" : "rue josse impens",
 				"StreetNL" : "josse impensstraat",
@@ -6464,27 +6848,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0185-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.383203354,
-				"Latitude" : 50.86132739
+				"Longitude" : 4.38320335405072,
+				"Latitude" : 50.8613274021582,
+				"index" : 185,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.385213663, 50.85328333, 4.385213663 ]
+				"coordinates" : [ 4.3852136632, 50.8532833319 ]
 			},
 			"properties" : {
-				"Index" : 186,
 				"CodeID" : "PM-0186",
 				"StreetFR" : "rue léon mignon",
 				"StreetNL" : "léon mignonstraat",
@@ -6499,27 +6883,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.385213663,
-				"Latitude" : 50.85328333
+				"Longitude" : 4.38521366320964,
+				"Latitude" : 50.8532833319207,
+				"index" : 186,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.363281462, 50.85789085, 4.363281462 ]
+				"coordinates" : [ 4.3632814619, 50.857890849 ]
 			},
 			"properties" : {
-				"Index" : 187,
 				"CodeID" : "PM-0187",
 				"StreetFR" : "rue linné",
 				"StreetNL" : "linnéstraat",
@@ -6534,62 +6918,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "30",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.363281462,
-				"Latitude" : 50.85789085
+				"Longitude" : 4.36328146187027,
+				"Latitude" : 50.8578908490163,
+				"index" : 187,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.390910139, 50.86944786, 4.390910139 ]
+				"coordinates" : [ 4.3895712036, 50.8510745606 ]
 			},
 			"properties" : {
-				"Index" : 188,
-				"CodeID" : "PM-0188",
-				"StreetFR" : "rue adolphe marbotin",
-				"StreetNL" : "adolphe marbotinstraat",
-				"SaphirCode" : "6004",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "35",
-				"FullAddress" : "Rue Adolphe Marbotin, 35, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2022",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.390910139,
-				"Latitude" : 50.86944786
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.389571183, 50.85107452, 4.389571183 ]
-			},
-			"properties" : {
-				"Index" : 189,
 				"CodeID" : "PM-0189",
 				"StreetFR" : "rue marcel mariën",
 				"StreetNL" : "marcel mariënstraat",
@@ -6604,62 +6953,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2022",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.389571183,
-				"Latitude" : 50.85107452
+				"Longitude" : 4.3895712036135,
+				"Latitude" : 50.8510745606152,
+				"index" : 189,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3895751, 50.85094435, 4.3895751 ]
+				"coordinates" : [ 4.37402125, 50.868646732 ]
 			},
 			"properties" : {
-				"Index" : 190,
-				"CodeID" : "PM-0190",
-				"StreetFR" : "rue marcel mariën",
-				"StreetNL" : "marcel mariënstraat",
-				"SaphirCode" : "0346",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "17",
-				"FullAddress" : "Rue Marcel Mariën, 17, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.3895751,
-				"Latitude" : 50.85094435
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.37402125, 50.86864672, 4.37402125 ]
-			},
-			"properties" : {
-				"Index" : 191,
 				"CodeID" : "PM-0191",
 				"StreetFR" : "avenue maréchal foch",
 				"StreetNL" : "maarschalk fochlaan",
@@ -6674,7 +6988,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -6683,18 +6996,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0191-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37402125,
-				"Latitude" : 50.86864672
+				"Longitude" : 4.37402124999162,
+				"Latitude" : 50.8686467320003,
+				"index" : 191,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.390973974, 50.87625788, 4.390973974 ]
+				"coordinates" : [ 4.3909739742, 50.8762578959 ]
 			},
 			"properties" : {
-				"Index" : 192,
 				"CodeID" : "PM-0192",
 				"StreetFR" : "rue charles meert",
 				"StreetNL" : "charles meertstraat",
@@ -6709,27 +7023,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0192-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.390973974,
-				"Latitude" : 50.87625788
+				"Longitude" : 4.39097397424148,
+				"Latitude" : 50.8762578959331,
+				"index" : 192,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.390455883, 50.8773608, 4.390455883 ]
+				"coordinates" : [ 4.3904558832, 50.8773608202 ]
 			},
 			"properties" : {
-				"Index" : 193,
 				"CodeID" : "PM-0193",
 				"StreetFR" : "rue charles meert",
 				"StreetNL" : "charles meertstraat",
@@ -6744,7 +7058,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -6753,18 +7066,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0193-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.390455883,
-				"Latitude" : 50.8773608
+				"Longitude" : 4.39045588321791,
+				"Latitude" : 50.8773608201521,
+				"index" : 193,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.390242568, 50.87756851, 4.390242568 ]
+				"coordinates" : [ 4.3902425679, 50.8775685256 ]
 			},
 			"properties" : {
-				"Index" : 194,
 				"CodeID" : "PM-0194",
 				"StreetFR" : "rue charles meert",
 				"StreetNL" : "charles meertstraat",
@@ -6779,7 +7093,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -6788,18 +7101,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0194-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.390242568,
-				"Latitude" : 50.87756851
+				"Longitude" : 4.39024256790012,
+				"Latitude" : 50.8775685255976,
+				"index" : 194,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.390158491, 50.87765033, 4.390158491 ]
+				"coordinates" : [ 4.390158491, 50.8776503453 ]
 			},
 			"properties" : {
-				"Index" : 195,
 				"CodeID" : "PM-0195",
 				"StreetFR" : "rue charles meert",
 				"StreetNL" : "charles meertstraat",
@@ -6814,27 +7128,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0195-01.png",
 				"LinkPicture02" : "DCIM//PM-0195-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.390158491,
-				"Latitude" : 50.87765033
+				"Longitude" : 4.39015849101689,
+				"Latitude" : 50.8776503453119,
+				"index" : 195,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.390113896, 50.87769376, 4.390113896 ]
+				"coordinates" : [ 4.3901138961, 50.8776937727 ]
 			},
 			"properties" : {
-				"Index" : 196,
 				"CodeID" : "PM-0196",
 				"StreetFR" : "rue charles meert",
 				"StreetNL" : "charles meertstraat",
@@ -6849,7 +7163,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -6858,18 +7171,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0196-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.390113896,
-				"Latitude" : 50.87769376
+				"Longitude" : 4.39011389607864,
+				"Latitude" : 50.8776937726677,
+				"index" : 196,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.377001439, 50.86888826, 4.377001439 ]
+				"coordinates" : [ 4.3770014387, 50.868888279 ]
 			},
 			"properties" : {
-				"Index" : 197,
 				"CodeID" : "PM-0197",
 				"StreetFR" : "rue metsys",
 				"StreetNL" : "metsysstraat",
@@ -6884,27 +7198,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0197-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.377001439,
-				"Latitude" : 50.86888826
+				"Longitude" : 4.37700143869277,
+				"Latitude" : 50.8688882789731,
+				"index" : 197,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376412448, 50.87044735, 4.376412448 ]
+				"coordinates" : [ 4.376412434, 50.8704473547 ]
 			},
 			"properties" : {
-				"Index" : 198,
 				"CodeID" : "PM-0198",
 				"StreetFR" : "rue metsys",
 				"StreetNL" : "metsysstraat",
@@ -6919,97 +7233,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2018",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0198-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376412448,
-				"Latitude" : 50.87044735
+				"Longitude" : 4.37641243402254,
+				"Latitude" : 50.8704473547066,
+				"index" : 198,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.380253009, 50.85771657, 4.380253009 ]
+				"coordinates" : [ 4.3788351206, 50.8557589068 ]
 			},
 			"properties" : {
-				"Index" : 199,
-				"CodeID" : "PM-0199",
-				"StreetFR" : "rue monrose",
-				"StreetNL" : "monrosestraat",
-				"SaphirCode" : "8197",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "25",
-				"FullAddress" : "Rue monrose, 25, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2023",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.380253009,
-				"Latitude" : 50.85771657
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.379516983, 50.85695244, 4.379516983 ]
-			},
-			"properties" : {
-				"Index" : 200,
-				"CodeID" : "PM-0200",
-				"StreetFR" : "rue monrose",
-				"StreetNL" : "monrosestraat",
-				"SaphirCode" : "8197",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "59",
-				"FullAddress" : "Rue Monrose, 59, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.379516983,
-				"Latitude" : 50.85695244
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.378835121, 50.85575889, 4.378835121 ]
-			},
-			"properties" : {
-				"Index" : 201,
 				"CodeID" : "PM-0201",
 				"StreetFR" : "rue monrose",
 				"StreetNL" : "monrosestraat",
@@ -7024,62 +7268,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0201-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.378835121,
-				"Latitude" : 50.85575889
+				"Longitude" : 4.37883512058998,
+				"Latitude" : 50.8557589067714,
+				"index" : 201,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.389456665, 50.8581559, 4.389456665 ]
+				"coordinates" : [ 4.4038045792, 50.8590195641 ]
 			},
 			"properties" : {
-				"Index" : 202,
-				"CodeID" : "PM-0202",
-				"StreetFR" : "rue paul devigne",
-				"StreetNL" : "paul devignestraat",
-				"SaphirCode" : "7207",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "46",
-				"FullAddress" : "Rue paul devigne, 46, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2023",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.389456665,
-				"Latitude" : 50.8581559
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.403804579, 50.85901955, 4.403804579 ]
-			},
-			"properties" : {
-				"Index" : 203,
 				"CodeID" : "PM-0203",
 				"StreetFR" : "rue paul leduc",
 				"StreetNL" : "paul leducstraat",
@@ -7094,31 +7303,31 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2022",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0203-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.403804579,
-				"Latitude" : 50.85901955
+				"Longitude" : 4.40380457923057,
+				"Latitude" : 50.8590195641038,
+				"index" : 203,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.395125312, 50.87463238, 4.395125312 ]
+				"coordinates" : [ 4.3951253122, 50.8746323843 ]
 			},
 			"properties" : {
-				"Index" : 204,
 				"CodeID" : "PM-0204",
 				"StreetFR" : "rue pierre mattheussens",
 				"StreetNL" : "rue pierre mattheussens",
-				"SaphirCode" : "Evere",
+				"SaphirCode" : "EVERE",
 				"Locality" : "Evere",
 				"PostalCode" : 1140,
 				"HouseNumber" : null,
@@ -7129,27 +7338,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0204-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.395125312,
-				"Latitude" : 50.87463238
+				"Longitude" : 4.3951253121564,
+				"Latitude" : 50.8746323843032,
+				"index" : 204,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.373331499, 50.85556132, 4.373331499 ]
+				"coordinates" : [ 4.3733314987, 50.8555613209 ]
 			},
 			"properties" : {
-				"Index" : 205,
 				"CodeID" : "PM-0205",
 				"StreetFR" : "rue potagère",
 				"StreetNL" : "warmoesstraat",
@@ -7164,27 +7373,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.373331499,
-				"Latitude" : 50.85556132
+				"Longitude" : 4.37333149866073,
+				"Latitude" : 50.8555613209049,
+				"index" : 205,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.370758946, 50.86760416, 4.370758946 ]
+				"coordinates" : [ 4.3707589315, 50.8676041641 ]
 			},
 			"properties" : {
-				"Index" : 206,
 				"CodeID" : "PM-0206",
 				"StreetFR" : "rue renkin",
 				"StreetNL" : "renkinstraat",
@@ -7199,27 +7408,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0206-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.370758946,
-				"Latitude" : 50.86760416
+				"Longitude" : 4.37075893145458,
+				"Latitude" : 50.867604164119,
+				"index" : 206,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.370318572, 50.86764533, 4.370318572 ]
+				"coordinates" : [ 4.3703185723, 50.8676453451 ]
 			},
 			"properties" : {
-				"Index" : 207,
 				"CodeID" : "PM-0207",
 				"StreetFR" : "rue renkin",
 				"StreetNL" : "renkinstraat",
@@ -7234,62 +7443,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0207-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.370318572,
-				"Latitude" : 50.86764533
+				"Longitude" : 4.37031857227789,
+				"Latitude" : 50.8676453450554,
+				"index" : 207,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.368361542, 50.85785456, 4.368361542 ]
+				"coordinates" : [ 4.3678332773, 50.8701024547 ]
 			},
 			"properties" : {
-				"Index" : 208,
-				"CodeID" : "PM-0208",
-				"StreetFR" : "rue royale",
-				"StreetNL" : "koningsstraat",
-				"SaphirCode" : "2236",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "263",
-				"FullAddress" : "Rue Royale, 263, 1030 Schaerbeek",
-				"Sector" : "Palais-Reine",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "2018",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.368361542,
-				"Latitude" : 50.85785456
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.367833277, 50.87010244, 4.367833277 ]
-			},
-			"properties" : {
-				"Index" : 209,
 				"CodeID" : "PM-0209",
 				"StreetFR" : "rue stephenson",
 				"StreetNL" : "stephensonstraat",
@@ -7304,27 +7478,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0209-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.367833277,
-				"Latitude" : 50.87010244
+				"Longitude" : 4.36783327730679,
+				"Latitude" : 50.8701024547095,
+				"index" : 209,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375320126, 50.85856289, 4.375320126 ]
+				"coordinates" : [ 4.3753200981, 50.8585628987 ]
 			},
 			"properties" : {
-				"Index" : 210,
 				"CodeID" : "PM-0210",
 				"StreetFR" : "rue thiéfry",
 				"StreetNL" : "thiéfrystraat",
@@ -7339,132 +7513,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"PicturesNumber" : "",
+				"LinkPicture01" : "",
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375320126,
-				"Latitude" : 50.85856289
+				"Longitude" : 4.37532009807565,
+				"Latitude" : 50.8585628986928,
+				"index" : 210,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.382021274, 50.85303815, 4.382021274 ]
+				"coordinates" : [ 4.3773165734, 50.8568934109 ]
 			},
 			"properties" : {
-				"Index" : 211,
-				"CodeID" : "PM-0211",
-				"StreetFR" : "rue thomas vinçotte",
-				"StreetNL" : "thomas vinçottestraat",
-				"SaphirCode" : "8255",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "32",
-				"FullAddress" : "Rue Thomas Vinçotte, 32, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2019",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.382021274,
-				"Latitude" : 50.85303815
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.382610307, 50.85251011, 4.382610307 ]
-			},
-			"properties" : {
-				"Index" : 212,
-				"CodeID" : "PM-0212",
-				"StreetFR" : "rue thomas vinçotte",
-				"StreetNL" : "thomas vinçottestraat",
-				"SaphirCode" : "8255",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "45",
-				"FullAddress" : "Rue Thomas Vinçotte, 45, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.382610307,
-				"Latitude" : 50.85251011
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.379843164, 50.85340623, 4.379843164 ]
-			},
-			"properties" : {
-				"Index" : 213,
-				"CodeID" : "PM-0213",
-				"StreetFR" : "rue andré van hasselt",
-				"StreetNL" : "andré van hasseltstraat",
-				"SaphirCode" : "8014",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "32",
-				"FullAddress" : "Rue André Van Hasselt, 32, 1030 Schaerbeek",
-				"Sector" : "Bienfaiteurs",
-				"Artist" : "pour déterminer",
-				"PlacementDate" : null,
-				"Year" : "2021",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.379843164,
-				"Latitude" : 50.85340623
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.377316573, 50.8568934, 4.377316573 ]
-			},
-			"properties" : {
-				"Index" : 214,
 				"CodeID" : "PM-0214",
 				"StreetFR" : "rue van hove",
 				"StreetNL" : "van hovestraat",
@@ -7479,27 +7548,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0214-01.png",
 				"LinkPicture02" : "DCIM//PM-0214-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.377316573,
-				"Latitude" : 50.8568934
+				"Longitude" : 4.37731657338411,
+				"Latitude" : 50.8568934108888,
+				"index" : 214,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38788494, 50.8590662, 4.38788494 ]
+				"coordinates" : [ 4.3878849405, 50.8590662107 ]
 			},
 			"properties" : {
-				"Index" : 215,
 				"CodeID" : "PM-0215",
 				"StreetFR" : "rue vandenbussche",
 				"StreetNL" : "vandenbusschestraat",
@@ -7514,27 +7583,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0215-01.png",
 				"LinkPicture02" : "DCIM//PM-0215-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.38788494,
-				"Latitude" : 50.8590662
+				"Longitude" : 4.387884940464,
+				"Latitude" : 50.8590662106718,
+				"index" : 215,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.3696243, 50.86508971, 4.3696243 ]
+				"coordinates" : [ 4.3696243003, 50.8650897232 ]
 			},
 			"properties" : {
-				"Index" : 216,
 				"CodeID" : "PM-0216",
 				"StreetFR" : "rue vandermeersch",
 				"StreetNL" : "vandermeerschstraat",
@@ -7549,27 +7618,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0216-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.3696243,
-				"Latitude" : 50.86508971
+				"Longitude" : 4.36962430025778,
+				"Latitude" : 50.8650897232363,
+				"index" : 216,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.37002979, 50.86501048, 4.37002979 ]
+				"coordinates" : [ 4.3700297899, 50.865010493 ]
 			},
 			"properties" : {
-				"Index" : 217,
 				"CodeID" : "PM-0217",
 				"StreetFR" : "rue vandermeersch",
 				"StreetNL" : "vandermeerschstraat",
@@ -7584,27 +7653,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0217-01.png",
 				"LinkPicture02" : "DCIM//PM-0217-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.37002979,
-				"Latitude" : 50.86501048
+				"Longitude" : 4.37002978994072,
+				"Latitude" : 50.8650104930385,
+				"index" : 217,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.370101268, 50.86499653, 4.370101268 ]
+				"coordinates" : [ 4.3701012683, 50.8649965492 ]
 			},
 			"properties" : {
-				"Index" : 218,
 				"CodeID" : "PM-0218",
 				"StreetFR" : "rue vandermeersch",
 				"StreetNL" : "vandermeerschstraat",
@@ -7619,27 +7688,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0218-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.370101268,
-				"Latitude" : 50.86499653
+				"Longitude" : 4.37010126825871,
+				"Latitude" : 50.8649965491676,
+				"index" : 218,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.368342402, 50.86395114, 4.368342402 ]
+				"coordinates" : [ 4.3683423448, 50.8639511088 ]
 			},
 			"properties" : {
-				"Index" : 219,
 				"CodeID" : "PM-0219",
 				"StreetFR" : "rue vandeweyer",
 				"StreetNL" : "vandeweyerstraat",
@@ -7654,27 +7723,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0219-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.368342402,
-				"Latitude" : 50.86395114
+				"Longitude" : 4.36834234482832,
+				"Latitude" : 50.8639511088248,
+				"index" : 219,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.369829584, 50.86341777, 4.369829584 ]
+				"coordinates" : [ 4.3698295842, 50.8634177868 ]
 			},
 			"properties" : {
-				"Index" : 220,
 				"CodeID" : "PM-0220",
 				"StreetFR" : "rue vandeweyer",
 				"StreetNL" : "vandeweyerstraat",
@@ -7689,7 +7758,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -7698,18 +7766,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0220-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.369829584,
-				"Latitude" : 50.86341777
+				"Longitude" : 4.36982958422931,
+				"Latitude" : 50.8634177867591,
+				"index" : 220,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.364900353, 50.8595751, 4.364900353 ]
+				"coordinates" : [ 4.3649003531, 50.8595751144 ]
 			},
 			"properties" : {
-				"Index" : 221,
 				"CodeID" : "PM-0221",
 				"StreetFR" : "rue verte",
 				"StreetNL" : "groenstraat",
@@ -7724,27 +7793,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2021",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0221-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.364900353,
-				"Latitude" : 50.8595751
+				"Longitude" : 4.36490035313283,
+				"Latitude" : 50.8595751144408,
+				"index" : 221,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.396372472, 50.84948606, 4.396372472 ]
+				"coordinates" : [ 4.3963724718, 50.8494860732 ]
 			},
 			"properties" : {
-				"Index" : 222,
 				"CodeID" : "PM-0222",
 				"StreetFR" : "rue victor hugo",
 				"StreetNL" : "victor hugostraat",
@@ -7759,62 +7828,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2022",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0222-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.396372472,
-				"Latitude" : 50.84948606
+				"Longitude" : 4.39637247184552,
+				"Latitude" : 50.8494860732247,
+				"index" : 222,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.396543318, 50.84904642, 4.396543318 ]
+				"coordinates" : [ 4.376080595, 50.8697604935 ]
 			},
 			"properties" : {
-				"Index" : 223,
-				"CodeID" : "PM-0223",
-				"StreetFR" : "rue victor hugo",
-				"StreetNL" : "victor hugostraat",
-				"SaphirCode" : "0278",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "195",
-				"FullAddress" : "Rue Victor Hugo, 195, 1030 Schaerbeek",
-				"Sector" : "Plasky",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.396543318,
-				"Latitude" : 50.84904642
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.376080595, 50.86976048, 4.376080595 ]
-			},
-			"properties" : {
-				"Index" : 224,
 				"CodeID" : "PM-0224",
 				"StreetFR" : "avenue voltaire",
 				"StreetNL" : "voltairelaan",
@@ -7829,7 +7863,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -7838,18 +7871,19 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture03" : "DCIM//PM-0224-03.png",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376080595,
-				"Latitude" : 50.86976048
+				"Longitude" : 4.37608059501918,
+				"Latitude" : 50.8697604934902,
+				"index" : 224,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.376246256, 50.86977035, 4.376246256 ]
+				"coordinates" : [ 4.3762462565, 50.8697703705 ]
 			},
 			"properties" : {
-				"Index" : 225,
 				"CodeID" : "PM-0225",
 				"StreetFR" : "avenue voltaire",
 				"StreetNL" : "voltairelaan",
@@ -7864,27 +7898,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0225-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.376246256,
-				"Latitude" : 50.86977035
+				"Longitude" : 4.37624625649312,
+				"Latitude" : 50.8697703704898,
+				"index" : 225,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.375831996, 50.86974566, 4.375831996 ]
+				"coordinates" : [ 4.3758319964, 50.8697456776 ]
 			},
 			"properties" : {
-				"Index" : 226,
 				"CodeID" : "PM-0226",
 				"StreetFR" : "avenue voltaire",
 				"StreetNL" : "voltairelaan",
@@ -7899,27 +7933,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0226-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.375831996,
-				"Latitude" : 50.86974566
+				"Longitude" : 4.37583199639157,
+				"Latitude" : 50.8697456775591,
+				"index" : 226,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.370037261, 50.86670459, 4.370037261 ]
+				"coordinates" : [ 4.370037261, 50.8667046028 ]
 			},
 			"properties" : {
-				"Index" : 227,
 				"CodeID" : "PM-0227",
 				"StreetFR" : "rue vondel",
 				"StreetNL" : "vondelstraat",
@@ -7934,27 +7968,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0227-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.370037261,
-				"Latitude" : 50.86670459
+				"Longitude" : 4.37003726099311,
+				"Latitude" : 50.8667046027767,
+				"index" : 227,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.369864788, 50.86655563, 4.369864788 ]
+				"coordinates" : [ 4.3698647878, 50.8665556501 ]
 			},
 			"properties" : {
-				"Index" : 228,
 				"CodeID" : "PM-0228",
 				"StreetFR" : "rue vondel",
 				"StreetNL" : "vondelstraat",
@@ -7969,27 +8003,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2020",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0228-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.369864788,
-				"Latitude" : 50.86655563
+				"Longitude" : 4.36986478778884,
+				"Latitude" : 50.8665556500936,
+				"index" : 228,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.370259996, 50.86689363, 4.370259996 ]
+				"coordinates" : [ 4.370259996, 50.8668936473 ]
 			},
 			"properties" : {
-				"Index" : 229,
 				"CodeID" : "PM-0229",
 				"StreetFR" : "rue vondel",
 				"StreetNL" : "vondelstraat",
@@ -8004,62 +8038,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0229-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.370259996,
-				"Latitude" : 50.86689363
+				"Longitude" : 4.37025999595331,
+				"Latitude" : 50.8668936472879,
+				"index" : 229,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.388780645, 50.86887589, 4.388780645 ]
+				"coordinates" : [ 4.3795835785, 50.8586965017 ]
 			},
 			"properties" : {
-				"Index" : 230,
-				"CodeID" : "PM-0230",
-				"StreetFR" : "rue willem kuhnen",
-				"StreetNL" : "willem kuhnenstraat",
-				"SaphirCode" : "6288",
-				"Locality" : "Schaerbeek",
-				"PostalCode" : 1030,
-				"HouseNumber" : "71",
-				"FullAddress" : "Rue Willem Kuhnen, 71, 1030 Schaerbeek",
-				"Sector" : "Terdelt-Fleur",
-				"Artist" : "Whitney Orville",
-				"PlacementDate" : null,
-				"Year" : "pour déterminer",
-				"Status" : "bon état",
-				"Commentaires" : null,
-				"UT" : null,
-				"TilesNumber" : "pour déterminer",
-				"Picture" : "NON",
-				"PicturesNumber" : null,
-				"LinkPicture01" : null,
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
-				"LinkPicture04" : null,
-				"LinkPicture05" : null,
-				"Longitude" : 4.388780645,
-				"Latitude" : 50.86887589
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Point",
-				"coordinates" : [ 4.379583593, 50.8586965, 4.379583593 ]
-			},
-			"properties" : {
-				"Index" : 231,
 				"CodeID" : "PM-0231",
 				"StreetFR" : "square emile duployé",
 				"StreetNL" : "emile duployésquare",
@@ -8074,62 +8073,62 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2020",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "pour déterminer",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0231-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.379583593,
-				"Latitude" : 50.8586965
+				"Longitude" : 4.37958357845856,
+				"Latitude" : 50.8586965016738,
+				"index" : 231,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.395634303, 50.85086531, 4.395634303 ]
+				"coordinates" : [ 4.3956343025, 50.850865328 ]
 			},
 			"properties" : {
-				"Index" : 232,
 				"CodeID" : "PM-0232",
 				"StreetFR" : "square eugène plasky",
 				"StreetNL" : "eugène plaskysquare",
 				"SaphirCode" : "0314",
 				"Locality" : "Schaerbeek",
 				"PostalCode" : 1030,
-				"HouseNumber" : "88A",
-				"FullAddress" : "Square Eugène Plasky, 88A, 1030 Schaerbeek",
+				"HouseNumber" : " 88A",
+				"FullAddress" : "Square Eugène Plasky,  88A, 1030 Schaerbeek",
 				"Sector" : "Plasky",
 				"Artist" : "Rita Dooms",
 				"PlacementDate" : null,
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0232-01.png",
 				"LinkPicture02" : "DCIM//PM-0232-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.395634303,
-				"Latitude" : 50.85086531
+				"Longitude" : 4.3956343025338,
+				"Latitude" : 50.8508653280204,
+				"index" : 232,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.396071883, 50.85083314, 4.396071883 ]
+				"coordinates" : [ 4.3960718833, 50.8508331374 ]
 			},
 			"properties" : {
-				"Index" : 233,
 				"CodeID" : "PM-0233",
 				"StreetFR" : "square eugène plasky",
 				"StreetNL" : "eugène plaskysquare",
@@ -8144,27 +8143,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "pour déterminer",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
 				"LinkPicture01" : "DCIM//PM-0233-01.png",
 				"LinkPicture02" : "DCIM//PM-0233-02.png",
-				"LinkPicture03" : null,
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.396071883,
-				"Latitude" : 50.85083314
+				"Longitude" : 4.39607188331969,
+				"Latitude" : 50.8508331373832,
+				"index" : 233,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.386900904, 50.87491173, 4.386900904 ]
+				"coordinates" : [ 4.3869009035, 50.8749117495 ]
 			},
 			"properties" : {
-				"Index" : 234,
 				"CodeID" : "PM-0234",
 				"StreetFR" : "square françois riga",
 				"StreetNL" : "françois rigasquare",
@@ -8179,27 +8178,27 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2019",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
 				"LinkPicture01" : "DCIM//PM-0234-01.png",
-				"LinkPicture02" : null,
-				"LinkPicture03" : null,
+				"LinkPicture02" : "",
+				"LinkPicture03" : "",
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
-				"Longitude" : 4.386900904,
-				"Latitude" : 50.87491173
+				"Longitude" : 4.38690090352245,
+				"Latitude" : 50.8749117495217,
+				"index" : 234,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387096418, 50.87666824, 4.387096418 ]
+				"coordinates" : [ 4.387096418, 50.87666824 ]
 			},
 			"properties" : {
-				"Index" : 235,
 				"CodeID" : "PM-0235",
 				"StreetFR" : "avenue georges eekhoud",
 				"StreetNL" : "georges eekhoudlaan",
@@ -8214,7 +8213,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2024",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
@@ -8224,17 +8222,18 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
 				"Longitude" : 4.387096418,
-				"Latitude" : 50.87666824
+				"Latitude" : 50.87666824,
+				"index" : 235,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.393003479, 50.85053212, 4.393003479 ]
+				"coordinates" : [ 4.393003479, 50.85053212 ]
 			},
 			"properties" : {
-				"Index" : 236,
 				"CodeID" : "PM-0236",
 				"StreetFR" : "avenue félix marchal",
 				"StreetNL" : "félix marchallaan",
@@ -8249,7 +8248,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2024",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
@@ -8259,17 +8257,18 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
 				"Longitude" : 4.393003479,
-				"Latitude" : 50.85053212
+				"Latitude" : 50.85053212,
+				"index" : 236,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.377140071, 50.8732173, 4.377140071 ]
+				"coordinates" : [ 4.377140071, 50.8732173 ]
 			},
 			"properties" : {
-				"Index" : 237,
 				"CodeID" : "PM-0237",
 				"StreetFR" : "avenue princesse elisabeth",
 				"StreetNL" : "prinses elisabethlaan",
@@ -8284,7 +8283,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2024",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
@@ -8294,17 +8292,18 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
 				"Longitude" : 4.377140071,
-				"Latitude" : 50.8732173
+				"Latitude" : 50.8732173,
+				"index" : 237,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.387228391, 50.87176316, 4.387228391 ]
+				"coordinates" : [ 4.387228391, 50.87176316 ]
 			},
 			"properties" : {
-				"Index" : 238,
 				"CodeID" : "PM-0238",
 				"StreetFR" : "rue docteur elie lambotte",
 				"StreetNL" : "dokter elie lambottestraat",
@@ -8319,7 +8318,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
@@ -8329,17 +8327,18 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
 				"Longitude" : 4.387228391,
-				"Latitude" : 50.87176316
+				"Latitude" : 50.87176316,
+				"index" : 238,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.38174864, 50.87278202, 4.38174864 ]
+				"coordinates" : [ 4.38174864, 50.87278202 ]
 			},
 			"properties" : {
-				"Index" : 239,
 				"CodeID" : "PM-0239",
 				"StreetFR" : "avenue eugène demolder",
 				"StreetNL" : "eugène demolderlaan",
@@ -8354,7 +8353,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "2",
 				"Picture" : "OUI",
 				"PicturesNumber" : 2,
@@ -8364,17 +8362,18 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
 				"Longitude" : 4.38174864,
-				"Latitude" : 50.87278202
+				"Latitude" : 50.87278202,
+				"index" : 239,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.381468915, 50.87313577, 4.381468915 ]
+				"coordinates" : [ 4.381468915, 50.87313577 ]
 			},
 			"properties" : {
-				"Index" : 240,
 				"CodeID" : "PM-0240",
 				"StreetFR" : "avenue eugène demolder",
 				"StreetNL" : "eugène demolderlaan",
@@ -8389,7 +8388,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
@@ -8399,17 +8397,18 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
 				"Longitude" : 4.381468915,
-				"Latitude" : 50.87313577
+				"Latitude" : 50.87313577,
+				"index" : 240,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.389242916, 50.87330714, 4.389242916 ]
+				"coordinates" : [ 4.389242916, 50.87330714 ]
 			},
 			"properties" : {
-				"Index" : 241,
 				"CodeID" : "PM-0241",
 				"StreetFR" : "rue de l'agriculture",
 				"StreetNL" : "landbouwstraat",
@@ -8424,7 +8423,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "5",
 				"Picture" : "OUI",
 				"PicturesNumber" : 5,
@@ -8434,17 +8432,18 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture04" : "DCIM//PM-0241-04.png",
 				"LinkPicture05" : "DCIM//PM-0241-05.png",
 				"Longitude" : 4.389242916,
-				"Latitude" : 50.87330714
+				"Latitude" : 50.87330714,
+				"index" : 241,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.370414004, 50.86702434, 4.370414004 ]
+				"coordinates" : [ 4.370414004, 50.86702434 ]
 			},
 			"properties" : {
-				"Index" : 242,
 				"CodeID" : "PM-0242",
 				"StreetFR" : "rue vondel",
 				"StreetNL" : "vondelstraat",
@@ -8459,7 +8458,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "1",
 				"Picture" : "OUI",
 				"PicturesNumber" : 1,
@@ -8469,17 +8467,18 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
 				"Longitude" : 4.370414004,
-				"Latitude" : 50.86702434
+				"Latitude" : 50.86702434,
+				"index" : 242,
+				"Photos" : null
 			}
 		},
 		{
 			"type" : "Feature",
 			"geometry" : {
 				"type" : "Point",
-				"coordinates" : [ 4.378169669, 50.85867584, 4.378169669 ]
+				"coordinates" : [ 4.378169669, 50.85867584 ]
 			},
 			"properties" : {
-				"Index" : 243,
 				"CodeID" : "PM-0243",
 				"StreetFR" : "avenue paul deschanel",
 				"StreetNL" : "paul deschanellaan",
@@ -8494,7 +8493,6 @@ var ListePavesMosaiques1030 = {
 				"Year" : "2023",
 				"Status" : "bon état",
 				"Commentaires" : null,
-				"UT" : null,
 				"TilesNumber" : "3",
 				"Picture" : "OUI",
 				"PicturesNumber" : 3,
@@ -8504,7 +8502,9 @@ var ListePavesMosaiques1030 = {
 				"LinkPicture04" : null,
 				"LinkPicture05" : null,
 				"Longitude" : 4.378169669,
-				"Latitude" : 50.85867584
+				"Latitude" : 50.85867584,
+				"index" : 243,
+				"Photos" : null
 			}
 		}
 	]
