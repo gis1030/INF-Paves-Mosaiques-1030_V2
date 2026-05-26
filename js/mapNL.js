@@ -1708,7 +1708,7 @@ button.addEventListener("click", function (e) {
 });
 var overlaysTree = [
     {
-        label: '<b>Keien per wijk</b>', selectAllCheckbox: true, children: [
+        label: '<b>Tegels per wijk</b>', selectAllCheckbox: true, children: [
             { label: '<img src="legend/Bienfaiteurs_16.png" /> Bienfaiteurs', layer: layer_Bienfaiteurs_16 },
             { label: '<img src="legend/Colignon_15.png" /> Colignon', layer: layer_Colignon_15 },
             { label: '<img src="legend/Cerisiers_14.png" /> Cerisiers', layer: layer_Cerisiers_14 },
