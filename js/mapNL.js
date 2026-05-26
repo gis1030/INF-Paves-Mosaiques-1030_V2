@@ -93,7 +93,7 @@ title.onAdd = function (map) {
     return this._div;
 };
 title.update = function () {
-    this._div.innerHTML = '<h2>Mozaïekkeien van Schaarbeek</h2>';
+    this._div.innerHTML = '<h2>Mozaïektegels in Schaarbeek</h2>';
 };
 title.addTo(map);
 
@@ -2065,6 +2065,6 @@ map.on('layeradd layerremove', function (e) {
 });
 
 L.easyButton('fa-envelope', function (btn, map) {
-    var url = "mailto:ihilal@1030.be?subject=Feedback: Mozaïekkeien van Schaarbeek";
+    var url = "mailto:ihilal@1030.be?subject=Feedback: Mozaïektegels in Schaarbeek";
     window.location.href = url;
 }).setPosition('bottomleft').addTo(map);
