@@ -346,6 +346,7 @@ function style_CimentaireSchaerbeek_3_0() {
 map.createPane('pane_CimentaireSchaerbeek_3');
 map.getPane('pane_CimentaireSchaerbeek_3').style.zIndex = 403;
 map.getPane('pane_CimentaireSchaerbeek_3').style['mix-blend-mode'] = 'normal';
+var json_CimentaireSchaerbeek_3 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Cimentaire Schaerbeek"; }) };
 var layer_CimentaireSchaerbeek_3 = new L.geoJson(json_CimentaireSchaerbeek_3, {
     attribution: '',
     interactive: true,
@@ -1935,7 +1936,7 @@ function updatePictureDropdown() {
     getFilteredValues('Picture').forEach(function (val) {
         var opt = document.createElement('option');
         opt.value = val;
-        opt.text = val;
+        opt.text = val === 'OUI' ? 'disponible' : 'pas disponible';
         pictureSelect.appendChild(opt);
     });
     var stillAvailable = Array.from(pictureSelect.options).some(function (o) { return o.value === currentValue; });
