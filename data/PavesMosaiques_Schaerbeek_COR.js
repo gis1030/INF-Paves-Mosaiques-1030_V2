@@ -2719,7 +2719,7 @@ var ListePavesMosaiques1030 = {
 				"Status" : "bon état",
 				"Commentaires" : null,
 				"TilesNumber" : "pour déterminer",
-				"Picture" : "oui",
+				"Picture" : "OUI",
 				"PicturesNumber" : "",
 				"LinkPicture01" : null,
 				"LinkPicture02" : null,
