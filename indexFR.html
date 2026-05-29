@@ -2,13 +2,14 @@
 <html lang="fr">
 
 <head>
-    <title>INF Paves Mosaiques</title>
-    <link rel="shortcut icon" href="css/images/logo1030GeoData.ico" type="image/x-icon">
+    <title>INF Pavés Mosaïques</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description"
+        content="Carte interactive des pavés mosaïques de Schaerbeek (1030). Découvrez les 243 œuvres répertoriées sur le territoire de la commune.">
+    <link rel="shortcut icon" href="css/images/logo1030GeoData.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/leaflet.css">
     <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
     <link rel="stylesheet" href="css/style01.css">
@@ -27,17 +28,76 @@
         .leaflet-control-attribution {
             font-size: 13px !important;
         }
+
+        /* h2 visually matches the h1 sidebar heading style from style01.css */
+        .sidebar h2 {
+            padding: 0 0 0.5rem 0;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00537e;
+            line-height: 0.9;
+            border-bottom: 1px solid #00537e;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        /* path relative to this HTML file, not to style01.css */
+        .sidebar h2 .logo {
+            background: url(css/images/1030_Icon.png) no-repeat left center;
+            background-size: contain;
+            width: 2rem;
+            height: 2rem;
+            flex-shrink: 0;
+        }
+
+        .objectives-list {
+            list-style: none;
+            padding-left: 0;
+            text-align: left;
+            font-size: 0.95em;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .cta-box {
+            margin-top: 1.5rem;
+            padding: 1.2rem;
+            background-color: #f0f8ff;
+            border-radius: 8px;
+            border-left: 4px solid #00537e;
+        }
+
+        .cta-box p {
+            font-size: 0.95em;
+            margin: 0;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        /* !important overrides the global a { color: #444 !important } rule in style01.css */
+        .cta-box a {
+            color: #00537e !important;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .logo3-wrapper {
+            margin-top: 1.5rem;
+        }
     </style>
 </head>
 
 <body>
     <div id="Region00">
-        <div id="Region04">
+        <div id="Region04" role="region" aria-label="Carte interactive">
             <div id="map"></div>
         </div>
     </div>
 
-    <div id="Region01">
+    <div id="Region01" role="complementary" aria-label="Informations sur la carte">
         <div class="container">
             <div class="sidebar">
                 <h1>
@@ -63,43 +123,36 @@
                         le Service Technique Voirie, nous avons pu dresser un inventaire précis. À ce jour, 243 pavés
                         sont enregistrés.
                     </p>
-                    <br>
-                    <h1>
+
+                    <h2>
                         <div class="logo"></div>
                         <span>Notre ambition pour la suite</span>
-                    </h1>
+                    </h2>
 
-                    <ul class="objectives-list"
-                        style="list-style: none; padding-left: 0; text-align: left; font-size: 0.95em; color: #555; line-height: 1.8;">
+                    <ul class="objectives-list">
                         <li>🔄 La <strong>mise à jour continue</strong> de la base de données de l'ensemble des pavés
                             mosaiques de Schaerbeek.</li>
                         <li>🌐 La <strong>vérification et l'ajustement</strong> de la géolocalisation de chaque œuvre
-                            pour
-                            une précision optimale.</li>
+                            pour une précision optimale.</li>
                         <li>📍 Des <strong>photographies</strong> détaillées de chaque œuvre (nous souhaitons compléter
-                            les
-                            fiches actuellement sans images).</li>
+                            les fiches actuellement sans images).</li>
                         <li>📝 De la <strong>documentation</strong> sur chaque création.</li>
                         <li>🎨 Des <strong>biographies</strong> des artistes ayant façonné notre paysage.</li>
                     </ul>
 
-                    <div
-                        style="margin-top: 1.5rem; padding: 1.2rem; background-color: #f0f8ff; border-radius: 8px; border-left: 4px solid #00537e;">
-                        <p style="font-size: 0.95em; margin: 0; color: #333; line-height: 1.5;">
+                    <div class="cta-box">
+                        <p>
                             <strong>Vous souhaitez nous aider ?</strong><br>
                             Si vous possédez une photo d'un pavé manquant ou des informations sur une œuvre, n'hésitez
-                            pas à
-                            nous les transmettre par e-mail au :
-                            <a href="mailto:stv@1030.be"
-                                style="color: #00537e; font-weight: bold; text-decoration: underline;">stv@1030.be</a>.
+                            pas à nous les transmettre par e-mail au :
+                            <a href="mailto:stv@1030.be">stv@1030.be</a>.
                             Votre contribution est précieuse pour préserver ce patrimoine commun.
                         </p>
                     </div>
 
-                    <br>
-                    <p>
-                    <div class="logo3"></div>
-                    </p>
+                    <div class="logo3-wrapper">
+                        <div class="logo3"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,7 +173,6 @@
     <script src="data/QuartiersdeSchaerbeek_1.js"></script>
     <script src="data/PrimtredeSchaerbeek_2.js"></script>
     <script src="data/PavesMosaiques_Schaerbeek_COR.js"></script>
-    <script src="data/CimentaireSchaerbeek_3.js"></script>
 
     <script src="js/mapFR.js"></script>
 </body>

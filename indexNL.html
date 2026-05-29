@@ -2,13 +2,14 @@
 <html lang="nl">
 
 <head>
-    <title>INF Paves Mosaiques</title>
-    <link rel="shortcut icon" href="css/images/logo1030GeoData.ico" type="image/x-icon">
+    <title>INF Mozaïetegels in Schaarbeek</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description"
+        content="Interactieve kaart van de mozaïekkeien van Schaarbeek (1030). Ontdek de 243 geregistreerde werken op het grondgebied van de gemeente.">
+    <link rel="shortcut icon" href="css/images/logo1030GeoData.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/leaflet.css">
     <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
     <link rel="stylesheet" href="css/style01.css">
@@ -27,80 +28,137 @@
         .leaflet-control-attribution {
             font-size: 13px !important;
         }
+
+        /* h2 visually matches the h1 sidebar heading style from style01.css */
+        .sidebar h2 {
+            padding: 0 0 0.5rem 0;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00537e;
+            line-height: 0.9;
+            border-bottom: 1px solid #00537e;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        /* path relative to this HTML file, not to style01.css */
+        .sidebar h2 .logo {
+            background: url(css/images/1030_Icon.png) no-repeat left center;
+            background-size: contain;
+            width: 2rem;
+            height: 2rem;
+            flex-shrink: 0;
+        }
+
+        .objectives-list {
+            list-style: none;
+            padding-left: 0;
+            text-align: left;
+            font-size: 0.95em;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .cta-box {
+            margin-top: 1.5rem;
+            padding: 1.2rem;
+            background-color: #f0f8ff;
+            border-radius: 8px;
+            border-left: 4px solid #00537e;
+        }
+
+        .cta-box p {
+            font-size: 0.95em;
+            margin: 0;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        /* !important overrides the global a { color: #444 !important } rule in style01.css */
+        .cta-box a {
+            color: #00537e !important;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .logo3-wrapper {
+            margin-top: 1.5rem;
+        }
     </style>
 </head>
 
 <body>
     <div id="Region00">
-        <div id="Region04">
+        <div id="Region04" role="region" aria-label="Interactieve kaart">
             <div id="map"></div>
         </div>
     </div>
 
-    <div id="Region01">
+    <div id="Region01" role="complementary" aria-label="Informatie over de kaart">
         <div class="container">
             <div class="sidebar">
                 <h1>
                     <div class="logo"></div>
-                    <span>Op ontdekking langs de mozaïektegels van Schaarbeek: een unieke kaart.</span>
+                    <span>Op ontdekking langs de mozaïektegels van Schaarbeek: een unieke kaart</span>
                 </h1>
                 <div class="data-infos">
                     <p>
-                        
-                        De geschiedenis van de mozaïektegels in Schaarbeek begon met het persoonlijke initiatief 
-                        van kunstenares Ingrid Schreyers, die als eerste een mozaïektegel op haar eigen stoep 
-                        liet plaatsen. Dit artistieke idee wekte al snel enthousiasme bij andere Schaarbekenaren 
-                        en groeide uit tot een terugkerend initiatief van buurtbewoners die hun straat willen 
-                        opfleuren en een eigen identiteit willen geven. 
+                        De geschiedenis van de mozaïektegels in Schaarbeek begon met het persoonlijke initiatief
+                        van kunstenares Ingrid Schreyers, die als eerste een mozaïektegel op haar eigen stoep
+                        liet plaatsen. Dit artistieke idee wekte al snel enthousiasme bij andere Schaarbekenaren
+                        en groeide uit tot een terugkerend initiatief van buurtbewoners die hun straat willen
+                        opfleuren en een eigen identiteit willen geven.
                     </p>
                     <p>
-                        Vanuit die dynamiek ontstond ook de eerste kaart van de mozaïektegels in Schaarbeek, 
-                        dankzij een mooie samenwerking tussen inwoners en de gemeentelijke diensten. 
-                        Tijdens zijn wandelingen door Schaarbeek documenteerde Patrick Bastin verschillende 
-                        mozaïektegels. In samenwerking met Richard Robinson van de Technische Dienst Wegen groeide 
-                        vervolgens het idee om deze kunstwerken officieel in kaart te brengen op het 
-                        grondgebied van de gemeente. 
+                        Vanuit die dynamiek ontstond ook de eerste kaart van de mozaïektegels in Schaarbeek,
+                        dankzij een mooie samenwerking tussen inwoners en de gemeentelijke diensten.
+                        Tijdens zijn wandelingen door Schaarbeek documenteerde Patrick Bastin verschillende
+                        mozaïektegels. In samenwerking met Richard Robinson van de Technische Dienst Wegen groeide
+                        vervolgens het idee om deze kunstwerken officieel in kaart te brengen op het
+                        grondgebied van de gemeente.
                     </p>
                     <p>
-                        Door de fotoarchieven van Patrick Bastin te combineren met de informatie over de tegels 
-                        die door de Technische Dienst Wegen werden geplaatst, kon een nauwkeurige inventaris 
+                        Door de fotoarchieven van Patrick Bastin te combineren met de informatie over de tegels
+                        die door de Technische Dienst Wegen werden geplaatst, kon een nauwkeurige inventaris
                         worden opgesteld. Vandaag zijn al 243 mozaïektegels geregistreerd.
                     </p>
-                    <br>
-                    <h1>
+
+                    <h2>
                         <div class="logo"></div>
                         <span>Onze ambities voor de toekomst</span>
-                    </h1>
+                    </h2>
 
                     <ul class="objectives-list"
                         style="list-style: none; padding-left: 0; text-align: left; font-size: 0.95em; color: #555; line-height: 1.8;">
-                        <li>🔄 De <strong>databank</strong> van alle mozaïektegels in Schaarbeek verder aanvullen 
+                        <li>🔄 De <strong>databank</strong> van alle mozaïektegels in Schaarbeek verder aanvullen
                             en up-to-date houden.</li>
-                        <li>🌐 De <strong>locatiegegevens van elk werk </strong> controleren en verbeteren voor een zo 
-                            nauwkeurig mogelijke kaart.</li>                        
-                        <li>📍Meer gedetailleerde <strong>foto’s</strong> toevoegen van elk werk, vooral voor de mozaïektegels 
+                        <li>🌐 De <strong>locatiegegevens van elk werk </strong> controleren en verbeteren voor een zo
+                            nauwkeurig mogelijke kaart.</li>
+                        <li>📍Meer gedetailleerde <strong>foto’s</strong> toevoegen van elk werk, vooral voor de
+                            mozaïektegels
                             waarvoor vandaag nog geen foto beschikbaar is.</li>
                         <li>📝 Extra informatie <strong>verzamelen en documenteren</strong> over elk werk.</li>
-                        <li>🎨 <strong>Biografieën toevoegen van de kunstenaars</strong> die mee het 
+                        <li>🎨 <strong>Biografieën toevoegen van de kunstenaars</strong> die mee het
                             straatbeeld van Schaarbeek hebben vormgegeven.</li>
                     </ul>
 
-                    <div
-                        style="margin-top: 1.5rem; padding: 1.2rem; background-color: #f0f8ff; border-radius: 8px; border-left: 4px solid #00537e;">
-                        <p style="font-size: 0.95em; margin: 0; color: #333; line-height: 1.5;">
+                    <div class="cta-box">
+                        <p>
                             <strong>Wilt u ons helpen?</strong><br>
-                            Heeft u een foto van een ontbrekende mozaïektegel of bijkomende informatie over een werk? 
+                            Heeft u een foto van een ontbrekende mozaïektegel of bijkomende informatie over een werk?
                             Aarzel dan niet om die met ons te delen via e-mail:
-                            <a href="mailto:stv@1030.be"
-                                style="color: #00537e; font-weight: bold; text-decoration: underline;">stv@1030.be</a>
+                            <a href="mailto:stv@1030.be">stv@1030.be</a>.
+                            Uw bijdrage helpt mee om dit waardevolle erfgoed te bewaren.
                             Uw bijdrage helpt mee om dit waardevolle erfgoed te bewaren.
                         </p>
                     </div>
 
-                    <br>
-                    <p>
-                    <div class="logo3"></div>
-                    </p>
+                    <div class="logo3-wrapper">
+                        <div class="logo3"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,7 +179,6 @@
     <script src="data/QuartiersdeSchaerbeek_1.js"></script>
     <script src="data/PrimtredeSchaerbeek_2.js"></script>
     <script src="data/PavesMosaiques_Schaerbeek_COR.js"></script>
-    <script src="data/CimentaireSchaerbeek_3.js"></script>
 
     <script src="js/mapNL.js"></script>
 </body>
