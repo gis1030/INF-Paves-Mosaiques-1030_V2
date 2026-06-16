@@ -346,7 +346,7 @@ function style_CimentaireSchaerbeek_3_0() {
 map.createPane('pane_CimentaireSchaerbeek_3');
 map.getPane('pane_CimentaireSchaerbeek_3').style.zIndex = 403;
 map.getPane('pane_CimentaireSchaerbeek_3').style['mix-blend-mode'] = 'normal';
-var json_CimentaireSchaerbeek_3 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Cimentaire Schaerbeek"; }) };
+var json_CimentaireSchaerbeek_3 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Cimentaire Schaerbeek"; }) };
 var layer_CimentaireSchaerbeek_3 = new L.geoJson(json_CimentaireSchaerbeek_3, {
     attribution: '',
     interactive: true,
@@ -446,7 +446,7 @@ function style_TerdeltFleur_4_0() {
 map.createPane('pane_TerdeltFleur_4');
 map.getPane('pane_TerdeltFleur_4').style.zIndex = 404;
 map.getPane('pane_TerdeltFleur_4').style['mix-blend-mode'] = 'normal';
-var json_TerdeltFleur_4 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Terdelt-Fleur"; }) };
+var json_TerdeltFleur_4 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Terdelt-Fleur"; }) };
 var layer_TerdeltFleur_4 = new L.geoJson(json_TerdeltFleur_4, {
     attribution: '',
     interactive: true,
@@ -546,7 +546,7 @@ function style_Reyers_5_0() {
 map.createPane('pane_Reyers_5');
 map.getPane('pane_Reyers_5').style.zIndex = 405;
 map.getPane('pane_Reyers_5').style['mix-blend-mode'] = 'normal';
-var json_Reyers_5 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Reyers"; }) };
+var json_Reyers_5 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Reyers"; }) };
 var layer_Reyers_5 = new L.geoJson(json_Reyers_5, {
     attribution: '',
     interactive: true,
@@ -642,7 +642,7 @@ function style_Plasky_6_0() {
 map.createPane('pane_Plasky_6');
 map.getPane('pane_Plasky_6').style.zIndex = 406;
 map.getPane('pane_Plasky_6').style['mix-blend-mode'] = 'normal';
-var json_Plasky_6 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Plasky"; }) };
+var json_Plasky_6 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Plasky"; }) };
 var layer_Plasky_6 = new L.geoJson(json_Plasky_6, {
     attribution: '',
     interactive: true,
@@ -742,7 +742,7 @@ function style_ParcJosaphat_7_0() {
 map.createPane('pane_ParcJosaphat_7');
 map.getPane('pane_ParcJosaphat_7').style.zIndex = 407;
 map.getPane('pane_ParcJosaphat_7').style['mix-blend-mode'] = 'normal';
-var json_ParcJosaphat_7 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Parc Josaphat"; }) };
+var json_ParcJosaphat_7 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Parc Josaphat"; }) };
 var layer_ParcJosaphat_7 = new L.geoJson(json_ParcJosaphat_7, {
     attribution: '',
     interactive: true,
@@ -838,7 +838,7 @@ function style_PalaisReine_8_0() {
 map.createPane('pane_PalaisReine_8');
 map.getPane('pane_PalaisReine_8').style.zIndex = 408;
 map.getPane('pane_PalaisReine_8').style['mix-blend-mode'] = 'normal';
-var json_PalaisReine_8 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Palais-Reine"; }) };
+var json_PalaisReine_8 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Palais-Reine"; }) };
 var layer_PalaisReine_8 = new L.geoJson(json_PalaisReine_8, {
     attribution: '',
     interactive: true,
@@ -954,7 +954,7 @@ function style_Nord_9_0() {
 map.createPane('pane_Nord_9');
 map.getPane('pane_Nord_9').style.zIndex = 409;
 map.getPane('pane_Nord_9').style['mix-blend-mode'] = 'normal';
-var json_Nord_9 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Nord"; }) };
+var json_Nord_9 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Nord"; }) };
 var layer_Nord_9 = new L.geoJson(json_Nord_9, {
     attribution: '',
     interactive: true,
@@ -1050,7 +1050,7 @@ function style_Linthout_10_0() {
 map.createPane('pane_Linthout_10');
 map.getPane('pane_Linthout_10').style.zIndex = 410;
 map.getPane('pane_Linthout_10').style['mix-blend-mode'] = 'normal';
-var json_Linthout_10 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Linthout"; }) };
+var json_Linthout_10 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Linthout"; }) };
 var layer_Linthout_10 = new L.geoJson(json_Linthout_10, {
     attribution: '',
     interactive: true,
@@ -1146,7 +1146,7 @@ function style_Jardin_11_0() {
 map.createPane('pane_Jardin_11');
 map.getPane('pane_Jardin_11').style.zIndex = 411;
 map.getPane('pane_Jardin_11').style['mix-blend-mode'] = 'normal';
-var json_Jardin_11 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Jardin"; }) };
+var json_Jardin_11 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Jardin"; }) };
 var layer_Jardin_11 = new L.geoJson(json_Jardin_11, {
     attribution: '',
     interactive: true,
@@ -1242,7 +1242,7 @@ function style_HelmetHamoir_12_0() {
 map.createPane('pane_HelmetHamoir_12');
 map.getPane('pane_HelmetHamoir_12').style.zIndex = 412;
 map.getPane('pane_HelmetHamoir_12').style['mix-blend-mode'] = 'normal';
-var json_HelmetHamoir_12 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Helmet-Hamoir"; }) };
+var json_HelmetHamoir_12 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Helmet-Hamoir"; }) };
 var layer_HelmetHamoir_12 = new L.geoJson(json_HelmetHamoir_12, {
     attribution: '',
     interactive: true,
@@ -1346,7 +1346,7 @@ function style_CoteauxJosaphat_13_0() {
 map.createPane('pane_CoteauxJosaphat_13');
 map.getPane('pane_CoteauxJosaphat_13').style.zIndex = 413;
 map.getPane('pane_CoteauxJosaphat_13').style['mix-blend-mode'] = 'normal';
-var json_CoteauxJosaphat_13 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Coteaux-Josaphat"; }) };
+var json_CoteauxJosaphat_13 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Coteaux-Josaphat"; }) };
 var layer_CoteauxJosaphat_13 = new L.geoJson(json_CoteauxJosaphat_13, {
     attribution: '',
     interactive: true,
@@ -1438,7 +1438,7 @@ function style_Cerisiers_14_0() {
 map.createPane('pane_Cerisiers_14');
 map.getPane('pane_Cerisiers_14').style.zIndex = 414;
 map.getPane('pane_Cerisiers_14').style['mix-blend-mode'] = 'normal';
-var json_Cerisiers_14 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Cerisiers"; }) };
+var json_Cerisiers_14 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Cerisiers"; }) };
 var layer_Cerisiers_14 = new L.geoJson(json_Cerisiers_14, {
     attribution: '',
     interactive: true,
@@ -1536,7 +1536,7 @@ function style_Colignon_15_0() {
 map.createPane('pane_Colignon_15');
 map.getPane('pane_Colignon_15').style.zIndex = 415;
 map.getPane('pane_Colignon_15').style['mix-blend-mode'] = 'normal';
-var json_Colignon_15 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Colignon"; }) };
+var json_Colignon_15 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Colignon"; }) };
 var layer_Colignon_15 = new L.geoJson(json_Colignon_15, {
     attribution: '',
     interactive: true,
@@ -1632,7 +1632,7 @@ function style_Bienfaiteurs_16_0() {
 map.createPane('pane_Bienfaiteurs_16');
 map.getPane('pane_Bienfaiteurs_16').style.zIndex = 416;
 map.getPane('pane_Bienfaiteurs_16').style['mix-blend-mode'] = 'normal';
-var json_Bienfaiteurs_16 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function(f) { return f.properties.Sector === "Bienfaiteurs"; }) };
+var json_Bienfaiteurs_16 = { type: "FeatureCollection", features: ListePavesMosaiques1030.features.filter(function (f) { return f.properties.Sector === "Bienfaiteurs"; }) };
 var layer_Bienfaiteurs_16 = new L.geoJson(json_Bienfaiteurs_16, {
     attribution: '',
     interactive: true,
@@ -1865,9 +1865,9 @@ function getFilteredValues(property) {
             layer.eachLayer(function (featureLayer) {
                 var props = featureLayer.feature && featureLayer.feature.properties;
                 if (!props) { return; }
-                var artistMatch  = (property === 'Artist')   || !artistVal  || props.Artist   === artistVal;
-                var streetMatch  = (property === 'StreetFR') || !streetVal  || props.StreetFR === streetVal;
-                var pictureMatch = (property === 'Picture')  || !pictureVal || props.Picture  === pictureVal;
+                var artistMatch = (property === 'Artist') || !artistVal || props.Artist === artistVal;
+                var streetMatch = (property === 'StreetFR') || !streetVal || props.StreetFR === streetVal;
+                var pictureMatch = (property === 'Picture') || !pictureVal || props.Picture === pictureVal;
                 if (artistMatch && streetMatch && pictureMatch) {
                     var val = props[property];
                     if (val) { values.add(val); }
@@ -1880,16 +1880,16 @@ function getFilteredValues(property) {
 
 // Applique le filtre combiné artiste + rue + image sur les marqueurs
 function filterMarkers() {
-    var artistVal  = artistSelect  ? artistSelect.value  : '';
-    var streetVal  = streetSelect  ? streetSelect.value  : '';
+    var artistVal = artistSelect ? artistSelect.value : '';
+    var streetVal = streetSelect ? streetSelect.value : '';
     var pictureVal = pictureSelect ? pictureSelect.value : '';
     paveLayersList.forEach(function (layer) {
         if (map.hasLayer(layer)) {
             layer.eachLayer(function (featureLayer) {
                 var props = featureLayer.feature && featureLayer.feature.properties;
-                var artistMatch  = !artistVal  || (props && props.Artist   === artistVal);
-                var streetMatch  = !streetVal  || (props && props.StreetFR === streetVal);
-                var pictureMatch = !pictureVal || (props && props.Picture  === pictureVal);
+                var artistMatch = !artistVal || (props && props.Artist === artistVal);
+                var streetMatch = !streetVal || (props && props.StreetFR === streetVal);
+                var pictureMatch = !pictureVal || (props && props.Picture === pictureVal);
                 var show = artistMatch && streetMatch && pictureMatch;
                 if (featureLayer.setOpacity) { featureLayer.setOpacity(show ? 1 : 0); }
                 if (featureLayer._icon) { featureLayer._icon.style.pointerEvents = show ? '' : 'none'; }
@@ -2065,8 +2065,8 @@ let MyControlClass_Reset = L.Control.extend({
 
         L.DomEvent.disableClickPropagation(btn);
         L.DomEvent.on(btn, 'click', function () {
-            if (artistSelect)  { artistSelect.value  = ''; }
-            if (streetSelect)  { streetSelect.value  = ''; }
+            if (artistSelect) { artistSelect.value = ''; }
+            if (streetSelect) { streetSelect.value = ''; }
             if (pictureSelect) { pictureSelect.value = ''; }
             updateArtistDropdown();
             updateStreetDropdown();
@@ -2077,7 +2077,7 @@ let MyControlClass_Reset = L.Control.extend({
         return div;
     },
 
-    onRemove: function (map) {}
+    onRemove: function (map) { }
 });
 new MyControlClass_Reset().addTo(map);
 
@@ -2093,6 +2093,6 @@ map.on('layeradd layerremove', function (e) {
 
 
 L.easyButton('fa-envelope', function (btn, map) {
-    var url = "mailto:ihilal@1030.be?subject=Feedback: Pavés Mosaïques de Schaerbeek";
+    var url = "mailto:signalisation@1030.be?subject=Feedback: Pavés Mosaïques de Schaerbeek";
     window.location.href = url;
 }).setPosition('bottomleft').addTo(map);

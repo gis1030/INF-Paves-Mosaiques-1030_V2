@@ -2066,6 +2066,6 @@ map.on('layeradd layerremove', function (e) {
 });
 
 L.easyButton('fa-envelope', function (btn, map) {
-    var url = "mailto:ihilal@1030.be?subject=Feedback: Mozaïekkeien van Schaarbeek";
+    var url = "mailto:signalisation@1030.be?subject=Feedback: Mozaïekkeien van Schaarbeek";
     window.location.href = url;
 }).setPosition('bottomleft').addTo(map);
