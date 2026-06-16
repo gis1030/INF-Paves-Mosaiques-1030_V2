@@ -1722,8 +1722,8 @@ var overlaysTree = [
             { label: '<img src="legend/ParcJosaphat_7.png" /> Parc Josaphat', layer: layer_ParcJosaphat_7 },
             { label: '<img src="legend/Plasky_6.png" /> Plasky', layer: layer_Plasky_6 },
             { label: '<img src="legend/Reyers_5.png" /> Reyers', layer: layer_Reyers_5 },
-            { label: '<img src="legend/TerdeltFleur_4.png" /> Terdelt-Fleur', layer: layer_TerdeltFleur_4 },
-            { label: '<img src="legend/CimentaireSchaerbeek_3.png" /> Cimentaire Schaerbeek', layer: layer_CimentaireSchaerbeek_3 },]
+            { label: '<img src="legend/TerdeltFleur_4.png" /> Terdelt-Fleurs', layer: layer_TerdeltFleur_4 },
+            { label: '<img src="legend/CimentaireSchaerbeek_3.png" /> Cimetière Schaerbeek', layer: layer_CimentaireSchaerbeek_3 },]
     },
     {
         //label: '<b>Schaerbeek</b>', selectAllCheckbox: true, children: [
@@ -1829,7 +1829,7 @@ let MyControlClass = L.Control.extend({
         var div = L.DomUtil.create('div', 'leaflet-bar my-control');
 
         var myButton = L.DomUtil.create('button', 'my-button-class', div);
-        myButton.innerHTML = 'carte NL';
+        myButton.innerHTML = 'kaart NL';
         L.DomEvent.on(myButton, 'click', function () {
             window.location.href = "indexNL.html";
         }, this);
@@ -2026,7 +2026,7 @@ let MyControlClass_Picture = L.Control.extend({
 
         var defaultOpt = document.createElement('option');
         defaultOpt.value = '';
-        defaultOpt.text = '— pavés avec images —';
+        defaultOpt.text = '— pavés avec photo —';
         pictureSelect.appendChild(defaultOpt);
 
         getFilteredValues('Picture').forEach(function (val) {
